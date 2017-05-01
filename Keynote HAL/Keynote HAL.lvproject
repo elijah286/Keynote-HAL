@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="15866EE64C95109ACA85B4BA9EC0B4F4" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E3EC250954B05B21990E5F2831A1C9B8" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.0.0.1938" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.0.0.1938" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.1" />
@@ -46,6 +46,9 @@
 						<Instance Id="381" Source="{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent">
 							<Symbols p8:Path="[{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent]Process.LibraryComponent" p9:ShowInDiagram="True" p10:Process.AliasName="HAL Framework.gcomp" p10:Process.AssociatedIdentifier="380" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
+						<Instance Id="431" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:ShowInDiagram="False" p10:Process.AliasName="Main.gvi" p10:Process.AssociatedIdentifier="429" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
 						<Superimposition Id="7" Name="Root Superimposition">
 							<Superimpose Source="11">
 								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="288" />
@@ -53,6 +56,7 @@
 								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="332" />
 								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="340" />
 								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="381" />
+								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="431" />
 							</Superimpose>
 							<Superimpose Source="78" />
 						</Superimposition>
@@ -194,6 +198,7 @@
 							<SparseEnvoyManagerDependencySource Id="53" Target=":NullTarget:Default\ Component" />
 						</SparseEnvoyManager>
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="338" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Test\.gvi" StoragePath="Test.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="429" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main\.gvi" StoragePath="Main.gvi" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference,RcxRepositoryManagerDefinition" Id="72" ModelDefinitionType="RepositoryManagerDefinition" Name="rcx\.lib" Reparentable="False">
 						<RepositoryManagerDefinition Location="" />
@@ -382,6 +387,7 @@
 					</ComponentConfiguration>
 				</ComponentDefinition>
 				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="339" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Test\.gvi" StoragePath="Test.gvi" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="430" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main\.gvi" StoragePath="Main.gvi" />
 			</EmbeddedDefinitionReference>
 			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,{http://www.ni.com/PlatformFramework}ByReferenceRoot,EmbeddedReference" Id="77" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 				<PackageReferencesDefinition>

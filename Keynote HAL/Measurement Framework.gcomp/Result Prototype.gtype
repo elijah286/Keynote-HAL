@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="5648C85E24695E54299A7461B8562A1A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="CD4332E3CF37CF5DFD8D51FA236888DA" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.0.0.1938" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.0.0.1938" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.6" Version="5.0.0.8" />
 		<ApplicationVersionInfo Build="5.0.0.1938" Name="LabVIEW NXG" Version="1.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="Void" Id="1" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition BaseType="gObject" DataType="@fbbe739c76654e5f8a3d2cbf4c8054d2" Id="1" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@fffd68bbf981496482246875c910c52c" Id="11" Target="Library:Result\ Prototype\.gtype:Display\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@9459d717b88e4ff2be6c26ff9efdd07d" Id="13" Target="Library:Result\ Prototype\.gtype:Print\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@006197fc3268455e89f43a96bc985485" Id="15" Target="Library:Result\ Prototype\.gtype:Log\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@9f123394961d497f9ff947309ab06a3d" Id="11" Target="Library:Result\ Prototype\.gtype:Display\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@33f88b4d49834784a5920365456c2116" Id="13" Target="Library:Result\ Prototype\.gtype:Print\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@abb6f47bf4e4417b8dbfe1d6ae45d029" Id="15" Target="Library:Result\ Prototype\.gtype:Log\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
 	</TypeDefinition>
 	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
 		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
@@ -27,35 +27,57 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="fffd68bbf981496482246875c910c52c">
-			<Attributed AttributedType="@5d9858dadeeb41e5ab8df905400b9a68">
+		<p.TypeReference TypeId="fbbe739c76654e5f8a3d2cbf4c8054d2">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="9f123394961d497f9ff947309ab06a3d">
+			<Attributed AttributedType="@55a9ded5d7054e5caef0b6d5ce5360df">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ParameterCallIndex" Value="[ParameterCallIndexFields]" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9459d717b88e4ff2be6c26ff9efdd07d">
-			<Attributed AttributedType="@e0193d33575d464c8554629e34fcda69">
+		<p.TypeReference TypeId="33f88b4d49834784a5920365456c2116">
+			<Attributed AttributedType="@86572585466f4881968e84c6641ad94e">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ParameterCallIndex" Value="[ParameterCallIndexFields]" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="006197fc3268455e89f43a96bc985485">
-			<Attributed AttributedType="@c7b120b5b0af490fbe74606e55d8e59c">
+		<p.TypeReference TypeId="abb6f47bf4e4417b8dbfe1d6ae45d029">
+			<Attributed AttributedType="@625eea896aa44616ab68b7ddaea41c7d">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ParameterCallIndex" Value="[ParameterCallIndexFields]" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="5d9858dadeeb41e5ab8df905400b9a68">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Display.gvi" ReturnType="Void" GenericTypeDefinition="Void" />
+		<p.TypeReference TypeId="55a9ded5d7054e5caef0b6d5ce5360df">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Display.gvi" ReturnType="Void" DeclaringType="@012a88e7df524b75a4726c7dc5376627" GenericTypeDefinition="Void" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="e0193d33575d464c8554629e34fcda69">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Print.gvi" ReturnType="Void" GenericTypeDefinition="Void" />
+		<p.TypeReference TypeId="86572585466f4881968e84c6641ad94e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Print.gvi" ReturnType="Void" DeclaringType="@012a88e7df524b75a4726c7dc5376627" GenericTypeDefinition="Void" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="c7b120b5b0af490fbe74606e55d8e59c">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Log.gvi" ReturnType="Void" GenericTypeDefinition="Void" />
+		<p.TypeReference TypeId="625eea896aa44616ab68b7ddaea41c7d">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Log.gvi" ReturnType="Void" DeclaringType="@012a88e7df524b75a4726c7dc5376627" GenericTypeDefinition="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="012a88e7df524b75a4726c7dc5376627">
+			<Attributed AttributedType="@0346974375fa4a05ac6252db32caaef3">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Library" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="0346974375fa4a05ac6252db32caaef3">
+			<Composite Id="1" Name="Result Prototype.gtype" GenericTypeDefinition="Void" BaseType="@ed7779f9f13b4024bb84548ffaa7cc3a">
+				<Members>
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Display.gvi" ReturnType="Void" DeclaringType="@012a88e7df524b75a4726c7dc5376627" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Log.gvi" ReturnType="Void" DeclaringType="@012a88e7df524b75a4726c7dc5376627" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Print.gvi" ReturnType="Void" DeclaringType="@012a88e7df524b75a4726c7dc5376627" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ed7779f9f13b4024bb84548ffaa7cc3a">
+			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
@@ -72,7 +94,7 @@
 								</FileNameText>
 							</IconTemplate>
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]Measurement Framework.gcomp" Top="[float]0" Width="[float]40" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Class]Type.gtype" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Class]Result Prototype.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>
@@ -91,7 +113,7 @@
 								</FileNameText>
 							</IconTemplate>
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]Measurement Framework.gcomp" Top="[float]0" Width="[float]40" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Class]Type.gtype" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Class]Result Prototype.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>
@@ -110,7 +132,7 @@
 								</FileNameText>
 							</IconTemplate>
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]Measurement Framework.gcomp" Top="[float]0" Width="[float]40" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Class]Type.gtype" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Class]Result Prototype.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>

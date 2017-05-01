@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="4580B25038AF4B078A9F0DA73BC47119" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="9E5451E15F19FD1726A4A713B88D720C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.0.0.1938" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.1" />
 		<ParsableNamespace AssemblyFileVersion="5.0.0.1938" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.6" Version="5.0.0.8" />
@@ -14,6 +14,8 @@
 		<CompilerSymbolTable Id="5" xmlns="http://www.ni.com/PlatformFramework" />
 		<ComponentConfiguration Id="10" Name="Configuration1">
 			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="19" Exported="True" Id="21" />
+			<ComponentItemProperties AssociatedEnvoyId="20" Exported="True" Id="22" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">

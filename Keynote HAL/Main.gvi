@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="9E6C56A9D3594E82A4C64B48AD59C4D7" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.0.0.1938" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.1" />
+		<ParsableNamespace AssemblyFileVersion="5.0.0.1938" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.3" />
+		<ParsableNamespace AssemblyFileVersion="5.0.0.1938" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.0.1938" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.0" />
+		<ParsableNamespace AssemblyFileVersion="5.0.0.1938" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.6" Version="5.0.0.8" />
+		<ApplicationVersionInfo Build="5.0.0.1938" Name="LabVIEW NXG" Version="1.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Height="[float]36" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Main" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+						<FontSetting FontFamily="Verdana" FontSize="11.25" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="0 0 40 15" DataItem="19" Id="20" Label="29">
+				<Terminal DataType="@02f04882f4f6425b90c63dc128138b3a" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="20" Bounds="45 0 30 15" Id="29" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Results</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="30" Id="31" Label="34">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="31" Bounds="-35 0 30 15" Id="34" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Measurement</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="37" Id="38" Label="39">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="38" Bounds="-35 0 30 15" Id="39" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>DMM</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="42" Id="43" Label="44">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="43" Bounds="-35 0 30 15" Id="44" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>SCOPE</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="47" Id="48" Label="49">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="48" Bounds="-35 0 30 15" Id="49" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>FGEN</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="52" Id="53" Label="54">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="53" Bounds="-35 0 30 15" Id="54" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>SMU</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="55" Id="56" Label="59">
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="56" Bounds="-35 0 30 15" Id="59" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Run</p.Text>
+			</NodeLabel>
+		</DiagramUnplacedItems>
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" />
+		<BlockDiagram Id="12">
+			<WhileLoop Bounds="145 45 680 375" DiagramId="61" Id="60">
+				<LoopIteration Bounds="5 345 15 15" Id="62" />
+				<LoopCondition Bounds="650 345 15 15" Id="63" />
+				<EventStructure Bounds="20 10 630 325" Id="64" Selected="72" UserSelectorBounds="20 0 590 17">
+					<EventStructure.EventCase Bounds="20 20 588 299" Id="65">
+						<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventName="Value changed" EventSourceType="Content" EventType="@bd9d40d03d25461687dc79ca3c83546f" SourceContent="57" SourceName="Run" />
+						<EventStructure.EventData Bounds="0 82 92 50" HasErrorTerminals="False" Id="66" InstanceDataType="@03e08836d11f435384509752f9c38ffb" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Time,Control Reference,Old Value,New Value">
+							<EventPropertyItemTerminal DataType="Boolean" Hotspot="92 15" Id="c0t0v" Path="Old Value" PathElementMemberKinds="Field" Usage="Optional" />
+							<EventPropertyItemTerminal DataType="Boolean" Hotspot="92 30" Id="c1t0v" Path="New Value" PathElementMemberKinds="Field" Usage="Optional" />
+						</EventStructure.EventData>
+					</EventStructure.EventCase>
+					<EventStructure.EventCase Bounds="20 20 588 299" Id="72">
+						<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventName="Value changed" EventSourceType="Content" EventType="@bd9d40d03d25461687dc79ca3c83546f" SourceContent="67" SourceName="Stop" />
+						<EventStructure.EventData Bounds="0 112 92 50" HasErrorTerminals="False" Id="73" InstanceDataType="@03e08836d11f435384509752f9c38ffb" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Time,Control Reference,Old Value,New Value">
+							<EventPropertyItemTerminal DataType="Boolean" Hotspot="92 15" Id="c0t0v" Path="Old Value" PathElementMemberKinds="Field" Usage="Optional" />
+							<EventPropertyItemTerminal DataType="Boolean" Hotspot="92 30" Id="c1t0v" Path="New Value" PathElementMemberKinds="Field" Usage="Optional" />
+						</EventStructure.EventData>
+						<DataAccessor Bounds="450 255 40 15" DataItem="69" Id="70" Label="71" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="70" Bounds="419 255 26 14" Id="71" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>Stop</p.Text>
+						</NodeLabel>
+						<Literal Bounds="525 275 25 15" DataType="Boolean" Facade="True Constant" Id="74" Label="75" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>True</p.Data>
+							<BooleanBehavior />
+						</Literal>
+						<NodeLabel AttachedTo="74" Bounds="525 257 30 15" Id="75" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>stop</p.Text>
+						</NodeLabel>
+						<Wire Id="137" Joints="N(74:Out)|(550,280) h(30) N(138:72)|(580,294)" xmlns="http://www.ni.com/PlatformFramework" />
+					</EventStructure.EventCase>
+					<EventStructure.Tunnel Bounds="595 314 10 13" Docking="Bottom" Id="138" Terminals="64=76, 65, 72=137" />
+				</EventStructure>
+				<Wire Id="76" Joints="N(138:64)|(620,337) v(13) N(63:Input)|(650,350)" xmlns="http://www.ni.com/PlatformFramework" />
+			</WhileLoop>
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<LVDataGrid BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]264" Id="21" IsReadOnly="[bool]True" Label="[UIModel]28" Left="[float]388" MinRowHeight="[float]22" RowHeaderWidth="[double]NaN" TabIndex="[int]0" Top="[float]100" Type="[Type]@02f04882f4f6425b90c63dc128138b3a" Value="{DataItemBinding Id=19}" Width="[float]408" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<LVDataGridColumn ColumnElement="[UIModel]25" Header="[string]A" Id="22" Index="[int]0" IsReadOnly="[bool]True" Width="[DataGridLength]*">
+					<StringControl Id="25" IsReadOnly="[bool]True" Left="[float]0" Top="[float]0" />
+				</LVDataGridColumn>
+				<LVDataGridColumn ColumnElement="[UIModel]26" Header="[string]B" Id="23" Index="[int]1" IsReadOnly="[bool]True" Width="[DataGridLength]50">
+					<StringControl Id="26" IsReadOnly="[bool]True" Left="[float]0" Top="[float]0" />
+				</LVDataGridColumn>
+				<LVDataGridColumn ColumnElement="[UIModel]27" Header="[string]C" Id="24" Index="[int]2" IsReadOnly="[bool]True" Width="[DataGridLength]50">
+					<StringControl Id="27" IsReadOnly="[bool]True" Left="[float]0" Top="[float]0" />
+				</LVDataGridColumn>
+			</LVDataGrid>
+			<Label Height="[float]16" Id="28" LabelOwner="[UIModel]21" Left="[float]388" Text="[string]Results" Top="[float]80" Width="[float]38" xmlns="http://www.ni.com/PanelCommon" />
+			<ComboboxSelector AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Height="[float]24" Id="32" IsTypeAheadEnabled="[bool]True" Label="[UIModel]33" Left="[float]180" MinHeight="[float]24" TabIndex="[int]1" Top="[float]100" Value="{DataItemBinding Id=30}" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<ComboboxSelectorInfo DisplayValue="[string]" Id="32" IsEnabled="[bool]True" Value="[string]" ValueType="[Type]String" />
+			</ComboboxSelector>
+			<Label Height="[float]16" Id="33" LabelOwner="[UIModel]32" Left="[float]180" Text="[string]Measurement" Top="[float]80" Width="[float]73" xmlns="http://www.ni.com/PanelCommon" />
+			<ComboboxSelector AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Height="[float]24" Id="35" IsTypeAheadEnabled="[bool]True" Label="[UIModel]36" Left="[float]180" MinHeight="[float]24" TabIndex="[int]2" Top="[float]164" Value="{DataItemBinding Id=37}" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<ComboboxSelectorInfo DisplayValue="[string]" Id="32" IsEnabled="[bool]True" Value="[string]" ValueType="[Type]String" />
+			</ComboboxSelector>
+			<Label Height="[float]16" Id="36" LabelOwner="[UIModel]35" Left="[float]180" Text="[string]DMM" Top="[float]144" Width="[float]30" xmlns="http://www.ni.com/PanelCommon" />
+			<ComboboxSelector AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Height="[float]24" Id="40" IsTypeAheadEnabled="[bool]True" Label="[UIModel]41" Left="[float]180" MinHeight="[float]24" TabIndex="[int]3" Top="[float]212" Value="{DataItemBinding Id=42}" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<ComboboxSelectorInfo DisplayValue="[string]" Id="32" IsEnabled="[bool]True" Value="[string]" ValueType="[Type]String" />
+			</ComboboxSelector>
+			<Label Height="[float]16" Id="41" LabelOwner="[UIModel]40" Left="[float]180" Text="[string]SCOPE" Top="[float]192" Width="[float]36" xmlns="http://www.ni.com/PanelCommon" />
+			<ComboboxSelector AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Height="[float]24" Id="45" IsTypeAheadEnabled="[bool]True" Label="[UIModel]46" Left="[float]180" MinHeight="[float]24" TabIndex="[int]4" Top="[float]260" Value="{DataItemBinding Id=47}" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<ComboboxSelectorInfo DisplayValue="[string]" Id="32" IsEnabled="[bool]True" Value="[string]" ValueType="[Type]String" />
+			</ComboboxSelector>
+			<Label Height="[float]16" Id="46" LabelOwner="[UIModel]45" Left="[float]180" Text="[string]FGEN" Top="[float]240" Width="[float]30" xmlns="http://www.ni.com/PanelCommon" />
+			<ComboboxSelector AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Height="[float]24" Id="50" IsTypeAheadEnabled="[bool]True" Label="[UIModel]51" Left="[float]180" MinHeight="[float]24" TabIndex="[int]5" Top="[float]308" Value="{DataItemBinding Id=52}" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<ComboboxSelectorInfo DisplayValue="[string]" Id="32" IsEnabled="[bool]True" Value="[string]" ValueType="[Type]String" />
+			</ComboboxSelector>
+			<Label Height="[float]16" Id="51" LabelOwner="[UIModel]50" Left="[float]180" Text="[string]SMU" Top="[float]288" Width="[float]26" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]TextButton" Content="[string]Run" Height="[float]24" Id="57" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]58" Left="[float]180" MinHeight="[float]23.96" MinWidth="[float]28.7566662" Shape="[ButtonShape]Square" TabIndex="[int]6" Top="[float]404" Value="{DataItemBinding Id=55}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="58" LabelOwner="[UIModel]57" Left="[float]180" Text="[string]Run" Top="[float]384" Width="[float]21" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]TextButton" Content="[string]Stop" Height="[float]24" Id="67" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]68" Left="[float]724" MinHeight="[float]23.96" MinWidth="[float]32.1366653" Shape="[ButtonShape]Square" TabIndex="[int]7" Top="[float]404" Value="{DataItemBinding Id=69}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="68" LabelOwner="[UIModel]67" Left="[float]724" Text="[string]Stop" Top="[float]384" Width="[float]25" xmlns="http://www.ni.com/PanelCommon" />
+		</CPFrontPanel>
+		<DataItem DataType="@02f04882f4f6425b90c63dc128138b3a" Id="19" Name="Results" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="String" Id="30" Name="Measurement" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="String" Id="37" Name="DMM" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="String" Id="42" Name="SCOPE" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="String" Id="47" Name="FGEN" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="String" Id="52" Name="SMU" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="55" IsLatched="True" Name="Run" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="69" IsLatched="True" Name="Stop" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="02f04882f4f6425b90c63dc128138b3a">
+			<VariableArray DereferenceType="@428e3d25efb2404c928a565eeb8578b1" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="bd9d40d03d25461687dc79ca3c83546f">
+			<Attributed AttributedType="@341ecd07b3f748bd8a6954e0e292bb14">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="03e08836d11f435384509752f9c38ffb">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Source" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Type" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Time" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.PanelRuntime.BooleanControlProxy, NationalInstruments.Controls.Runtime" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="428e3d25efb2404c928a565eeb8578b1">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="A" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="B" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="C" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="341ecd07b3f748bd8a6954e0e292bb14">
+			<Event Id="1" Name="Value changed" GenericTypeDefinition="Void">
+				<Parameters>
+					<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="Optional" Name="event data" DataType="@8895270b4994432e90bb5ac0b27e12ce" />
+				</Parameters>
+			</Event>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8895270b4994432e90bb5ac0b27e12ce">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.PanelRuntime.BooleanControlProxy, NationalInstruments.Controls.Runtime" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
