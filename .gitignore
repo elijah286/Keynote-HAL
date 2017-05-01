@@ -1,0 +1,9 @@
+/node_modules
+.cache
+npm-debug.log
+niweek-hero-2017.lvcodedb
+niweek-hero-2017.lvcompile
+niweek-hero-2017.lvprojectcache
+WebVI/webvi-hal.lvcodedb
+WebVI/webvi-hal.lvprojectcache
+WebVI/webvi-hal.lvcompile
