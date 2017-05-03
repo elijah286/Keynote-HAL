@@ -1,0 +1,12 @@
+/node_modules
+.cache
+npm-debug.log
+niweek-hero-2017.lvcodedb
+niweek-hero-2017.lvcompile
+niweek-hero-2017.lvprojectcache
+WebVI/webvi-hal.lvcodedb
+WebVI/webvi-hal.lvprojectcache
+WebVI/webvi-hal.lvcompile
+WebVI/WebApp.gcomp/WebApp.gcompcache
+Web Service/HAL Web Service.aliases
+Web Service/HAL Web Service.lvlps
