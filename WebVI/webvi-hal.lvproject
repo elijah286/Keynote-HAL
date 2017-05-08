@@ -1,20 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="4E7E18E9A17A7FAAF1DDD162BDB3EB07" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="907CC74CAEFC260C92BF6374590573C4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/Common/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="Desktop SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Desktop/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="SystemDesigner discovery" Name="http://www.ni.com/SystemDesigner/Discovery" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/MetaDiagram" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemDiagram" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="VI SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Vi" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="Web Server Compiler" Name="http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.1.49152" />
-		<ApplicationVersionInfo Build="5.0.1.2897" Name="LabVIEW NXG" Version="2.0.0" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Html VI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/Common/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Desktop SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Desktop/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="SystemDesigner discovery" Name="http://www.ni.com/SystemDesigner/Discovery" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="HTML VI SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/HTMLVi" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/MetaDiagram" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemDiagram" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="VI SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Vi" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Web Server Compiler" Name="http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.1.49152" />
+		<ApplicationVersionInfo Build="5.0.1.2921" Name="LabVIEW NXG" Version="2.0.0" />
 	</SourceModelFeatureSet>
 	<Project xmlns="http://www.ni.com/PlatformFramework">
 		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
@@ -40,9 +42,13 @@
 						<Instance Id="778" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
 							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="Function.gvi" p9:Process.AssociatedIdentifier="782" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
+						<Instance Id="909" Source="{http://www.ni.com/SystemDesigner/HTMLVi}TopLevelHTMLViCatalogItem">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/HTMLVi}TopLevelHTMLViCatalogItem]TopLevelHTMLViCatalogItem" p9:ShowInDiagram="False" p10:Process.AliasName="Function.gviweb" p10:Process.AssociatedIdentifier="907" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/MetaDiagram" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
 						<Superimposition Id="7" Name="Root Superimposition">
 							<Superimpose Source="266">
 								<Superimpose Parent="{:/266}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule/VireoTarget" Source="499" />
+								<Superimpose Parent="{:/266}[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoDevice]VireoDevice/[{http://www.ni.com/SystemDesigner/VireoBrowser/SystemModel}VireoModule]VireoModule/VireoTarget" Source="909" />
 							</Superimpose>
 							<Superimpose Source="628">
 								<Superimpose Parent="{:/628}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector" Source="652" />
@@ -67,7 +73,7 @@
 						<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
 						<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
 					</SystemHardware>
-					<SystemHardware Bounds="720 205 315 300" Facade="PartsView" HasLayoutManager="True" Id="756" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/628}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop">
+					<SystemHardware Bounds="765 140 315 300" Facade="PartsView" HasLayoutManager="True" Id="756" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/628}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop">
 						<SystemHardwareGroupDiagram Bounds="0 65 315 220" Id="757">
 							<SystemHardware Bounds="2 0 311 195" Facade="PartsView" Id="758" MainLabel="$aliasName" SystemModelContent="{:/628}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost">
 								<SystemHardwareGroupDiagram Bounds="0 5 311 115" GroupName="Ports" Id="760">
@@ -109,8 +115,6 @@
 						<CompilerSymbolTable Id="277" xmlns="http://www.ni.com/PlatformFramework" />
 						<ComponentConfigurationReference AssociatedEnvoyId="353" ConfigName="Default" Id="356" />
 						<ComponentConfigurationReferenceDependencySource Id="504" Target="WebApp\.gcomp:Configuration1" />
-						<WeakDefaultComponentConfigurationReference Id="532" Target="DAQmx\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="535" Target="TagLibrary\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="537" Target="NI\.RT\.Shared\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="538" Target="NI\.RT\.SMP\ CPU\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="539" Target="NI\.RT\.Trace\ Tool\.gcomp" />
@@ -187,26 +191,35 @@
 						<WeakDefaultComponentConfigurationReference Id="614" Target="AAL_Transforms_Base\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="615" Target="AAL_Windows_Base\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="830" Target="NI\.HTTP\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="887" Target="Keysight344XX\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="891" Target="TagLibrary\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="895" Target="FileIngestion\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="899" Target="VISA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="903" Target="Message\.gcomp" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,EmbeddedReference,{http://www.ni.com/PlatformFramework}ByReferenceRoot" Id="278" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="516" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-advanced\-src\-1\.0\.4\.6\.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.4.6" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="518" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-basic\-src\-1\.0\.4\.5\.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.4.5" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="520" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-control\-src\-1\.0\.4\.4\.niaddon" StoragePath="ref://NI/analysis/control-src/1.0.4.4" />
-						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="522" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-DAQmx\-api\-src\-17\.3\.0\.niaddon" StoragePath="ref://NI/DAQmx/api-src/17.3.0" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="524" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-stdlib\-src\-1\.0\.3\.13\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.3.13" />
-						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="526" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-MXLC\-Base\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/MXLC/Base-src/17.1.0" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="528" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-rt\-rtlib\-src\-1\.0\.0\.10\.niaddon" StoragePath="ref://NI/rt/rtlib-src/1.0.0.10" />
-						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="530" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-TagLibrary\-src\-17\.0\.0\.niaddon" StoragePath="ref://NI/Skyline/TagLibrary-src/17.0.0" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="828" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-http\-src\-1\.0\.0\.5\.niaddon" StoragePath="ref://NI/G/http-src/1.0.0.5" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="877" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-InstrumentDriver\-Keysight344XX\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/17.5.0" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="879" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-FileIngestion\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/Skyline/FileIngestion-src/17.1.0" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="881" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-Message\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/Skyline/Message-src/17.1.0" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="883" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-TagLibrary\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/Skyline/TagLibrary-src/17.1.0" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="885" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-VISA\-Base\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/VISA/Base-src/17.1.0" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,ComponentBaseType_Library" Id="353" ModelDefinitionType="SparseEnvoyManager" Name="Default\ Component" Reparentable="False">
 						<SparseEnvoyManager Id="354">
 							<SparseEnvoyManagerDependencySource Id="355" Target=":NullTarget:Default\ Component" />
 						</SparseEnvoyManager>
+						<SourceFileReference Bindings="{http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI}HtmlVICompilerService,NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument,Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/HTMLVi}Process.HTMLVi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="907" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function\.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function.gviweb" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference,RcxRepositoryManagerDefinition" Id="365" ModelDefinitionType="RepositoryManagerDefinition" Name="rcx\.lib" Reparentable="False">
 						<RepositoryManagerDefinition Location="" />
+						<SourceFileReference Bindings="EnvoyManager,RcxNamespaceKeyword,Envoy,DefinitionReference,NationalInstruments.VI.SourceModel.UdrNamespace,FileReference,SourceFileReference" Id="913" ModelDefinitionType="NationalInstruments.VI.SourceModel.UdrNamespace" Name="Visa" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="366" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
 						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
@@ -285,7 +298,6 @@
 						<WeakDefaultComponentConfigurationReference Id="712" Target="Control_PIDGain\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="713" Target="Control_SignalGeneration\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="714" Target="Control_Conversion\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="716" Target="DAQmx\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="718" Target="NI\.G\ Core\.Configuration\ File\ \(INI\)\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="719" Target="NI\.G\ Core\.Data\ Type\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="720" Target="NI\.G\ Core\.Error\.gcomp" />
@@ -316,21 +328,27 @@
 						<WeakDefaultComponentConfigurationReference Id="747" Target="NI\.RT\.Trace\ Tool\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="748" Target="NI\.RT\.Utility\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="749" Target="NI\.RT\.Watchdog\ Timer\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="751" Target="TagLibrary\.gcomp" />
 						<ComponentConfigurationReference AssociatedEnvoyId="752" ConfigName="Default" Id="755" />
 						<WeakDefaultComponentConfigurationReference Id="832" Target="NI\.HTTP\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="889" Target="Keysight344XX\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="893" Target="TagLibrary\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="897" Target="FileIngestion\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="901" Target="VISA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="905" Target="Message\.gcomp" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,EmbeddedReference,{http://www.ni.com/PlatformFramework}ByReferenceRoot" Id="664" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="667" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-advanced\-src\-1\.0\.4\.6\.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.4.6" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="693" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-basic\-src\-1\.0\.4\.5\.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.4.5" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="707" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-control\-src\-1\.0\.4\.4\.niaddon" StoragePath="ref://NI/analysis/control-src/1.0.4.4" />
-						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="715" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-DAQmx\-api\-src\-17\.3\.0\.niaddon" StoragePath="ref://NI/DAQmx/api-src/17.3.0" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="717" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-stdlib\-src\-1\.0\.3\.13\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.3.13" />
-						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="743" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-MXLC\-Base\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/MXLC/Base-src/17.1.0" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="744" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-rt\-rtlib\-src\-1\.0\.0\.10\.niaddon" StoragePath="ref://NI/rt/rtlib-src/1.0.0.10" />
-						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="750" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-TagLibrary\-src\-17\.0\.0\.niaddon" StoragePath="ref://NI/Skyline/TagLibrary-src/17.0.0" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="831" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-http\-src\-1\.0\.0\.5\.niaddon" StoragePath="ref://NI/G/http-src/1.0.0.5" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="888" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-InstrumentDriver\-Keysight344XX\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/17.5.0" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="892" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-TagLibrary\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/Skyline/TagLibrary-src/17.1.0" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="896" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-FileIngestion\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/Skyline/FileIngestion-src/17.1.0" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="900" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-VISA\-Base\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/VISA/Base-src/17.1.0" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="904" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-Message\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/Skyline/Message-src/17.1.0" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,ComponentBaseType_Library" Id="752" ModelDefinitionType="SparseEnvoyManager" Name="Default\ Component" Reparentable="False">
 						<SparseEnvoyManager Id="753">
@@ -389,28 +407,33 @@
 					</ComponentConfiguration>
 				</ComponentDefinition>
 				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="783" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function\.gvi" StoragePath="Function.gvi" />
+				<SourceFileReference Bindings="{http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI}HtmlVICompilerService,NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument,Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference" Id="908" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function\.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function.gviweb" />
 			</EmbeddedDefinitionReference>
 			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,EmbeddedReference,{http://www.ni.com/PlatformFramework}ByReferenceRoot" Id="23" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 				<PackageReferencesDefinition>
-					<PackageInterfaceDefinitionContents Contents="DAQmx.gcomp" Id="533" PackageInterfaceDefinitionEnvoyId="523" />
-					<PackageInterfaceDefinitionContents Contents="" Id="534" PackageInterfaceDefinitionEnvoyId="527" />
-					<PackageInterfaceDefinitionContents Contents="TagLibrary.gcomp" Id="536" PackageInterfaceDefinitionEnvoyId="531" />
 					<PackageInterfaceDefinitionContents Contents="NI.RT.Shared.gcomp,NI.RT.SMP CPU.gcomp,NI.RT.Trace Tool.gcomp,NI.RT.Utility.gcomp,NI.RT.Watchdog Timer.gcomp" Id="542" PackageInterfaceDefinitionEnvoyId="529" />
 					<PackageInterfaceDefinitionContents Contents="NI.G Core.Configuration File (INI).gcomp,NI.G Core.Data Type.gcomp,NI.G Core.Error.gcomp,NI.G Core.File IO (General).gcomp,NI.G Core.Input Devices.gcomp,NI.G Core.Libraries and Executables.gcomp,NI.G Core.Numeric.gcomp,NI.G Core.Operating System.gcomp,NI.G Core.Registry.gcomp,NI.G Core.Rendezvous.gcomp,NI.G Core.Semaphore.gcomp,NI.G Core.SMTP Email.gcomp,NI.G Core.Sound.gcomp,NI.G Core.Strings.gcomp,NI.G Core.TCP.gcomp,NI.G Core.TDMS.gcomp,NI.G Core.Timed Loop.gcomp,NI.G Core.Timing.gcomp,NI.G Core.URL.gcomp,NI.G Core.Waveform.gcomp,NI.G Core.Zip.gcomp,NI.G Core.Localization.gcomp,NI.G Core.User Interface.gcomp,NI.G Core.Data Communications.gcomp,NI.G Core.Color Picker.gcomp" Id="568" PackageInterfaceDefinitionEnvoyId="525" />
 					<PackageInterfaceDefinitionContents Contents="Control_Controller.gcomp,Control_DesignPID.gcomp,Control_Linear.gcomp,Control_Nonlinear.gcomp,Control_PIDGain.gcomp,Control_SignalGeneration.gcomp,Control_Conversion.gcomp" Id="576" PackageInterfaceDefinitionEnvoyId="521" />
 					<PackageInterfaceDefinitionContents Contents="AAL_Conditioning.gcomp,AAL_Fitting.gcomp,AAL_Formula.gcomp,AAL_Generation.gcomp,AAL_Geometry.gcomp,AAL_Integral_Differentiation.gcomp,AAL_Interpolation.gcomp,AAL_Linear_Algebra.gcomp,AAL_Matrix.gcomp,AAL_Measurement.gcomp,AAL_Operations.gcomp,AAL_Polynomial.gcomp,AAL_Probability.gcomp,AAL_Resampling.gcomp,AAL_SML.gcomp,AAL_Statistics.gcomp,AAL_Support.gcomp,AAL_Transforms.gcomp,AAL_Windows.gcomp,AAL_Filtering.gcomp,AAL_BLAS.gcomp,AAL_Special_Func.gcomp,AAL_Differential_Equations.gcomp,AAL_Optimization.gcomp,AAL_Zeros.gcomp" Id="602" PackageInterfaceDefinitionEnvoyId="517" />
 					<PackageInterfaceDefinitionContents Contents="AAL_Conditioning_Base.gcomp,AAL_Filtering_Base.gcomp,AAL_Fitting_Base.gcomp,AAL_Generation_Base.gcomp,AAL_Interpolation_Base.gcomp,AAL_Linear_Algebra_Base.gcomp,AAL_Measurement_Base.gcomp,AAL_Operations_Base.gcomp,AAL_Resampling_Base.gcomp,AAL_Statistics_Base.gcomp,AAL_Support_Base.gcomp,AAL_Transforms_Base.gcomp,AAL_Windows_Base.gcomp" Id="616" PackageInterfaceDefinitionEnvoyId="519" />
 					<PackageInterfaceDefinitionContents Contents="NI.HTTP.gcomp" Id="833" PackageInterfaceDefinitionEnvoyId="829" />
+					<PackageInterfaceDefinitionContents Contents="Keysight344XX.gcomp" Id="890" PackageInterfaceDefinitionEnvoyId="878" />
+					<PackageInterfaceDefinitionContents Contents="TagLibrary.gcomp" Id="894" PackageInterfaceDefinitionEnvoyId="884" />
+					<PackageInterfaceDefinitionContents Contents="FileIngestion.gcomp" Id="898" PackageInterfaceDefinitionEnvoyId="880" />
+					<PackageInterfaceDefinitionContents Contents="VISA.gcomp" Id="902" PackageInterfaceDefinitionEnvoyId="886" />
+					<PackageInterfaceDefinitionContents Contents="Message.gcomp" Id="906" PackageInterfaceDefinitionEnvoyId="882" />
 				</PackageReferencesDefinition>
 				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="517" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-advanced\-src\-1\.0\.4\.6\.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.4.6" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="519" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-basic\-src\-1\.0\.4\.5\.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.4.5" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="521" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-control\-src\-1\.0\.4\.4\.niaddon" StoragePath="ref://NI/analysis/control-src/1.0.4.4" />
-				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="523" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-DAQmx\-api\-src\-17\.3\.0\.niaddon" StoragePath="ref://NI/DAQmx/api-src/17.3.0" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="525" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-stdlib\-src\-1\.0\.3\.13\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.3.13" />
-				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="527" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-MXLC\-Base\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/MXLC/Base-src/17.1.0" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="529" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-rt\-rtlib\-src\-1\.0\.0\.10\.niaddon" StoragePath="ref://NI/rt/rtlib-src/1.0.0.10" />
-				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="531" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-TagLibrary\-src\-17\.0\.0\.niaddon" StoragePath="ref://NI/Skyline/TagLibrary-src/17.0.0" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="829" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-http\-src\-1\.0\.0\.5\.niaddon" StoragePath="ref://NI/G/http-src/1.0.0.5" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="878" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-InstrumentDriver\-Keysight344XX\-src\-17\.5\.0\.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/17.5.0" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="880" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-FileIngestion\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/Skyline/FileIngestion-src/17.1.0" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="882" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-Message\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/Skyline/Message-src/17.1.0" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="884" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-Skyline\-TagLibrary\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/Skyline/TagLibrary-src/17.1.0" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="886" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-VISA\-Base\-src\-17\.1\.0\.niaddon" StoragePath="ref://NI/VISA/Base-src/17.1.0" />
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DataDepot,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="24" ModelDefinitionType="DataDepot" Name="DataDepot">
