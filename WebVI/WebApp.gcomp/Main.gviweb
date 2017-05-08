@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F3CDCB445844173A6A63DF1CC868CE59" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F97D230D485BB3B80D7061D81A53D830" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2633" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2633" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2633" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2633" FeatureSetName="Html VI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2633" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49153" Version="5.0.0.49153" />
-		<ApplicationVersionInfo Build="5.0.1.2633" Name="LabVIEW NXG" Version="2.0.0" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="Html VI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ApplicationVersionInfo Build="5.0.1.2897" Name="LabVIEW NXG" Version="2.0.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -90,17 +90,17 @@
 					<Terminal DataType="String" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 				</MethodCall>
-				<Literal Bounds="95 260 270 15" DataType="String" Facade="String" Id="27" Label="28" xmlns="http://www.ni.com/MocCommon">
-					<p.Data>http://127.0.0.1:8001/hal/parametric-curve</p.Data>
+				<Literal Bounds="85 260 280 15" DataType="String" Facade="String" Id="27" Label="28" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>http://cirrostratus:8080/hal/parametric-curve</p.Data>
 					<StringBehavior TextDisplayMode="Default" />
 				</Literal>
-				<NodeLabel AttachedTo="27" Bounds="95 242 30 15" Id="28" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="27" Bounds="85 242 30 15" Id="28" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>url</p.Text>
 				</NodeLabel>
 				<Wire Id="29" Joints="N(27:Out)|(365,265) N(26:L1)|(415,265)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="35" Joints="N(26:R2)|(455,275) h(35) v(15) N(37:JSON string)|(500,290)" xmlns="http://www.ni.com/PlatformFramework" />
 				<UnflattenFromJSON Bounds="500 285 40 40" Id="37" />
-				<ClusterLiteral Bounds="365 295 114 150" DataType="@d99a8dee77b74ecba7c816c60edb3f07" Facade="Cluster" Id="39" xmlns="http://www.ni.com/MocCommon">
+				<ClusterLiteral Bounds="365 295 114 155" DataType="@d99a8dee77b74ecba7c816c60edb3f07" Facade="Cluster" Id="39" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>
 						<Cluster>
 							<Field1>
@@ -121,7 +121,7 @@
 						</Cluster>
 					</p.Data>
 					<ClusterBehavior AutoArrange="ArrangeVertically" />
-					<ArrayLiteral Bounds="2 2 93 24" DataType="Double[]" Facade="Array" Id="40" Label="42">
+					<ArrayLiteral Bounds="2 2 93 25" DataType="Double[]" Facade="Array" Id="40" Label="42">
 						<p.Data>
 							<Array Lengths="0" />
 						</p.Data>
@@ -136,7 +136,7 @@
 					<NodeLabel AttachedTo="40" Bounds="2 -16 30 15" Id="42" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>X</p.Text>
 					</NodeLabel>
-					<ArrayLiteral Bounds="2 30 93 24" DataType="Double[]" Facade="Array" Id="43" Label="45">
+					<ArrayLiteral Bounds="2 31 93 25" DataType="Double[]" Facade="Array" Id="43" Label="45">
 						<p.Data>
 							<Array Lengths="0" />
 						</p.Data>
@@ -148,10 +148,10 @@
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
 					</ArrayLiteral>
-					<NodeLabel AttachedTo="43" Bounds="2 12 30 15" Id="45" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<NodeLabel AttachedTo="43" Bounds="2 13 30 15" Id="45" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Y</p.Text>
 					</NodeLabel>
-					<ArrayLiteral Bounds="2 58 93 24" DataType="Double[]" Facade="Array" Id="46" Label="48">
+					<ArrayLiteral Bounds="2 60 93 25" DataType="Double[]" Facade="Array" Id="46" Label="48">
 						<p.Data>
 							<Array Lengths="0" />
 						</p.Data>
@@ -163,10 +163,10 @@
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
 					</ArrayLiteral>
-					<NodeLabel AttachedTo="46" Bounds="2 40 30 15" Id="48" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<NodeLabel AttachedTo="46" Bounds="2 42 30 15" Id="48" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Best Gaussian Fit</p.Text>
 					</NodeLabel>
-					<ArrayLiteral Bounds="2 86 93 24" DataType="Double[]" Facade="Array" Id="49" Label="51">
+					<ArrayLiteral Bounds="2 89 93 25" DataType="Double[]" Facade="Array" Id="49" Label="51">
 						<p.Data>
 							<Array Lengths="0" />
 						</p.Data>
@@ -178,10 +178,10 @@
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
 					</ArrayLiteral>
-					<NodeLabel AttachedTo="49" Bounds="2 68 30 15" Id="51" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<NodeLabel AttachedTo="49" Bounds="2 71 30 15" Id="51" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Upper Bound</p.Text>
 					</NodeLabel>
-					<ArrayLiteral Bounds="2 114 93 24" DataType="Double[]" Facade="Array" Id="52" Label="54">
+					<ArrayLiteral Bounds="2 118 93 25" DataType="Double[]" Facade="Array" Id="52" Label="54">
 						<p.Data>
 							<Array Lengths="0" />
 						</p.Data>
@@ -193,7 +193,7 @@
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
 					</ArrayLiteral>
-					<NodeLabel AttachedTo="52" Bounds="2 96 30 15" Id="54" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<NodeLabel AttachedTo="52" Bounds="2 100 30 15" Id="54" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Lower Bound</p.Text>
 					</NodeLabel>
 				</ClusterLiteral>
@@ -228,7 +228,7 @@
 				<BuildArray Bounds="820 300 40 40" Id="179" Terminals="outArray=208, c0t0v=62, c1t0v=72, c2t0v=73, c3t0v=74" VerticalChunkCount="4" />
 				<Wire Id="208" Joints="N(179:outArray)|(860,305) N(76:Value)|(883,305)" xmlns="http://www.ni.com/PlatformFramework" />
 				<DataAccessor Bounds="820 125 40 15" DataItem="217" Id="218" Label="223" xmlns="http://www.ni.com/MocCommon">
-					<Terminal DataType="@39fd73ad73e4436f9cb16875303dba78" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="@effbf45c22b8489284f822161f840294" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
 				<NodeLabel AttachedTo="218" Bounds="865 125 53 14" Id="223" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Data Grid</p.Text>
@@ -308,7 +308,7 @@
 						</NodeLabel>
 						<DockedConstantFacade UndockedSize="61 67" />
 					</ClusterLiteral>
-					<Wire Facade="WireInvisibleFacade" Id="371" Joints="N(363:Out)|(339,65) h(5) v(9) h(-54) N(244:instance in)|(290,65)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Facade="WireInvisibleFacade" Id="371" Joints="N(363:Out)|(290,65) N(244:instance in)|(290,65)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
 					<LoopCount Bounds="1 1 15 15" Docking="Left" Id="248" Terminals="246=332, 247" />
 					<LoopTunnel AutoIndex="True" Bounds="650 62 13 10" Docking="Right" Id="343" Terminals="o0=344, i0=342" TunnelMode="0" />
 				</ForLoop>
@@ -351,7 +351,7 @@
 			<HtmlLabel Height="[float]16" Id="88" LabelOwner="[UIModel]77" Left="[float]420" Text="[string]Observed Data and Fitted Curve" Top="[float]16" Width="[float]170" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlBooleanLED BaseName="[string]LED" FalseContent="[string]Off" Height="[float]328" Id="214" IsReadOnly="[bool]True" Label="[UIModel]215" Left="[float]84" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Round" TabIndex="[int]1" Top="[float]36" TrueContent="[string]On" Value="{DataItemBinding Id=212}" Width="[float]328" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="215" LabelOwner="[UIModel]214" Left="[float]84" Text="[string]Pass/Fail" Top="[float]16" Width="[float]45" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlDataGrid AllowGrouping="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchNoneColumns" Height="[float]275" Id="219" IsReadOnly="[bool]True" Label="[UIModel]222" Left="[float]420" MinHeight="[float]100" MinRowHeight="[float]22" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]22" ShowAddRowsToolBar="[bool]False" TabIndex="[int]2" Top="[float]436" Type="[Type]@39fd73ad73e4436f9cb16875303dba78" Value="{DataItemBinding Id=217}" Width="[float]600" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<HtmlDataGrid AllowGrouping="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchNoneColumns" Height="[float]275" Id="219" IsReadOnly="[bool]True" Label="[UIModel]222" Left="[float]420" MinHeight="[float]100" MinRowHeight="[float]22" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]22" ShowAddRowsToolBar="[bool]False" TabIndex="[int]2" Top="[float]436" Type="[Type]@effbf45c22b8489284f822161f840294" Value="{DataItemBinding Id=217}" Width="[float]600" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<HtmlDataGridColumn ColumnElement="[UIModel]221" Header="[string]Step" Id="220" Index="[int]0" IsReadOnly="[bool]True" Width="[DataGridLength]200">
 					<HtmlStringControl Id="221" IsReadOnly="[bool]True" Left="[float]0" Top="[float]0" />
 				</HtmlDataGridColumn>
@@ -379,7 +379,7 @@
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="212" Name="Pass/Fail" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
-		<DataItem DataType="@39fd73ad73e4436f9cb16875303dba78" Id="217" Name="Data Grid" xmlns="http://www.ni.com/MocCommon">
+		<DataItem DataType="@effbf45c22b8489284f822161f840294" Id="217" Name="Data Grid" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="@4fffdf5eeafe4bba8ba5c3a82eb5f4b6" Id="351" Name="cluster out" xmlns="http://www.ni.com/MocCommon">
@@ -414,8 +414,8 @@
 		<p.TypeReference TypeId="2c36ef005aaa4523b19b8b5217982500">
 			<VariableArray MultiDimensional="" DereferenceType="@8a06d7533601430cb896845f5498f6d9" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="39fd73ad73e4436f9cb16875303dba78">
-			<VariableArray DereferenceType="@4fffdf5eeafe4bba8ba5c3a82eb5f4b6" />
+		<p.TypeReference TypeId="effbf45c22b8489284f822161f840294">
+			<VariableArray DereferenceType="@dc9c826f84424c778d7620e4fa0357a7" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="4fffdf5eeafe4bba8ba5c3a82eb5f4b6">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -431,6 +431,15 @@
 		</p.TypeReference>
 		<p.TypeReference TypeId="8a06d7533601430cb896845f5498f6d9">
 			<VariableArray DereferenceType="@1eddcd33dd894288bc2fea8b53aae21f" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="dc9c826f84424c778d7620e4fa0357a7">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Step" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Progress" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Pass/Fail" DataType="Boolean" />
+				</Members>
+			</Composite>
 		</p.TypeReference>
 		<p.TypeReference TypeId="1eddcd33dd894288bc2fea8b53aae21f">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
