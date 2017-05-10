@@ -81,10 +81,10 @@
 			left: 70px; top: 100px; width: 120px; height: 30px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
 		}
 		jqx-led[ni-control-id='214']{
-			left: 96px; top: 596px; width: 264px; height: 264px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+			left: 100px; top: 548px; width: 168px; height: 168px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
 		}
 		ni-label[ni-control-id='215']{
-			left: 96px; top: 576px; width: 182px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
+			left: 100px; top: 528px; width: 182px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
 		}
 		ni-data-grid[ni-control-id='432']{
 			left: 375px; top: 564px; width: 325px; height: 328px; font-size: 12px; font-family: Arial Black, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
@@ -100,6 +100,21 @@
 		}
 		ni-label[ni-control-id='435']{
 			left: 375px; top: 546px; width: 210px; height: 14px; font-size: 12px; font-family: Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
+		}
+		ni-text[ni-control-id='1502']{
+			left: 884px; top: 260px; width: 272px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
+		}
+		jqx-slider[ni-control-id='1510']{
+			left: 68px; top: 739px; width: 264px; height: 56px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+		}
+		ni-label[ni-control-id='1511']{
+			left: 68px; top: 719px; width: 30px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
+		}
+		jqx-slider[ni-control-id='1515']{
+			left: 68px; top: 836px; width: 264px; height: 56px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+		}
+		ni-label[ni-control-id='1516']{
+			left: 68px; top: 816px; width: 42px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
 		}
 		jqx-led[ni-control-id='214'] .jqx-true-content-container{
 			background: rgba(58,184,120,1)
@@ -126,24 +141,35 @@
                 font-family: monospace;
                 font-size: 48px;
                 margin-left: 60px;
-                text-shadow: 1px 1px 2px rgba(53, 58, 68, 1);
+                /*text-shadow: 1px 1px 2px rgba(53, 58, 68, 1);*/
             }
             
             body {
-                background-color: #797e88;
+                background-color: #3C414A;
                 color: white;
             }
             
             ni-cartesian-graph {
-                box-shadow: 0px 0px 17px 0px rgba(53, 58, 68, 1);
+                /*box-shadow: 0px 0px 17px 0px rgba(53, 58, 68, 1);*/
+                background-color: #464C57;
+                border: none;
+                color: white;
             }
             
+            ni-cartesian-graph ni-grid-div {
+                background-color: #464C57;
+            }
+            
+            ni-cartesian-graph[ni-control-id='77'] {
+          color: white;
+          }
+            
             jqx-led[ni-control-id='214'] {
-                box-shadow: 0px 0px 17px 0px rgba(53, 58, 68, 1);
+                /*box-shadow: 0px 0px 17px 0px rgba(53, 58, 68, 1);*/
             }
             
             ni-data-grid {
-                box-shadow: 0px 0px 17px 0px rgba(53, 58, 68, 1);
+                /*box-shadow: 0px 0px 17px 0px rgba(53, 58, 68, 1);*/
             }
         </style>
 
@@ -155,6 +181,16 @@
         <div id="ni-outdated-browser-message" style="display:none">This browser is reporting compatibility with older browser technologies that may perform poorly if it all.</div>
         <div id="ni-failed-to-load-vireo-source" style="display:none">Unable to load required dependencies. Please verify all WebVI files are available and served using an http server or use a browser that can load files directly from the filesystem.</div>
         <section id="FrontPanelCanvas">
+
+            
+
+            
+
+            
+
+            
+
+            
 
             
 
@@ -202,7 +238,7 @@
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='215' binding-info='{}' label-id='' class='ni-hidden' text='Sequence Pass/Fail                         '></ni-label>
 
-<ni-data-grid data-ni-base-style="uninitialized" ni-control-id='432' binding-info='{"prop":"value","dco":2,"dataItem":"dataItem_TestSequenceResults","unplacedOrDisabled":false,"sync":false}' label-id='435' read-only='true' value='[{"Bandwidth (MHz)":100.77586335549132,"SNR":1.1883574753882831,"Power Consumption %":70.515014584176242,"Step Pass?":true},{"Bandwidth (MHz)":100.71923118876292,"SNR":1.2662757953658623,"Power Consumption %":72.599595919251442,"Step Pass?":true},{"Bandwidth (MHz)":100.94664507033303,"SNR":1.1729660118229503,"Power Consumption %":66.171573497354984,"Step Pass?":true},{"Bandwidth (MHz)":100.13597899256274,"SNR":1.5018021105542614,"Power Consumption %":66.027060285210609,"Step Pass?":true},{"Bandwidth (MHz)":100.69177967589349,"SNR":1.632409414020306,"Power Consumption %":66.069502871483564,"Step Pass?":true},{"Bandwidth (MHz)":100.7637541461736,"SNR":1.4527915880970079,"Power Consumption %":73.562980721704662,"Step Pass?":true},{"Bandwidth (MHz)":100.45691888872534,"SNR":1.5452021418515354,"Power Consumption %":70.3101064208895,"Step Pass?":true},{"Bandwidth (MHz)":100.22408220358191,"SNR":1.7010365824175675,"Power Consumption %":75.175616758875549,"Step Pass?":true},{"Bandwidth (MHz)":100.8890352062881,"SNR":1.6841308667075463,"Power Consumption %":73.076283590868115,"Step Pass?":true},{"Bandwidth (MHz)":100.58899606904016,"SNR":1.8021223485849251,"Power Consumption %":66.549206314608455,"Step Pass?":true},{"Bandwidth (MHz)":100.38222291367128,"SNR":2.0422266838674732,"Power Consumption %":68.580782435834408,"Step Pass?":true}]' ni-type='{"name":"Array","rank":1,"subtype":{"name":"Cluster","fields":["Bandwidth (MHz)","SNR","Power Consumption %","Step Pass?"],"subtype":["Double","Double","Double","Boolean"]}}' column-header-visible='true' row-height='25' alt-row-colors='true' alt-row-start='1' alt-row-step='1'><ni-data-grid-column data-ni-base-style="uninitialized" ni-control-id='433' index='0' header='BW (MHz)' width='75' field-name='Bandwidth (MHz)' aggregates='{}'><jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='438' readonly='true' value='0' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='6' spin-buttons-step='1'></jqx-numeric-text-box>
+<ni-data-grid data-ni-base-style="uninitialized" ni-control-id='432' binding-info='{"prop":"value","dco":2,"dataItem":"dataItem_TestSequenceResults","unplacedOrDisabled":false,"sync":false}' label-id='435' read-only='true' value='[{"Bandwidth (MHz)":100.31691795866936,"SNR":1.17332574664071,"Power Consumption %":75.850433846004307,"Step Pass?":true},{"Bandwidth (MHz)":100.13311929721384,"SNR":1.1920605234804982,"Power Consumption %":74.642405858263373,"Step Pass?":true},{"Bandwidth (MHz)":100.47073419112712,"SNR":1.3515368516426547,"Power Consumption %":68.158300066366792,"Step Pass?":true},{"Bandwidth (MHz)":100.00551485130563,"SNR":1.5367095779786228,"Power Consumption %":72.580353998579085,"Step Pass?":true},{"Bandwidth (MHz)":100.00681575853378,"SNR":1.4798462415315958,"Power Consumption %":68.274696845561266,"Step Pass?":true},{"Bandwidth (MHz)":100.8249131469056,"SNR":1.4883428304674706,"Power Consumption %":66.306482668966055,"Step Pass?":true},{"Bandwidth (MHz)":100.66545808315276,"SNR":1.5784593562777529,"Power Consumption %":66.471845786087215,"Step Pass?":true},{"Bandwidth (MHz)":100.69634748343378,"SNR":1.7518088953012674,"Power Consumption %":66.63555202446878,"Step Pass?":true},{"Bandwidth (MHz)":100.75875326618552,"SNR":1.5774691342626828,"Power Consumption %":74.130856798961759,"Step Pass?":true},{"Bandwidth (MHz)":100.24336769431829,"SNR":1.7183370928393729,"Power Consumption %":68.303986088372767,"Step Pass?":true}]' ni-type='{"name":"Array","rank":1,"subtype":{"name":"Cluster","fields":["Bandwidth (MHz)","SNR","Power Consumption %","Step Pass?"],"subtype":["Double","Double","Double","Boolean"]}}' column-header-visible='true' row-height='25' alt-row-colors='true' alt-row-start='1' alt-row-step='1'><ni-data-grid-column data-ni-base-style="uninitialized" ni-control-id='433' index='0' header='BW (MHz)' width='75' field-name='Bandwidth (MHz)' aggregates='{}'><jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='438' readonly='true' value='0' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='6' spin-buttons-step='1'></jqx-numeric-text-box>
 </ni-data-grid-column>
 <ni-data-grid-column data-ni-base-style="uninitialized" ni-control-id='439' index='1' header='SNR' width='75' field-name='SNR' aggregates='{}'><jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='440' readonly='true' value='0' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='6' spin-buttons-step='1'></jqx-numeric-text-box>
 </ni-data-grid-column>
@@ -213,6 +249,16 @@
 </ni-data-grid>
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='435' binding-info='{}' label-id='' class='ni-hidden' text='Test Sequence Results                          '></ni-label>
+
+<ni-text data-ni-base-style="uninitialized" ni-control-id='1502' binding-info='{}' label-id='' text='Make the background colors another shade of grey'></ni-text>
+
+<jqx-slider data-ni-base-style="uninitialized" ni-control-id='1510' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Slider","unplacedOrDisabled":true,"sync":false}' label-id='1511' value='0' min='0' max='10' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
+
+<ni-label data-ni-base-style="uninitialized" ni-control-id='1511' binding-info='{}' label-id='' class='ni-hidden' text='Slider'></ni-label>
+
+<jqx-slider data-ni-base-style="uninitialized" ni-control-id='1515' binding-info='{"prop":"value","dco":4,"dataItem":"dataItem_Slider_2","unplacedOrDisabled":true,"sync":false}' label-id='1516' value='0' min='0' max='10' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
+
+<ni-label data-ni-base-style="uninitialized" ni-control-id='1516' binding-info='{}' label-id='' class='ni-hidden' text='Slider_2'></ni-label>
 
 </section>
     </body>
