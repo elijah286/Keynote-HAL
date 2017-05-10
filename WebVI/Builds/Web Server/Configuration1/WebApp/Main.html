@@ -81,10 +81,10 @@
 			left: 70px; top: 100px; width: 120px; height: 30px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
 		}
 		jqx-led[ni-control-id='214']{
-			left: 100px; top: 548px; width: 168px; height: 168px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+			left: 116px; top: 547px; width: 168px; height: 168px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
 		}
 		ni-label[ni-control-id='215']{
-			left: 100px; top: 528px; width: 182px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
+			left: 116px; top: 527px; width: 182px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
 		}
 		ni-data-grid[ni-control-id='432']{
 			left: 375px; top: 564px; width: 325px; height: 328px; font-size: 16px; font-family: Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
@@ -105,16 +105,16 @@
 			left: 884px; top: 260px; width: 272px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
 		}
 		jqx-slider[ni-control-id='1510']{
-			left: 68px; top: 739px; width: 264px; height: 56px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+			left: 68px; top: 820px; width: 280px; height: 46px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
 		}
 		ni-label[ni-control-id='1511']{
-			left: 68px; top: 719px; width: 30px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
+			left: 68px; top: 800px; width: 10px; height: 10px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
 		}
-		jqx-slider[ni-control-id='1515']{
-			left: 68px; top: 836px; width: 264px; height: 56px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
+		jqx-tank[ni-control-id='1524']{
+			left: 68px; top: 724px; width: 280px; height: 75px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; 
 		}
-		ni-label[ni-control-id='1516']{
-			left: 68px; top: 816px; width: 42px; height: 16px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
+		ni-label[ni-control-id='1525']{
+			left: 68px; top: 704px; width: 10px; height: 10px; font-size: 12px; font-family: Segoe UI, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: rgba(43,48,51,1); 
 		}
 		jqx-led[ni-control-id='214'] .jqx-true-content-container{
 			background: rgba(58,184,120,1)
@@ -126,7 +126,7 @@
             }
             
             jqx-progress-bar .jqx-value {
-                background-color: #0070bc;
+                background-color: #3ab878;
             }
             
             jqx-led .jqx-true-content-container {
@@ -168,8 +168,20 @@
                 /*box-shadow: 0px 0px 17px 0px rgba(53, 58, 68, 1);*/
             }
             
+            jqx-led .jqx-false-content-container {
+                background-color: #464C57;
+            }
+            
+            jqx-led .jqx-input {
+                border-color: white;
+            }
+            
             ni-data-grid {
                 /*box-shadow: 0px 0px 17px 0px rgba(53, 58, 68, 1);*/
+            }
+            
+            ni-data-grid .ni-grid-widget-content {
+                border: none;
             }
             
             .jqx-widget .jqx-grid-cell {
@@ -186,6 +198,14 @@
             jqx-numeric-text-box[readonly="true"] .jqx-numeric-text-box-component {
                 background-color: #464C57;
                 color: white;
+            }
+            
+            jqx-tank .jqx-tick {
+                background-color: white;
+            }
+            
+            jqx-slider .jqx-tick {
+                background-color: white;
             }
         </style>
 
@@ -254,7 +274,7 @@
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='215' binding-info='{}' label-id='' class='ni-hidden' text='Sequence Pass/Fail                         '></ni-label>
 
-<ni-data-grid data-ni-base-style="uninitialized" ni-control-id='432' binding-info='{"prop":"value","dco":2,"dataItem":"dataItem_TestSequenceResults","unplacedOrDisabled":false,"sync":false}' label-id='435' read-only='true' value='[{"Bandwidth (MHz)":100.0877642785199,"SNR":1.1121344771302697,"Power Consumption %":72.602602521888912,"Step Pass?":true},{"Bandwidth (MHz)":100.59883060213178,"SNR":1.4826511344075175,"Power Consumption %":70.90239564795047,"Step Pass?":true},{"Bandwidth (MHz)":100.90064384276047,"SNR":1.2663255465125502,"Power Consumption %":66.156186423264444,"Step Pass?":true},{"Bandwidth (MHz)":100.96707535162568,"SNR":1.276679490998079,"Power Consumption %":75.725809646770358,"Step Pass?":true},{"Bandwidth (MHz)":100.75931674847379,"SNR":1.428817859181116,"Power Consumption %":66.838660635054111,"Step Pass?":true},{"Bandwidth (MHz)":100.6345321154222,"SNR":1.6976823549483226,"Power Consumption %":69.253604983910918,"Step Pass?":true},{"Bandwidth (MHz)":100.25870789866894,"SNR":1.5301856171305883,"Power Consumption %":69.80237237084657,"Step Pass?":true},{"Bandwidth (MHz)":100.06120889121668,"SNR":1.4950855011787416,"Power Consumption %":70.623060091398656,"Step Pass?":true},{"Bandwidth (MHz)":100.3774955542758,"SNR":1.9233961536371549,"Power Consumption %":70.412087090313435,"Step Pass?":true},{"Bandwidth (MHz)":100.69423315068708,"SNR":1.723364537602774,"Power Consumption %":67.518878140486777,"Step Pass?":true},{"Bandwidth (MHz)":100.89914885768668,"SNR":1.5616865460249971,"Power Consumption %":69.0958888772875,"Step Pass?":true}]' ni-type='{"name":"Array","rank":1,"subtype":{"name":"Cluster","fields":["Bandwidth (MHz)","SNR","Power Consumption %","Step Pass?"],"subtype":["Double","Double","Double","Boolean"]}}' column-header-visible='true' row-height='25' alt-row-start='1' alt-row-step='1'><ni-data-grid-column data-ni-base-style="uninitialized" ni-control-id='433' index='0' header='BW (MHz)' width='75' field-name='Bandwidth (MHz)' aggregates='{}'><jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='438' readonly='true' value='0' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='6' spin-buttons-step='1'></jqx-numeric-text-box>
+<ni-data-grid data-ni-base-style="uninitialized" ni-control-id='432' binding-info='{"prop":"value","dco":2,"dataItem":"dataItem_TestSequenceResults","unplacedOrDisabled":false,"sync":false}' label-id='435' read-only='true' value='[{"Bandwidth (MHz)":100.07396854739636,"SNR":0.23794750330787143,"Power Consumption %":74.087559174746275,"Step Pass?":true},{"Bandwidth (MHz)":100.51588430628181,"SNR":1.2578222647279422,"Power Consumption %":69.330606208182871,"Step Pass?":true}]' ni-type='{"name":"Array","rank":1,"subtype":{"name":"Cluster","fields":["Bandwidth (MHz)","SNR","Power Consumption %","Step Pass?"],"subtype":["Double","Double","Double","Boolean"]}}' column-header-visible='true' row-height='25' alt-row-start='1' alt-row-step='1'><ni-data-grid-column data-ni-base-style="uninitialized" ni-control-id='433' index='0' header='BW (MHz)' width='75' field-name='Bandwidth (MHz)' aggregates='{}'><jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='438' readonly='true' value='0' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='6' spin-buttons-step='1'></jqx-numeric-text-box>
 </ni-data-grid-column>
 <ni-data-grid-column data-ni-base-style="uninitialized" ni-control-id='439' index='1' header='SNR' width='75' field-name='SNR' aggregates='{}'><jqx-numeric-text-box data-ni-base-style="uninitialized" ni-control-id='440' readonly='true' value='0' min='-Infinity' max='Infinity' input-format='floatingPoint' popup-enabled='true' radix='decimal' significant-digits='6' spin-buttons-step='1'></jqx-numeric-text-box>
 </ni-data-grid-column>
@@ -268,13 +288,13 @@
 
 <ni-text data-ni-base-style="uninitialized" ni-control-id='1502' binding-info='{}' label-id='' text='Make the background colors another shade of grey'></ni-text>
 
-<jqx-slider data-ni-base-style="uninitialized" ni-control-id='1510' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Slider","unplacedOrDisabled":true,"sync":false}' label-id='1511' value='0' min='0' max='10' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
+<jqx-slider data-ni-base-style="uninitialized" ni-control-id='1510' binding-info='{"prop":"value","dco":3,"dataItem":"dataItem_Slider","unplacedOrDisabled":true,"sync":false}' label-id='1511' value='5' min='0' max='10' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='none' format='decimal' significant-digits='6' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
 
 <ni-label data-ni-base-style="uninitialized" ni-control-id='1511' binding-info='{}' label-id='' class='ni-hidden' text='Slider'></ni-label>
 
-<jqx-slider data-ni-base-style="uninitialized" ni-control-id='1515' binding-info='{"prop":"value","dco":4,"dataItem":"dataItem_Slider_2","unplacedOrDisabled":true,"sync":false}' label-id='1516' value='0' min='0' max='10' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='all' format='decimal' significant-digits='6' scale-type='floatingPoint' orientation='horizontal'></jqx-slider>
+<jqx-tank data-ni-base-style="uninitialized" ni-control-id='1524' binding-info='{"prop":"value","dco":4,"dataItem":"dataItem_Tank","unplacedOrDisabled":true,"sync":false}' label-id='1525' readonly='true' value='6' min='0' max='10' interval='1' scale-position='far' ticks-visibility='minor' labels-visibility='none' format='decimal' significant-digits='2' read-only='true' scale-type='floatingPoint' orientation='horizontal'></jqx-tank>
 
-<ni-label data-ni-base-style="uninitialized" ni-control-id='1516' binding-info='{}' label-id='' class='ni-hidden' text='Slider_2'></ni-label>
+<ni-label data-ni-base-style="uninitialized" ni-control-id='1525' binding-info='{}' label-id='' class='ni-hidden' text='Tank'></ni-label>
 
 </section>
     </body>
