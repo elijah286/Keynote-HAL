@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A2A90882FBD1AA018AD18C584C3409B7" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="75026D5A356E514612D00176B619BDA9" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
@@ -236,7 +236,7 @@
 			</HtmlText>
 			<HtmlUrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]176" Id="1541" Label="[UIModel]1542" Left="[float]128" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=1539}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]-5" Width="[float]512" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="1542" LabelOwner="[UIModel]1541" Left="[float]128" Text="[string]URL Image" Top="[float]-25" Visible="[bool]False" Width="[float]58" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlDataGrid AlternatingRowColors="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchNoneColumns" Height="[float]253" Id="432" IsReadOnly="[bool]True" Label="[UIModel]435" Left="[float]400" MinHeight="[float]100" MinRowHeight="[float]29" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]25" ShowAddRowsToolBar="[bool]False" TabIndex="[int]2" Top="[float]624" Type="[Type]@4c6c29bb940545299b4919276089cbb6" Value="{DataItemBinding Id=430}" Width="[float]325" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<HtmlDataGrid AlternatingRowColors="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchNoneColumns" Height="[float]253" Id="432" IsReadOnly="[bool]True" Label="[UIModel]435" Left="[float]400" MinHeight="[float]100" MinRowHeight="[float]29" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]25" ShowAddRowsToolBar="[bool]False" TabIndex="[int]2" Top="[float]592" Type="[Type]@4c6c29bb940545299b4919276089cbb6" Value="{DataItemBinding Id=430}" Width="[float]325" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<HtmlDataGridColumn ColumnElement="[UIModel]438" ContentFont="1495" Header="[string]BW (MHz)" Id="433" Index="[int]0" IsReadOnly="[bool]True" ValueType="[Type]Double" Width="[DataGridLength]75">
 					<HtmlNumericText Height="[float]24" Id="438" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]0" MinHeight="[float]24" Top="[float]0" ValueFormatter="[string]LV:G6">
 						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1496" xmlns="http://www.ni.com/PlatformFramework" />
@@ -261,7 +261,7 @@
 				</HtmlDataGridColumn>
 				<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1494" xmlns="http://www.ni.com/PlatformFramework" />
 			</HtmlDataGrid>
-			<HtmlLabel Height="[float]14" Id="435" LabelOwner="[UIModel]432" Left="[float]400" Text="[string]Test Sequence Results                          " Top="[float]606" Visible="[bool]False" Width="[float]210" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<HtmlLabel Height="[float]14" Id="435" LabelOwner="[UIModel]432" Left="[float]400" Text="[string]Test Sequence Results                          " Top="[float]574" Visible="[bool]False" Width="[float]210" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<FontSetting FontFamily="Arial" FontSize="9" Id="1493" xmlns="http://www.ni.com/PlatformFramework" />
 			</HtmlLabel>
 			<HtmlBooleanLED BaseName="[string]LED" FalseContent="[string]Off" Height="[float]168" Highlight="[SMSolidColorBrush]#ff3ab878" Id="214" IsReadOnly="[bool]True" Label="[UIModel]215" Left="[float]128" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Round" TabIndex="[int]3" Top="[float]672" TrueContent="[string]On" Value="{DataItemBinding Id=212}" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
