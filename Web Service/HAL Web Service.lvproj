@@ -61,10 +61,10 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="HAL Web Service" Type="Installer">
+			<Item Name="My Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">HAL Web Service</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{E43D7B87-007A-498D-8AB1-57A9EA7495BA}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{44458071-8E86-48CF-BD33-15F9F0B2804F}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
@@ -117,10 +117,10 @@
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">National Instruments</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/HAL Web Service/HAL Web Service</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/HAL Web Service/My Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">HAL Web Service</Property>
-				<Property Name="INST_defaultDir" Type="Str">{E43D7B87-007A-498D-8AB1-57A9EA7495BA}</Property>
+				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{44458071-8E86-48CF-BD33-15F9F0B2804F}</Property>
 				<Property Name="INST_productName" Type="Str">HAL Web Service</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
 				<Property Name="INST_webService.count" Type="Int">1</Property>
@@ -129,10 +129,10 @@
 				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
-				<Property Name="MSI_distID" Type="Str">{5EFC843A-7525-4DE0-BEA2-39527F2CC792}</Property>
+				<Property Name="MSI_distID" Type="Str">{D8EA7DE2-A270-445E-8313-2FC97F025ECA}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{43962E9B-CCC6-45F4-ACFD-467D231DFD56}</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{A02934D9-AF0E-4C0C-8E43-6BB87A214CA0}</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
