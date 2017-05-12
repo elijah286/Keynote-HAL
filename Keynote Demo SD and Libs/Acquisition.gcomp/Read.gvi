@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="70F51981103C50A15538ED411D6A3255" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ApplicationVersionInfo Build="5.0.1.2921" Name="LabVIEW NXG" Version="2.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Path Data="[PathGeometry]M 18.571,0.733 C 17.428,1.02 16.103,1.314 14.925,1.277 C 14.217,1.256 13.547,1.091 12.912,0.943 C 8.634,-0.054 4.771,-0.431 0,0.664 L 0.307,2.671 C 0.603,2.677 1.098,2.785 1.121,3.352 C 1.303,7.922 2.493,10.114 6.822,10.001 C 12.181,9.861 13.574,5.573 13.867,3.941 C 14.024,3.065 14.475,2.976 14.979,2.963 C 15.872,2.939 15.973,3.591 16.13,3.986 C 17.967,8.629 19.071,9.686 22.925,10.021 C 28.784,10.532 28.109,6.188 28.901,3.663 C 29.053,3.18 29.219,2.933 29.75,2.921 L 30,0.915 C 26.605,0.189 23.081,-0.4 18.571,0.733  M 1.477,1.946 C 1.054,1.946 0.711,1.859 0.711,1.751 C 0.711,1.643 1.054,1.556 1.477,1.556 C 1.901,1.556 2.244,1.644 2.244,1.751 C 2.244,1.859 1.901,1.946 1.477,1.946  M 12.318,5.039 C 11.498,7.459 10.213,9.215 6.912,9.303 C 3.642,9.303 2.692,8.708 2.258,4.9 C 2.258,2.345 2.091,0.85 6.94,0.859 C 10.209,1.173 13.639,1.142 12.318,5.039  M 27.785,4.9 C 27.351,8.708 26.401,9.304 23.131,9.304 C 19.83,9.215 18.544,7.459 17.724,5.04 C 16.404,1.142 19.833,1.173 23.103,0.859 C 27.952,0.85 27.785,2.346 27.785,4.9  M 28.607,2.142 C 28.184,2.142 27.84,2.054 27.84,1.947 C 27.84,1.839 28.184,1.751 28.607,1.751 C 29.03,1.751 29.373,1.839 29.373,1.947 C 29.373,2.054 29.03,2.142 28.607,2.142 " EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]10.062" Id="69" Left="[float]6" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]21" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="115" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 80" Parameter="400" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 35" Parameter="31" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 95" Parameter="401" />
+			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 65" Parameter="33" />
+			<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 50" Parameter="32" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<Cluster BaseName="[string]Error" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="36" Left="[float]266" MinHeight="[float]128" MinWidth="[float]112" Name="[string]Error In" TabIndex="[int]0" Top="[float]67" Value="{DataItemBinding Id=31}" Width="[float]176" p4:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="37" Label="[UIModel]38" Left="[float]3" MinHeight="[float]22" MinWidth="[float]22" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="38" LabelOwner="[UIModel]37" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="39" Label="[UIModel]40" Left="[float]54" MinHeight="[float]24" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="40" LabelOwner="[UIModel]39" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="41" Label="[UIModel]42" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="42" LabelOwner="[UIModel]41" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=32}" DataSourceType="[Type]Wfm(Double)[]" Height="[float]296" Id="43" Left="[float]0" MetadataAlwaysOverridesPlotNames="[bool]True" Name="[string]Array" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]1" Top="[float]0" Width="[float]392" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<PlotRenderer Id="44" LineStroke="[SMSolidColorBrush]#ff962428" />
+				<PlotRenderer Id="45" LineStroke="[SMSolidColorBrush]#ff008ee4" />
+				<PlotRenderer Id="46" LineStroke="[SMSolidColorBrush]#ffe2b683" />
+				<PlotRenderer Id="47" LineStroke="[SMSolidColorBrush]#ffb7ac1f" />
+				<PlotRenderer Id="48" LineStroke="[SMSolidColorBrush]#ffaedcef" />
+				<PlotRenderer Id="49" LineStroke="[SMSolidColorBrush]#ffa08bb0" />
+				<PlotRenderer Id="50" LineStroke="[SMSolidColorBrush]#ff7f7f7f" />
+				<PlotRenderer Id="51" LineStroke="[SMSolidColorBrush]#ff91685c" />
+				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="52" Label="[string]Time" MajorDivisions="[UIModel]55" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
+					<RangeLabeledDivisions Id="55" LabelPresenter="[string]LVRelativeSeconds:0.######" />
+				</Axis>
+				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="53" Label="[string]Amplitude" MajorDivisions="[UIModel]56" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+					<RangeLabeledDivisions Id="56" LabelPresenter="[string]LVRelativeSeconds:G6&gt;&gt;0.000E+0" />
+				</Axis>
+				<Plot HorizontalScale="[UIModel]52" Id="54" Label="[string]Plot" VerticalScale="[UIModel]53" />
+			</Graph>
+			<PlotLegend Graph="[UIModel]43" Height="[float]28" Id="57" Left="[float]399" Top="[float]0" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]43" Height="[float]102" Id="58" Left="[float]5" MinHeight="[float]80" Top="[float]325" Visible="[bool]False" Width="[float]251" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<ScaleLegend Graph="[UIModel]43" Height="[float]28" Id="59" Left="[float]399" MinHeight="[float]50" Top="[float]194" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<GraphTools Graph="[UIModel]43" Id="60" Left="[float]5" Top="[float]303" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Cluster BaseName="[string]Error" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="61" Left="[float]266" MinHeight="[float]128" MinWidth="[float]112" Name="[string]Error" TabIndex="[int]2" Top="[float]67" Value="{DataItemBinding Id=33}" Width="[float]176" p4:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="62" Label="[UIModel]63" Left="[float]3" MinHeight="[float]22" MinWidth="[float]22" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="63" LabelOwner="[UIModel]62" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="64" Label="[UIModel]65" Left="[float]54" MinHeight="[float]24" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="65" LabelOwner="[UIModel]64" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="66" Label="[UIModel]67" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="67" LabelOwner="[UIModel]66" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="402" Left="[float]0" Name="[string]Task In" TabIndex="[int]3" Text="{DataItemBinding Id=400}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="403" IsReadOnly="[bool]True" Left="[float]0" Name="[string]Task Out" TabIndex="[int]4" Text="{DataItemBinding Id=401}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="1315 -85 40 15" DataItem="31" Id="21" Label="26" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="2040 165 40 15" DataItem="32" Id="22" Label="27" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Wfm(Double)[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="1425 -85 40 15" DataItem="33" Id="23" Label="28" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="21" Bounds="1266 -85 44 14" Id="26" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Error In</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="22" Bounds="2085 165 30 14" Id="27" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Array</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="23" Bounds="1470 -85 28 14" Id="28" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Error</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="1315 -110 40 15" DataItem="400" Id="395" Label="398" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="1385 -110 40 15" DataItem="401" Id="396" Label="399" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<Wire Id="397" Joints="N(395:Value)|(1355,-105) N(396:Value)|(1388,-105)" xmlns="http://www.ni.com/PlatformFramework" />
+			<NodeLabel AttachedTo="395" Bounds="1270 -110 40 14" Id="398" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Task In</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="396" Bounds="1430 -110 49 14" Id="399" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Task Out</p.Text>
+			</NodeLabel>
+			<Wire Id="404" Joints="N(21:Value)|(1355,-80) N(23:Value)|(1428,-80)" xmlns="http://www.ni.com/PlatformFramework" />
+			<ArrayLiteral Bounds="1255 5 369 119" DataType="Wfm(Double)[]" Facade="Array" Id="405" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Array Lengths="16">
+						<Rank1>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+										<Attribute Name="NI_LV_DataItem_ControlType" DataType="String">Cartesian Graph</Attribute>
+										<Attribute Name="NI_LV_DataItem_FormatVersion" DataType="Int32">32768</Attribute>
+										<Attribute Name="NI_LV_DataItem_ControlName" DataType="String">Graph</Attribute>
+										<Attribute Name="NI_LV_DataItem_ControlSettings" DataType="String">"&lt;MergeScript xmlns="http://www.ni.com/PlatformFramework"&gt;\r\n\t&lt;MergeFeatureSet&gt;\r\n\t\t&lt;SourceModelFeatureSet&gt;\r\n\t\t\t&lt;ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" /&gt;\r\n\t\t\t&lt;ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" /&gt;\r\n\t\t\t&lt;ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="4.8.0.49152" /&gt;\r\n\t\t\t&lt;ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" /&gt;\r\n\t\t\t&lt;ApplicationVersionInfo Build="4.9.1.56780" Name="LabVIEW NXG" Version="1.0.0" /&gt;\r\n\t\t&lt;/SourceModelFeatureSet&gt;\r\n\t&lt;/MergeFeatureSet&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=48}" DataSourceType="[Type]Wfm(Double)[]" Height="[float]449" Id="14" Label="[UIModel]47" Left="[float]26" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]427" Width="[float]488" xmlns="http://www.ni.com/Controls.LabVIEW.Design"&gt;\r\n\t\t\t&lt;Axis Adjuster="[RangeAdjuster]FitExactly" Id="15" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]41" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 9527, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible"&gt;\r\n\t\t\t\t&lt;RangeLabeledDivisions Id="41" LabelPresenter="[string]LVRelativeSeconds:N0" /&gt;\r\n\t\t\t&lt;/Axis&gt;\r\n\t\t\t&lt;Axis Adjuster="[RangeAdjuster]None" Id="16" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]42" Orientation="[SMOrientation]Vertical" Range="[IRange]20, 40, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible"&gt;\r\n\t\t\t\t&lt;RangeLabeledDivisions Id="42" LabelPresenter="[string]LVRelativeSeconds:G6&amp;gt;&amp;gt;0.000E+0" /&gt;\r\n\t\t\t&lt;/Axis&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="17" Label="[string]Ambient1" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="18" LineStroke="[SMSolidColorBrush]#ff7b161a" PointShape="[PointShape]Ellipse" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="19" LineStroke="[SMSolidColorBrush]#ff008ee4" PointShape="[PointShape]Rectangle" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="20" LineStroke="[SMSolidColorBrush]#ffe2b683" PointShape="[PointShape]Diamond" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="21" LineStroke="[SMSolidColorBrush]#ffb7ac1f" PointShape="[PointShape]Cross" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="22" LineStroke="[SMSolidColorBrush]#ffaedcef" PointShape="[PointShape]Ellipse" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="23" LineStroke="[SMSolidColorBrush]#ffa08bb0" PointShape="[PointShape]Rectangle" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="24" LineStroke="[SMSolidColorBrush]#ff7f7f7f" PointShape="[PointShape]Diamond" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="25" LineStroke="[SMSolidColorBrush]#ff3c0726" PointShape="[PointShape]Cross" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="26" Label="[string]Ambient2" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="27" Label="[string]Ambient3" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="28" Label="[string]Ambient4" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="29" Label="[string]U12" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="30" Label="[string]Q13" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="31" Label="[string]U14" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="32" Label="[string]Q15" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="33" Label="[string]U16" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="34" Label="[string]Q17" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="35" Label="[string]U18" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="36" Label="[string]Q19" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="37" Label="[string]U98" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="38" Label="[string]Q97" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="39" Label="[string]U96" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="40" Label="[string]Q95" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t&lt;/Graph&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;PlotLegend Graph="[UIModel]14" Height="[float]106" Id="43" Left="[float]498" Top="[float]440" xmlns="http://www.ni.com/Controls.LabVIEW.Design" /&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]14" Height="[float]102" Id="44" Left="[float]31" MinHeight="[float]80" Top="[float]905" Visible="[bool]False" Width="[float]251" xmlns="http://www.ni.com/Controls.LabVIEW.Design" /&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;ScaleLegend Graph="[UIModel]14" Height="[float]50" Id="45" Left="[float]521" MinHeight="[float]50" Top="[float]774" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" /&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;GraphTools Graph="[UIModel]14" Id="46" Left="[float]31" Top="[float]883" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" /&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;Label Height="[float]16" Id="47" LabelOwner="[UIModel]14" Left="[float]26" Text="[string]Graph" Top="[float]407" Width="[float]33" xmlns="http://www.ni.com/PanelCommon" /&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="./ancestor::SourceFile/=IDataItemOwner" IsPrimary="False"&gt;\r\n\t\t&lt;DataItem AdaptToDiagramType="True" DataType="Wfm(Double)[]" Id="48" Name="Graph" xmlns="http://www.ni.com/MocCommon"&gt;\r\n\t\t\t&lt;p.DefaultValue&gt;null&lt;/p.DefaultValue&gt;\r\n\t\t&lt;/DataItem&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="./ancestor::SourceFile/=IDataItemOwner/=DiagramUnplacedItems" IsPrimary="False"&gt;\r\n\t\t&lt;DataAccessor Bounds="900 260 40 15" DataItem="48" Id="49" Label="50" xmlns="http://www.ni.com/MocCommon"&gt;\r\n\t\t\t&lt;Terminal DataType="Wfm(Double)[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" /&gt;\r\n\t\t&lt;/DataAccessor&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="./ancestor::SourceFile/=IDataItemOwner/=DiagramUnplacedItems" IsPrimary="False"&gt;\r\n\t\t&lt;NodeLabel AttachedTo="49" Bounds="945 260 34 14" Id="50"&gt;\r\n\t\t\t&lt;p.Text&gt;Graph&lt;/p.Text&gt;\r\n\t\t&lt;/NodeLabel&gt;\r\n\t&lt;/MergeItem&gt;\r\n&lt;/MergeScript&gt;"</Attribute>
+										<Attribute Name="NI_LV_DataItem_ControlKind" DataType="String">NI.Controls.LabVIEW.Design:Graph</Attribute>
+										<Attribute Name="NI_LV_DataItem_TD" DataType="String">AAAAAgAGAFQAAwAaQEAAAf////8AAA1WYXJpYWJsZUFycmF5AAEAAQ==</Attribute>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_LV_DataItem_TDVersion" DataType="UInt32">352354304</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">Ambient1</Attribute>
+										<Attribute Name="NI_LV_DataItem_ControlIsBuffered" DataType="Boolean">False</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">Ambient2</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">Ambient3</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">Ambient4</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">U12</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">Q13</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">U14</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">Q15</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">U16</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">Q17</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">U18</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">Q19</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">U98</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">Q97</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">U96</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+							<Elem>
+								<Waveform>
+									<Timestamp>60052752000;0;Utc</Timestamp>
+									<Interval>0x3FF0000000000000</Interval>
+									<Data>
+										<Array Lengths="9528" IsBinary="True" Compression="GZip">
+											<BinaryElements>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</BinaryElements>
+										</Array>
+									</Data>
+									<Attributes>
+										<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+										<Attribute Name="NI_ChannelName" DataType="String">Q95</Attribute>
+										<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+									</Attributes>
+								</Waveform>
+							</Elem>
+						</Rank1>
+					</Array>
+				</p.Data>
+				<ArrayBehavior ElementType="Wfm(Double)" IndexEditorWidth="42">
+					<p.DefaultElementValue>
+						<Waveform>
+							<Timestamp>60052752000;0;Utc</Timestamp>
+							<Interval>0x3FF0000000000000</Interval>
+							<Data>
+								<Array Lengths="0" />
+							</Data>
+						</Waveform>
+					</p.DefaultElementValue>
+				</ArrayBehavior>
+				<Literal Bounds="47 4 308 111" DataType="Wfm(Double)" Facade="Waveform" Id="406">
+					<p.Data>
+						<Waveform>
+							<Timestamp>60052752000;0;Utc</Timestamp>
+							<Interval>0x3FF0000000000000</Interval>
+							<Data>
+								<Array Lengths="9528" IsBinary="True" Compression="GZip">
+									<BinaryElements>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</BinaryElements>
+								</Array>
+							</Data>
+							<Attributes>
+								<Attribute Name="NI_LV_DataItem_Name" DataType="String">Graph</Attribute>
+								<Attribute Name="NI_LV_DataItem_ControlType" DataType="String">Cartesian Graph</Attribute>
+								<Attribute Name="NI_LV_DataItem_FormatVersion" DataType="Int32">32768</Attribute>
+								<Attribute Name="NI_LV_DataItem_ControlName" DataType="String">Graph</Attribute>
+								<Attribute Name="NI_LV_DataItem_ControlSettings" DataType="String">"&lt;MergeScript xmlns="http://www.ni.com/PlatformFramework"&gt;\r\n\t&lt;MergeFeatureSet&gt;\r\n\t\t&lt;SourceModelFeatureSet&gt;\r\n\t\t\t&lt;ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" /&gt;\r\n\t\t\t&lt;ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" /&gt;\r\n\t\t\t&lt;ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="4.8.0.49152" /&gt;\r\n\t\t\t&lt;ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" /&gt;\r\n\t\t\t&lt;ApplicationVersionInfo Build="4.9.1.56780" Name="LabVIEW NXG" Version="1.0.0" /&gt;\r\n\t\t&lt;/SourceModelFeatureSet&gt;\r\n\t&lt;/MergeFeatureSet&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=48}" DataSourceType="[Type]Wfm(Double)[]" Height="[float]449" Id="14" Label="[UIModel]47" Left="[float]26" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]427" Width="[float]488" xmlns="http://www.ni.com/Controls.LabVIEW.Design"&gt;\r\n\t\t\t&lt;Axis Adjuster="[RangeAdjuster]FitExactly" Id="15" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]41" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 9527, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible"&gt;\r\n\t\t\t\t&lt;RangeLabeledDivisions Id="41" LabelPresenter="[string]LVRelativeSeconds:N0" /&gt;\r\n\t\t\t&lt;/Axis&gt;\r\n\t\t\t&lt;Axis Adjuster="[RangeAdjuster]None" Id="16" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]42" Orientation="[SMOrientation]Vertical" Range="[IRange]20, 40, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible"&gt;\r\n\t\t\t\t&lt;RangeLabeledDivisions Id="42" LabelPresenter="[string]LVRelativeSeconds:G6&amp;gt;&amp;gt;0.000E+0" /&gt;\r\n\t\t\t&lt;/Axis&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="17" Label="[string]Ambient1" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="18" LineStroke="[SMSolidColorBrush]#ff7b161a" PointShape="[PointShape]Ellipse" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="19" LineStroke="[SMSolidColorBrush]#ff008ee4" PointShape="[PointShape]Rectangle" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="20" LineStroke="[SMSolidColorBrush]#ffe2b683" PointShape="[PointShape]Diamond" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="21" LineStroke="[SMSolidColorBrush]#ffb7ac1f" PointShape="[PointShape]Cross" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="22" LineStroke="[SMSolidColorBrush]#ffaedcef" PointShape="[PointShape]Ellipse" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="23" LineStroke="[SMSolidColorBrush]#ffa08bb0" PointShape="[PointShape]Rectangle" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="24" LineStroke="[SMSolidColorBrush]#ff7f7f7f" PointShape="[PointShape]Diamond" /&gt;\r\n\t\t\t&lt;PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="25" LineStroke="[SMSolidColorBrush]#ff3c0726" PointShape="[PointShape]Cross" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="26" Label="[string]Ambient2" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="27" Label="[string]Ambient3" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="28" Label="[string]Ambient4" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="29" Label="[string]U12" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="30" Label="[string]Q13" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="31" Label="[string]U14" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="32" Label="[string]Q15" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="33" Label="[string]U16" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="34" Label="[string]Q17" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="35" Label="[string]U18" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="36" Label="[string]Q19" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="37" Label="[string]U98" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="38" Label="[string]Q97" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="39" Label="[string]U96" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t\t&lt;Plot HorizontalScale="[UIModel]15" Id="40" Label="[string]Q95" VerticalScale="[UIModel]16" Visibility="[SMVisibility]Visible" /&gt;\r\n\t\t&lt;/Graph&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;PlotLegend Graph="[UIModel]14" Height="[float]106" Id="43" Left="[float]498" Top="[float]440" xmlns="http://www.ni.com/Controls.LabVIEW.Design" /&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]14" Height="[float]102" Id="44" Left="[float]31" MinHeight="[float]80" Top="[float]905" Visible="[bool]False" Width="[float]251" xmlns="http://www.ni.com/Controls.LabVIEW.Design" /&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;ScaleLegend Graph="[UIModel]14" Height="[float]50" Id="45" Left="[float]521" MinHeight="[float]50" Top="[float]774" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" /&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;GraphTools Graph="[UIModel]14" Id="46" Left="[float]31" Top="[float]883" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" /&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="." IsPrimary="True"&gt;\r\n\t\t&lt;Label Height="[float]16" Id="47" LabelOwner="[UIModel]14" Left="[float]26" Text="[string]Graph" Top="[float]407" Width="[float]33" xmlns="http://www.ni.com/PanelCommon" /&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="./ancestor::SourceFile/=IDataItemOwner" IsPrimary="False"&gt;\r\n\t\t&lt;DataItem AdaptToDiagramType="True" DataType="Wfm(Double)[]" Id="48" Name="Graph" xmlns="http://www.ni.com/MocCommon"&gt;\r\n\t\t\t&lt;p.DefaultValue&gt;null&lt;/p.DefaultValue&gt;\r\n\t\t&lt;/DataItem&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="./ancestor::SourceFile/=IDataItemOwner/=DiagramUnplacedItems" IsPrimary="False"&gt;\r\n\t\t&lt;DataAccessor Bounds="900 260 40 15" DataItem="48" Id="49" Label="50" xmlns="http://www.ni.com/MocCommon"&gt;\r\n\t\t\t&lt;Terminal DataType="Wfm(Double)[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" /&gt;\r\n\t\t&lt;/DataAccessor&gt;\r\n\t&lt;/MergeItem&gt;\r\n\t&lt;MergeItem Path="./ancestor::SourceFile/=IDataItemOwner/=DiagramUnplacedItems" IsPrimary="False"&gt;\r\n\t\t&lt;NodeLabel AttachedTo="49" Bounds="945 260 34 14" Id="50"&gt;\r\n\t\t\t&lt;p.Text&gt;Graph&lt;/p.Text&gt;\r\n\t\t&lt;/NodeLabel&gt;\r\n\t&lt;/MergeItem&gt;\r\n&lt;/MergeScript&gt;"</Attribute>
+								<Attribute Name="NI_LV_DataItem_ControlKind" DataType="String">NI.Controls.LabVIEW.Design:Graph</Attribute>
+								<Attribute Name="NI_LV_DataItem_TD" DataType="String">AAAAAgAGAFQAAwAaQEAAAf////8AAA1WYXJpYWJsZUFycmF5AAEAAQ==</Attribute>
+								<Attribute Name="NI_UnitDescription" DataType="String">Deg C</Attribute>
+								<Attribute Name="NI_LV_DataItem_TDVersion" DataType="UInt32">352354304</Attribute>
+								<Attribute Name="NI_ChannelName" DataType="String">Ambient1</Attribute>
+								<Attribute Name="NI_LV_DataItem_ControlIsBuffered" DataType="Boolean">False</Attribute>
+							</Attributes>
+						</Waveform>
+					</p.Data>
+					<WaveformBehavior />
+				</Literal>
+			</ArrayLiteral>
+			<ForLoop Bounds="1693 93 271 206" DiagramId="411" Id="410">
+				<LoopIteration Bounds="5 176 15 15" Id="413" />
+				<PropertyNode Bounds="30 70 50 35" HasErrorTerminals="False" Id="409" InstanceDataType="Wfm(Double)" Mode="InstanceProperties">
+					<PropertyItemTerminal DataType="Double[]" Hotspot="50 15" Id="c0t0v" Path="Y" PathElementMemberKinds="Field" Usage="Optional" />
+				</PropertyNode>
+				<Wire Id="414" Joints="N(415:i0)|(6,75) N(409:instance in)|(30,75)" xmlns="http://www.ni.com/PlatformFramework" />
+				<PropertyNode Bounds="180 70 50 35" HasErrorTerminals="False" Id="417" InstanceDataType="Wfm(Double)" Mode="InstanceProperties">
+					<PropertyItemTerminal Action="Write" DataType="Double[]" Hotspot="0 15" Id="c0t0v" Path="Y" PathElementMemberKinds="Field" Usage="Required" />
+				</PropertyNode>
+				<Wire Id="418" Joints="N(409:instance out)|(80,75) N(417:instance in)|(180,75)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="420" Joints="N(417:instance out)|(230,75) N(421:i0)|(259,75)" xmlns="http://www.ni.com/PlatformFramework" />
+				<ArraySubset Bounds="110 120 40 40" Id="423" Terminals="array=424, subarray=451, index0=427, length0=450" />
+				<Wire Id="424" Joints="N(409:c0t0v)|(80,85) h(20) v(40) N(423:array)|(110,125)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="40 140 40 15" DataType="Int32" Facade="Numeric" Id="425" Label="426" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>0</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+				</Literal>
+				<NodeLabel AttachedTo="425" Bounds="40 122 30 15" Id="426" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>index</p.Text>
+				</NodeLabel>
+				<Wire Id="427" Joints="N(425:Out)|(80,145) N(423:index0)|(110,145)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="450" Joints="N(449:i0)|(100,194) v(-39) N(423:length0)|(110,155)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="451" Joints="N(423:subarray)|(150,125) h(25) v(-40) N(417:c0t0v)|(180,85)" xmlns="http://www.ni.com/PlatformFramework" />
+				<LoopCount Bounds="1 1 15 15" Docking="Left" Id="412" Terminals="410, 411" />
+				<LoopTunnel AutoIndex="True" Bounds="-5 72 13 10" Docking="Left" Id="415" Terminals="o0=419, i0=414" TunnelMode="0" />
+				<LoopTunnel AutoIndex="True" Bounds="261 72 13 10" Docking="Right" Id="421" Terminals="o0=422, i0=420" TunnelMode="0" />
+				<LoopTunnel Bounds="97 196 10 13" Docking="Bottom" Id="449" Terminals="o0=521, i0=450" />
+			</ForLoop>
+			<Wire Id="419" Joints="N(405:Out)|(1624,10) h(16) v(160) N(415:o0)|(1688,170)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="422" Joints="N(421:o0)|(1967,170) N(22:Value)|(2043,170)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="1580 325 40 40" DomainName="NI.MocCommon" Id="519" ResolveFailedHint="" Target="FGV\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Reset" />
+						<Parameter Id="R0" Desc="Numeric" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="Boolean" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="520" Joints="N(522:Out)|(1550,330) N(519:L0)|(1580,330)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="521" Joints="N(519:R0)|(1620,330) h(175) N(449:o0)|(1795,302)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="1525 325 25 15" DataType="Boolean" Facade="False Constant" Id="522" Label="523" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>False</p.Data>
+				<BooleanBehavior />
+			</Literal>
+			<NodeLabel AttachedTo="522" Bounds="1525 307 30 15" Id="523" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Reset</p.Text>
+			</NodeLabel>
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" />
+		<DataItem CallDirection="Input" CallIndex="1" DataType="Error" Id="31" Name="Error In" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="4" DataType="Wfm(Double)[]" Id="32" Name="Array" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="3" DataType="Error" Id="33" Name="Error" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="String" Id="400" Name="Task In" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="2" DataType="String" Id="401" Name="Task Out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="FGV\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]FGV" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="11.25" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Center" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]Acquisition.gcomp" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+								<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.9 0.9,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]11" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
+								<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.9 1.1,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+								<Text Foreground="[SMColor]#fffff89a" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]11" Text="[string]DAQ" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]2" VerticalAlignment="[VerticalAlignment]Top" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]18">
+									<FontSetting FontFamily="Verdana" FontSize="6" />
+								</Text>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>
