@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C75D8922568530BAA17A9C5D24C32989" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="0300AE4A9A65EF9C776A88B6E286E93D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="17.3.0.26" FeatureSetName="DAQmx Support for System Designer" Name="http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel" OldestCompatibleVersion="4.0.0.0" Version="4.0.0.0" />
@@ -58,7 +58,7 @@
 							<Symbols p8:Path="[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9211_71B0]NI9211_71B0" p9:Process.HardwareAlias="cDAQ1Mod2" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
 						<Instance Id="1231" Source="{http://www.ni.com/SystemDesigner/Common/Decoration/SystemModel}SystemHardwareLine">
-							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Common/Decoration/SystemModel}SystemHardwareLine]SystemHardwareLine" p9:SystemHardwareArrow.HeadAttachedTo="{:/2293}[{http://www.ni.com/SystemDesigner/Common/Decoration/SystemModel}DocumentationNode]DocumentationNode" p9:SystemHardwareArrow.HeadCoordinate="866.5701 220.396454" p9:SystemHardwareArrow.HeadDeltaIconView="21.57013 135.396454" p9:SystemHardwareArrow.TailAttachedTo="{:/435}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9174_74A5]NIcDAQ9174_74A5" p9:SystemHardwareArrow.TailCoordinate="804.720032 221.66626" p9:SystemHardwareArrow.TailDeltaIconView="199 110" p9:SystemHardwareArrow.TailDeltaPartsView="309.720032 111.66626" xmlns:p9="http://www.ni.com/SystemDesigner/Common/Decoration/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Common/Decoration/SystemModel}SystemHardwareLine]SystemHardwareLine" p9:SystemHardwareArrow.HeadAttachedTo="{:/2293}[{http://www.ni.com/SystemDesigner/Common/Decoration/SystemModel}DocumentationNode]DocumentationNode" p9:SystemHardwareArrow.HeadCoordinate="866.5701 220.396454" p9:SystemHardwareArrow.HeadDeltaIconView="21.57013 135.396454" p9:SystemHardwareArrow.TailAttachedTo="{:/435}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9174_74A5]NIcDAQ9174_74A5" p9:SystemHardwareArrow.TailCoordinate="694 220" p9:SystemHardwareArrow.TailDeltaIconView="199 110" p9:SystemHardwareArrow.TailDeltaPartsView="309.720032 111.66626" xmlns:p9="http://www.ni.com/SystemDesigner/Common/Decoration/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
 						<Instance Id="1237" Source="{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9211_71B0">
 							<Symbols p8:Path="[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9211_71B0]NI9211_71B0" p9:Process.HardwareAlias="cDAQ1Mod1" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
@@ -91,7 +91,7 @@
 					</MappingManager>
 				</EnvoySuperimpositionContainer>
 				<SystemDiagramRootDiagram Id="9">
-					<SystemHardware Bounds="495 110 315 250" Facade="PartsView" HasLayoutManager="True" Id="467" MainLabel="$aliasName" SubLabel="$modelName" SystemModelContent="{:/435}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9174_74A5]NIcDAQ9174_74A5">
+					<SystemHardware Bounds="495 110 200 227" Facade="IconView" HasLayoutManager="True" Id="467" MainLabel="$aliasName" SubLabel="$modelName" SystemModelContent="{:/435}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9174_74A5]NIcDAQ9174_74A5">
 						<SystemHardwareGroupDiagram Bounds="4 70 315 40" GroupName="Ports" Id="472">
 							<SystemHardware Bounds="5 15 305 25" Facade="PartsViewLeaf" Id="473" MainLabel="$aliasName" SystemModelContent="{:/435}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9174_74A5]NIcDAQ9174_74A5/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]USB">
 								<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
@@ -170,7 +170,7 @@
 						<SystemDiagramFacadeElement Name="IconView" Size="200 227" />
 					</SystemHardware>
 					<CableWire Id="905" Joints="N(883:891)|(370,205) N(467:474)|(495,205)" SystemModelContent="{:/906}[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbCable]UsbCable" />
-					<SystemHardwareArrow ArrowLocation="[ArrowLocation]End" Data="[PathGeometry]M 61.8501,0 L 0,1.269806 " Fill="[SMSolidColorBrush]#ff000000" Height="[float]1.26980591" Id="1235" Left="[float]804.720032" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffffffff" StrokeThickness="[float]3" SystemModelContent="{:/1231}[{http://www.ni.com/SystemDesigner/Common/Decoration/SystemModel}SystemHardwareLine]SystemHardwareLine" Top="[float]220.396454" Width="[float]61.8500977" xmlns="http://www.ni.com/SystemDesigner/Common/Decoration/SystemDiagram" />
+					<SystemHardwareArrow ArrowLocation="[ArrowLocation]End" Data="[PathGeometry]M 172.5701,0.3964539 L 0,0 " Fill="[SMSolidColorBrush]#ff000000" Height="[float]0.396453857" Id="1235" Left="[float]694" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffffffff" StrokeThickness="[float]3" SystemModelContent="{:/1231}[{http://www.ni.com/SystemDesigner/Common/Decoration/SystemModel}SystemHardwareLine]SystemHardwareLine" Top="[float]220" Width="[float]172.570129" xmlns="http://www.ni.com/SystemDesigner/Common/Decoration/SystemDiagram" />
 					<DocumentationNode Bounds="845 85 555 270" Id="2297" SystemModelContent="{:/2293}[{http://www.ni.com/SystemDesigner/Common/Decoration/SystemModel}DocumentationNode]DocumentationNode" xmlns="http://www.ni.com/SystemDesigner/Common/Decoration/SystemDiagram" />
 					<DocumentationNode Bounds="930 330 395 85" Id="2302" SystemModelContent="{:/2298}[{http://www.ni.com/SystemDesigner/Common/Decoration/SystemModel}DocumentationNode]DocumentationNode" xmlns="http://www.ni.com/SystemDesigner/Common/Decoration/SystemDiagram" />
 				</SystemDiagramRootDiagram>
