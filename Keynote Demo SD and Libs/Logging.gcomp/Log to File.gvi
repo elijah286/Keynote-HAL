@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="2A8298B15436C9489E1F1A548884F895" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ApplicationVersionInfo Build="5.0.1.2921" Name="LabVIEW NXG" Version="2.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Path Data="[PathGeometry]M 17.923,0.209 C 18.544,-0.339 19.902,0.184 21.363,1.84 C 22.826,3.495 23.176,4.908 22.556,5.456 L 19.932,7.774 L 15.3,2.525 L 17.923,0.209 Z M 3.869,18.287 L 9.525,15.628 L 6.711,16.112 L 6.834,13.334 L 5.919,13.809 L 6.217,11.88 L 2.877,17.163 L 3.869,18.287 Z M 10.188,16.378 L 0,20.703 L 5.554,11.131 L 11.551,5.835 L 16.184,11.082 L 10.188,16.378 Z M 18.362,9.016 L 13.729,3.769 C 13.391,3.386 14.151,2.736 14.478,3.106 L 19.112,8.354 C 19.446,8.733 18.686,9.383 18.362,9.016  M 16.872,10.35 L 12.239,5.103 C 11.901,4.72 12.66,4.07 12.988,4.442 L 17.621,9.688 C 17.956,10.067 17.195,10.717 16.872,10.35 " EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]20.703" Id="29" Left="[float]8" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]16" Width="[float]22.849" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="70" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="25" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="24" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<PathSelector BaseName="[string]Path" BrowseDialogTitle="[string]Open File" Height="[float]24" Id="26" InteractionMode="[PathSelectorInteractionModes]BrowseDialog, TextInput, AllowNullPathSelection" Left="[float]0" MinHeight="[float]24" Name="[string]Path" Path="{DataItemBinding Id=24}" TabIndex="[int]0" Top="[float]0" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<ArrayViewer ArrayElement="[UIModel]28" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]574" Id="27" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Left="[float]0" Name="[string]Array" Orientation="[SMOrientation]Vertical" Rows="[int]4" TabIndex="[int]1" Top="[float]20" Value="{DataItemBinding Id=25}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]319" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>
+					<Waveform>
+						<Timestamp>60052752000;0;Utc</Timestamp>
+						<Interval>0x3FF0000000000000</Interval>
+						<Data>
+							<Array Lengths="0" />
+						</Data>
+					</Waveform>
+				</p.DefaultElementValue>
+				<Waveform BaseName="[string]Waveform" Height="[float]136" Id="28" IsReadOnly="[bool]False" Name="[string]Child" WaveformDataType="[Type]Double" Width="[float]280" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="12">
+			<DisableStructure Bounds="1210 310 195 120" Id="30" Selected="32" UserSelectorBounds="44 0 107 17">
+				<DisableStructure.DisableDiagram Bounds="5 5 185 110" Id="31" Pattern="Enabled" />
+				<DisableStructure.DisableDiagram Bounds="5 5 185 110" Id="32" Pattern="Disabled">
+					<MethodCall Bounds="105 50 40 40" DomainName="NI:G Core:File IO (General)" Id="14" ResolveFailedHint="" Target="NI:G\ Core:File\ IO\ \(General\):Write\ Delimited\ Spreadsheet\ \(Waveform\ Array\)\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<p.MethodDeclaration>
+							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+								<Parameter Id="L0" Desc="file" />
+								<Parameter Id="L1" Desc="waveforms" />
+								<Parameter Id="B0" Desc="delimiter" />
+								<Parameter Id="T1" Desc="include time channels" />
+								<Parameter Id="L2" Desc="append to file" />
+								<Parameter Id="L3" Desc="error in" />
+								<Parameter Id="T0" Desc="format" />
+								<Parameter Id="R0" Desc="new file" />
+								<Parameter Id="R3" Desc="error out" />
+							</MethodDeclaration>
+						</p.MethodDeclaration>
+						<Terminal DataType="Path" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Wfm(Double)[]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="String" Direction="Input" Hotspot="15 40" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Boolean" Direction="Input" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Boolean" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="String" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Path" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+					</MethodCall>
+					<Literal Bounds="35 25 50 15" DataType="String" Facade="String" Id="15" Label="21" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>%.3f</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<DataAccessor Bounds="45 50 40 15" DataItem="24" Id="19" Label="22" xmlns="http://www.ni.com/MocCommon">
+						<Terminal DataType="Path" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+					</DataAccessor>
+					<DataAccessor Bounds="45 70 40 15" DataItem="25" Id="20" Label="23" xmlns="http://www.ni.com/MocCommon">
+						<Terminal DataType="Wfm(Double)[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+					</DataAccessor>
+					<NodeLabel AttachedTo="15" Bounds="0 25 30 15" Id="21" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>format</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="19" Bounds="15 50 25 14" Id="22" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Path</p.Text>
+					</NodeLabel>
+					<NodeLabel AttachedTo="20" Bounds="10 70 30 14" Id="23" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Array</p.Text>
+					</NodeLabel>
+					<Wire Id="18" Joints="N(19:Value)|(85,55) N(14:L0)|(105,55)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="17" Joints="N(20:Value)|(85,75) h(10) v(-10) N(14:L1)|(105,65)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="16" Joints="N(15:Out)|(85,30) h(35) N(14:T0)|(120,50)" xmlns="http://www.ni.com/PlatformFramework" />
+				</DisableStructure.DisableDiagram>
+			</DisableStructure>
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" />
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="1" DataType="Path" Id="24" Name="Path" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Path a="1" />
+			</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="Wfm(Double)[]" Id="25" Name="Array" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="NI:G\ Core:File\ IO\ \(General\):Write\ Delimited\ Spreadsheet\ \(Waveform\ Array\)\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<Path Data="[PathGeometry]M 4,0 L 36,0 C 38.209,0 40,1.791 40,4 L 40,36 C 40,38.209 38.209,40 36,40 L 4,40 C 1.791,40 0,38.209 0,36 L 0,4 C 0,1.791 1.791,0 4,0 " Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,1 L 36,1 C 37.657,1 39,2.343 39,4 L 39,36 C 39,37.657 37.657,39 36,39 L 4,39 C 2.343,39 1,37.657 1,36 L 1,4 C 1,2.343 2.343,1 4,1 " Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,2 L 36,2 C 37.105,2 38,2.896 38,4 L 38,36 C 38,37.104 37.105,38 36,38 L 4,38 C 2.896,38 2,37.104 2,36 L 2,4 C 2,2.896 2.896,2 4,2 " Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 36,16 L 26,16 L 25,16 L 23.442,16 L 22.31,17 L 25,17 L 25,20 L 17.628,20 L 15.273,21 L 25,21 L 25,24 L 15,24 L 15,21.116 L 14,21.541 L 14,24 L 4,24 L 4,21 L 9.782,21 L 10.362,20 L 4,20 L 4,17 L 12.103,17 L 12.683,16 L 4,16 L 3,16 L 3,17 L 3,20 L 3,21 L 3,24 L 3,25 L 3,36 L 3,37 L 4,37 L 36,37 L 37,37 L 37,36 L 37,25 L 37,24 L 37,21 L 37,20 L 37,17 L 37,16 L 36,16 Z M 36,36 L 4,36 L 4,25 L 14,25 L 15,25 L 25,25 L 26,25 L 36,25 L 36,36 Z M 36,24 L 26,24 L 26,21 L 36,21 L 36,24 Z M 36,20 L 26,20 L 26,17 L 36,17 L 36,20 Z M 26.55,3.486 C 27.111,2.991 28.338,3.463 29.658,4.96 C 30.979,6.455 31.296,7.731 30.735,8.226 L 28.365,10.32 L 24.18,5.578 L 26.55,3.486  M 13.854,19.817 L 18.963,17.416 L 16.421,17.853 L 16.532,15.344 L 15.705,15.773 L 15.974,14.03 L 12.957,18.803 L 13.854,19.817 Z M 19.562,18.092 L 10.358,22 L 15.375,13.352 L 20.793,8.568 L 24.978,13.308 L 19.562,18.092 Z M 26.946,11.442 L 22.761,6.702 C 22.455,6.356 23.142,5.769 23.438,6.103 L 27.624,10.844 C 27.926,11.186 27.239,11.774 26.946,11.442 Z M 25.601,12.647 L 21.416,7.907 C 21.11,7.561 21.796,6.974 22.093,7.309 L 26.278,12.049 C 26.579,12.392 25.892,12.979 25.601,12.647 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 26,26 C 28.792,26 29.92,27.762 30.457,29.59 C 31.039,31.572 31.312,32 32,32 L 33,32 L 33,35 L 32,35 C 28.919,35 28.068,32.265 27.578,30.435 C 27.219,29.094 26.458,29 26,29 C 25.54,29 24.781,29.062 24.424,30.427 C 23.944,32.259 23.105,34.995 20.002,35 L 19.994,35 C 16.88,35 16.025,32.275 15.582,30.439 C 15.25,29.062 14.583,29 13.989,29 L 13.974,29 C 13.417,28.958 12.781,29.125 12.423,30.419 C 11.917,32.248 11.105,35 8,35 L 7,35 L 7,32 L 8,32 C 8.696,32 8.97,31.572 9.54,29.59 C 10.066,27.761 11.5,26 13.973,26 L 14.011,26 C 16.667,26 17.947,27.787 18.468,29.617 C 19.06,31.701 19.327,32 19.994,32 L 19.998,32 C 20.696,31.999 20.971,31.572 21.541,29.595 C 22.069,27.765 23.375,26 26,26 " Fill="[SMSolidColorBrush]#ff77381a" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>
