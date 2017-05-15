@@ -1,0 +1,1 @@
+aws s3 sync “WebApp” s3://webvi-examples/keynote-upload --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers

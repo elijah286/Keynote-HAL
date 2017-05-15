@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="00D080C29F5F756075FEC05453105949" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E642F125C3E96EB3DABBB272B1F958F5" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
@@ -12,13 +12,17 @@
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
-					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-					<FileNameText Attached="[bool]True" Height="[float]36" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Get Tag" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
-						<FontSetting FontFamily="Verdana" FontSize="10.5" Id="8" />
-					</FileNameText>
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Center" Id="98" Left="[float]0" TemplateName="Footer" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="99" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffebebeb" Id="100" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" Top="[float]0" />
+					<Path Data="[PathGeometry]M 0,0 C 0,1.1 0.9,2 2,2 L 2,0 L 0,0 Z" Fill="[SMSolidColorBrush]#ff3ab878" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Left" Id="101" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+					<Rectangle Fill="[SMSolidColorBrush]#ff3ab878" Height="[float]2" Id="102" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]NaN" />
+					<Path Data="[PathGeometry]M 2,0 C 2,1.1 1.1,2 0,2 L 0,0 L 2,0 Z" Fill="[SMSolidColorBrush]#ff3ab878" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" Id="103" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
 				</IconTemplate>
+				<Path Data="[PathGeometry]M 10.35294,3.2 L 10.35294,3.84 L 7.117648,3.84 L 7.117648,6.4 L 6.470588,6.4 L 6.470588,3.2 L 10.35294,3.2 Z M 9.058825,7.04704 C 10.131,7.04704 11,7.90592 11,8.967039 L 11,12.16704 C 11,13.22688 10.131,14.08 9.058825,14.08 L 6.470588,14.08 L 6.469941,15.40032 L 9.058825,15.40032 L 9.058825,16 L 1.941177,16 L 1.941177,15.40032 L 4.529412,15.36 L 4.529412,14.08 L 1.941177,14.08 C 0.8690001,14.08 0,13.22688 0,12.16704 L 0,8.967039 C 0,7.90592 0.8690001,7.04704 1.941177,7.04704 L 9.058825,7.04704 Z M 9.058825,8.32 L 1.941177,8.32 C 1.584,8.32 1.294118,8.61376 1.294118,8.967039 L 1.294118,12.16704 C 1.294118,12.52032 1.584,12.80704 1.941177,12.80704 L 9.058825,12.80704 C 9.416,12.80704 9.705883,12.52032 9.705883,12.16704 L 9.705883,8.967039 C 9.705883,8.61376 9.416,8.32704 9.058825,8.32704  M 20.05882,0 C 21.131,0 22,0.8595201 22,1.92 L 22,5.12 C 22,6.17984 21.131,7.04 20.05882,7.04 L 17.46994,7.04 L 17.46994,8.35328 L 20.05882,8.35328 L 20.05882,8.95296 L 12.94118,8.95296 L 12.94118,8.35328 L 15.52941,8.32 L 15.52941,7.04 L 12.94118,7.04 C 11.869,7.04 11,6.17984 11,5.12 L 11,1.92 C 11,0.8595201 11.869,0 12.94118,0 L 20.05882,0 Z M 20.05882,1.28 L 12.94118,1.28 C 12.584,1.28 12.29412,1.56672 12.29412,1.92 L 12.29412,5.12 C 12.29412,5.47328 12.584,5.76 12.94118,5.76 L 20.05882,5.76 C 20.416,5.76 20.70588,5.47328 20.70588,5.12 L 20.70588,1.92 C 20.70588,1.56672 20.416,1.28 20.05882,1.28 " EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]16" Id="97" Left="[float]10" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]18" Width="[float]22" />
+				<Text Height="[float]15" Id="104" Left="[float]7" Text="[string]GET" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]2" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]25">
+					<FontSetting FontFamily="Verdana" FontSize="9" Id="105" />
+				</Text>
 			</IconPanel>
 		</Icon>
 		<ConnectorPane Height="40" Id="9" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
@@ -62,13 +66,13 @@
 						<Parameter Id="R3" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@4c39d29f659047f6971d5454c9a4bec4" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@947d6c56ec454f9ca31adc474ee0cee1" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Path" Direction="Input" Hotspot="15 0" Id="T0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Int32" Direction="Input" Hotspot="15 40" Id="B0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="UInt32" Direction="Output" Hotspot="25 40" Id="B1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@4c39d29f659047f6971d5454c9a4bec4" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@947d6c56ec454f9ca31adc474ee0cee1" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="String" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
@@ -276,7 +280,7 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="4c39d29f659047f6971d5454c9a4bec4">
+		<p.TypeReference TypeId="947d6c56ec454f9ca31adc474ee0cee1">
 			<Attributed AttributedType="@c36a7587c369402c99076f34832b1e39">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:HTTP" />

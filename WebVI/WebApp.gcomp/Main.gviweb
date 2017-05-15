@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="75026D5A356E514612D00176B619BDA9" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="CFDE79E3B94786140C718820AC9EBE0E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
@@ -42,42 +42,109 @@
 				<p.Text>URL Image</p.Text>
 			</NodeLabel>
 		</DiagramUnplacedItems>
-		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<HtmlUrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]176" Id="1541" Label="[UIModel]1542" Left="[float]128" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=1539}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]-5" Width="[float]512" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<HtmlLabel Height="[float]16" Id="1542" IsVisualChild="[bool]False" LabelOwner="[UIModel]1541" Left="[float]128" Text="[string]URL Image" Top="[float]-25" Visible="[bool]False" Width="[float]58" />
+			</HtmlUrlImage>
+			<HtmlBooleanLED BaseName="[string]LED" FalseContent="[string]Off" Height="[float]168" Highlight="[SMSolidColorBrush]#ff3ab878" Id="214" IsReadOnly="[bool]True" Label="[UIModel]215" Left="[float]133" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Round" TabIndex="[int]1" Top="[float]653" TrueContent="[string]On" Value="{DataItemBinding Id=212}" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<HtmlLabel Height="[float]43" Id="215" IsVisualChild="[bool]False" LabelOwner="[UIModel]214" Left="[float]133" Text="[string]Sequence Pass/Fail                         " Top="[float]606" Visible="[bool]False" Width="[float]485">
+					<FontSetting FontFamily="Segoe UI" FontSize="24" Id="1533" xmlns="http://www.ni.com/PlatformFramework" />
+				</HtmlLabel>
+			</HtmlBooleanLED>
+			<HtmlDataGrid AlternatingRowColors="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchNoneColumns" Height="[float]253" Id="432" IsReadOnly="[bool]True" Label="[UIModel]435" Left="[float]400" MinHeight="[float]100" MinRowHeight="[float]29" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]25" ShowAddRowsToolBar="[bool]False" TabIndex="[int]2" Top="[float]592" Type="[Type]@4c6c29bb940545299b4919276089cbb6" Value="{DataItemBinding Id=430}" Width="[float]325" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<HtmlDataGridColumn ColumnElement="[UIModel]438" ContentFont="1495" Header="[string]BW (MHz)" Id="433" Index="[int]0" IsReadOnly="[bool]True" ValueType="[Type]Double" Width="[DataGridLength]75">
+					<HtmlNumericText Height="[float]24" Id="438" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]0" MinHeight="[float]24" Top="[float]0" ValueFormatter="[string]LV:G6">
+						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1496" xmlns="http://www.ni.com/PlatformFramework" />
+					</HtmlNumericText>
+					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1495" xmlns="http://www.ni.com/PlatformFramework" />
+				</HtmlDataGridColumn>
+				<HtmlDataGridColumn ColumnElement="[UIModel]440" ContentFont="1497" Header="[string]SNR" Id="439" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]Double" Width="[DataGridLength]75">
+					<HtmlNumericText Id="440" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]0" MinHeight="[float]24" Top="[float]0" ValueFormatter="[string]LV:G6">
+						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1498" xmlns="http://www.ni.com/PlatformFramework" />
+					</HtmlNumericText>
+					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1497" xmlns="http://www.ni.com/PlatformFramework" />
+				</HtmlDataGridColumn>
+				<HtmlDataGridColumn ColumnElement="[UIModel]446" ContentFont="1499" Header="[string]Power %" Id="441" Index="[int]2" IsReadOnly="[bool]True" ValueType="[Type]Double" Width="[DataGridLength]100">
+					<HtmlLVLinearProgressBar Id="446" Left="[float]0" Maximum="[double]100" MinHeight="[float]8" MinWidth="[float]40" Minimum="[double]0" Top="[float]0" Width="[float]40" />
+					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1499" xmlns="http://www.ni.com/PlatformFramework" />
+				</HtmlDataGridColumn>
+				<HtmlDataGridColumn ColumnElement="[UIModel]445" ContentFont="1500" Header="[string]Pass?" Id="443" Index="[int]3" IsReadOnly="[bool]True" ValueType="[Type]Boolean" Width="[DataGridLength]75">
+					<HtmlBooleanLED Height="[float]16" Id="445" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]16" MinWidth="[float]16" Top="[float]0" Width="[float]16">
+						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1501" xmlns="http://www.ni.com/PlatformFramework" />
+					</HtmlBooleanLED>
+					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1500" xmlns="http://www.ni.com/PlatformFramework" />
+				</HtmlDataGridColumn>
+				<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1494" xmlns="http://www.ni.com/PlatformFramework" />
+				<HtmlLabel Height="[float]14" Id="435" IsVisualChild="[bool]False" LabelOwner="[UIModel]432" Left="[float]400" Text="[string]Test Sequence Results                          " Top="[float]574" Visible="[bool]False" Width="[float]210">
+					<FontSetting FontFamily="Arial" FontSize="9" Id="1493" xmlns="http://www.ni.com/PlatformFramework" />
+				</HtmlLabel>
+			</HtmlDataGrid>
+			<HtmlCartesianGraph DataSource="{DataItemBinding Id=75}" DataSourceType="[Type]@2c36ef005aaa4523b19b8b5217982500" Height="[float]416" Id="77" Label="[UIModel]88" Left="[float]-32" TabIndex="[int]3" Top="[float]64" Width="[float]760" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<HtmlAxis Adjuster="[RangeAdjuster]ContinuousChart" ContentFont="1489" Id="78" Label="[string]Time" LabelFont="1490" MajorDivisions="[UIModel]81" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
+					<HtmlRangeLabeledDivisions Id="81" LabelPresenter="[string]LVRelativeSeconds:0.######" />
+					<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1489" xmlns="http://www.ni.com/PlatformFramework" />
+					<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1490" xmlns="http://www.ni.com/PlatformFramework" />
+				</HtmlAxis>
+				<HtmlAxis Adjuster="[RangeAdjuster]FitVisibleLoosely" ContentFont="1491" Id="79" Label="[string]Amplitude" LabelFont="1492" MajorDivisions="[UIModel]82" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+					<HtmlRangeLabeledDivisions Id="82" LabelPresenter="[string]LVRelativeSeconds:G6&gt;&gt;0.000E+0" />
+					<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1491" xmlns="http://www.ni.com/PlatformFramework" />
+					<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1492" xmlns="http://www.ni.com/PlatformFramework" />
+				</HtmlAxis>
+				<HtmlPlot HorizontalScale="[UIModel]78" Id="80" Label="[string]Plot" VerticalScale="[UIModel]79">
+					<HtmlPlotRenderer Id="83" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ffffffff" PointShape="[PointShape]Cross" />
+				</HtmlPlot>
+				<HtmlPlot HorizontalScale="[UIModel]78" Id="139" Label="[string]Plot 2" VerticalScale="[UIModel]79">
+					<HtmlPlotRenderer Id="140" LineStroke="[SMSolidColorBrush]#ff00bff3" LineThickness="[double]2" />
+				</HtmlPlot>
+				<HtmlPlot HorizontalScale="[UIModel]78" Id="141" Label="[string]Plot 3" VerticalScale="[UIModel]79">
+					<HtmlPlotRenderer Id="142" LineStroke="[SMSolidColorBrush]#ff3ab878" LineThickness="[double]2" />
+				</HtmlPlot>
+				<HtmlPlot HorizontalScale="[UIModel]78" Id="143" Label="[string]Plot 4" VerticalScale="[UIModel]79">
+					<HtmlPlotRenderer Id="144" LineStroke="[SMSolidColorBrush]#ff3ab878" LineThickness="[double]2" />
+				</HtmlPlot>
+				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1488" xmlns="http://www.ni.com/PlatformFramework" />
+				<HtmlLabel Height="[float]16" Id="88" IsVisualChild="[bool]False" LabelOwner="[UIModel]77" Left="[float]-32" Text="[string]Observed Data and Fitted Curve" Top="[float]44" Visible="[bool]False" Width="[float]170" />
+			</HtmlCartesianGraph>
+			<HtmlGraphTools Graph="[UIModel]77" Height="[float]30" Id="87" Left="[float]-30" Top="[float]66" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlCursorLegend Graph="[UIModel]77" Height="[float]202" Id="86" Left="[float]-32" MinWidth="[float]320" Top="[float]479" Visible="[bool]False" Width="[float]320" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlPlotLegend Graph="[UIModel]77" Height="[float]156" Id="85" Left="[float]727" MinWidth="[float]145" Top="[float]64" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlScaleLegend Graph="[UIModel]77" Height="[float]60" Id="84" Left="[float]727" MinWidth="[float]145" Top="[float]418" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
-			<WhileLoop Bounds="365 190 870 180" DiagramId="16" Id="15">
-				<LoopIteration Bounds="425 90 15 15" Id="17" />
-				<LoopCondition Bounds="845 155 15 15" Id="18" />
-				<Literal Bounds="800 110 25 15" DataType="Boolean" Facade="False Constant" Id="19" Label="20" xmlns="http://www.ni.com/MocCommon">
+			<WhileLoop Bounds="365 190 800 485" DiagramId="16" Id="15">
+				<LoopIteration Bounds="355 280 15 15" Id="17" />
+				<LoopCondition Bounds="755 450 15 15" Id="18" />
+				<Literal Bounds="710 450 25 15" DataType="Boolean" Facade="False Constant" Id="19" Label="20" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>False</p.Data>
 					<BooleanBehavior />
 				</Literal>
-				<NodeLabel AttachedTo="19" Bounds="800 128 30 15" Id="20" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="19" Bounds="675 450 30 15" Id="20" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>stop</p.Text>
 				</NodeLabel>
-				<Wire Id="21" Joints="N(19:Out)|(825,115) h(10) v(45) N(18:Input)|(845,160)" xmlns="http://www.ni.com/PlatformFramework" />
-				<DataAccessor Bounds="425 110 40 15" DataItem="75" Id="76" Label="89" xmlns="http://www.ni.com/MocCommon">
+				<Wire Id="21" Joints="N(19:Out)|(735,455) N(18:Input)|(755,455)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="165 170 40 15" DataItem="75" Id="76" Label="89" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="@2c36ef005aaa4523b19b8b5217982500" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="76" Bounds="470 110 178 14" Id="89" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="76" Bounds="210 170 178 14" Id="89" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Observed Data and Fitted Curve</p.Text>
 				</NodeLabel>
-				<Wire Id="208" Joints="N(508:R2)|(405,100) h(10) v(15) N(76:Value)|(428,115)" xmlns="http://www.ni.com/PlatformFramework" />
-				<DataAccessor Bounds="520 90 40 15" DataItem="430" Id="431" Label="436" xmlns="http://www.ni.com/MocCommon">
+				<Wire Id="208" Joints="N(508:R2)|(95,105) h(10) v(70) N(76:Value)|(168,175)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="455 280 40 15" DataItem="430" Id="431" Label="436" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="@4c6c29bb940545299b4919276089cbb6" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="431" Bounds="565 90 224 14" Id="436" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="431" Bounds="500 280 224 14" Id="436" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>"Test Sequence Results                          "</p.Text>
 				</NodeLabel>
-				<Wait Bounds="105 15 40 40" Id="22" />
-				<Literal Bounds="40 30 45 15" DataType="UInt32" Facade="Numeric" Id="23" Label="24" xmlns="http://www.ni.com/MocCommon">
+				<Wait Bounds="115 15 40 40" Id="22" />
+				<Literal Bounds="50 30 45 15" DataType="UInt32" Facade="Numeric" Id="23" Label="24" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>250</p.Data>
 					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 				</Literal>
-				<Wire Id="25" Joints="N(23:Out)|(85,35) N(22:time to wait)|(105,35)" xmlns="http://www.ni.com/PlatformFramework" />
-				<NodeLabel AttachedTo="23" Bounds="40 48 30 15" Id="24" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<Wire Id="25" Joints="N(23:Out)|(95,35) N(22:time to wait)|(115,35)" xmlns="http://www.ni.com/PlatformFramework" />
+				<NodeLabel AttachedTo="23" Bounds="50 48 30 15" Id="24" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>milliseconds to wait</p.Text>
 				</NodeLabel>
-				<MethodCall Bounds="365 75 40 40" DomainName="Application" Id="508" ResolveFailedHint="" Target="Application:Get\ Tag\.gviweb" xmlns="http://www.ni.com/MocCommon">
+				<MethodCall Bounds="55 80 40 40" DomainName="Application" Id="508" ResolveFailedHint="" Target="Application:Get\ Tag\.gviweb" xmlns="http://www.ni.com/MocCommon">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 							<Parameter Id="L0" Desc="Host" />
@@ -91,21 +158,22 @@
 					<Terminal DataType="Double[]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="@2c36ef005aaa4523b19b8b5217982500" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				</MethodCall>
-				<Literal Bounds="60 75 285 15" DataType="String" Facade="String" Id="509" Label="510" xmlns="http://www.ni.com/MocCommon">
+				<Literal Bounds="43 80 12 9" DataType="String" Facade="DockedConstantFacade" Id="509" Label="510" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>ec2-54-161-30-77.compute-1.amazonaws.com</p.Data>
 					<StringBehavior TextDisplayMode="Default" />
+					<DockedConstantFacade LabelPosition="Bottom" UndockedSize="285 15" />
 				</Literal>
-				<NodeLabel AttachedTo="509" Bounds="60 93 30 15" Id="510" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="509" Bounds="43 92 30 15" Id="510" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Host</p.Text>
 				</NodeLabel>
-				<Wire Id="511" Joints="N(509:Out)|(345,80) N(508:L0)|(365,80)" xmlns="http://www.ni.com/PlatformFramework" />
-				<DataAccessor Bounds="520 65 40 15" DataItem="212" Id="213" Label="216" xmlns="http://www.ni.com/MocCommon">
+				<Wire Facade="WireInvisibleFacade" Id="511" Joints="N(509:Out)|(328,85) v(-46) h(-603) N(508:L0)|(55,85)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="445 220 40 15" DataItem="212" Id="213" Label="216" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="213" Bounds="565 65 203 14" Id="216" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="213" Bounds="490 220 203 14" Id="216" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>"Sequence Pass/Fail                         "</p.Text>
 				</NodeLabel>
-				<MethodCall Bounds="460 55 40 50" DomainName="NI.MocCommon" Id="1478" ResolveFailedHint="" Target="Aggregate\ Test\ Data\.gviweb" xmlns="http://www.ni.com/MocCommon">
+				<MethodCall Bounds="385 210 40 50" DomainName="NI.MocCommon" Id="1478" ResolveFailedHint="" Target="Aggregate\ Test\ Data\.gviweb" xmlns="http://www.ni.com/MocCommon">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 							<Parameter Id="L0" Desc="Array" />
@@ -127,20 +195,20 @@
 					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="@4c6c29bb940545299b4919276089cbb6" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				</MethodCall>
-				<Wire Id="1479" Joints="N(503:i0)|(4,60) N(1478:L0)|(460,60)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1480" Joints="N(1060:i0)|(4,80) h(26) v(-10) N(1478:L1)|(460,70)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1481" Joints="N(508:R0)|(405,80) N(1478:L2)|(460,80)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1482" Joints="N(508:R1)|(405,90) N(1478:L3)|(460,90)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1483" Joints="N(17:Output)|(440,95) h(10) v(5) N(1478:L4)|(460,100)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1484" Joints="N(1478:R0)|(500,60) N(501:16)|(856,60)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1486" Joints="N(1478:R2)|(500,80) h(10) B(1) N(1058:16)|(856,80) B(1) v(15) N(431:Value)|(523,95)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1521" Joints="N(1478:R1)|(500,70) N(213:Value)|(523,70)" xmlns="http://www.ni.com/PlatformFramework" />
-				<RightShiftRegister Bounds="861 60 13 10" Docking="Right" Id="501" Terminals="15, 16=1484" />
-				<LeftShiftRegister Bounds="-4 60 13 10" Docking="Left" Id="503" RightRegister="501" Terminals="o0=492, i0=1479" />
-				<RightShiftRegister Bounds="861 80 13 10" Docking="Right" Id="1058" Terminals="15, 16=1486" />
-				<LeftShiftRegister Bounds="-4 80 13 10" Docking="Left" Id="1060" RightRegister="1058" Terminals="o0=1046, i0=1480" />
+				<Wire Id="1479" Joints="N(503:i0)|(4,65) h(26) v(150) N(1478:L0)|(385,215)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1480" Joints="N(1060:i0)|(4,85) h(26) v(140) N(1478:L1)|(385,225)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1481" Joints="N(508:R0)|(95,85) h(170) v(150) N(1478:L2)|(385,235)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1482" Joints="N(508:R1)|(95,95) h(135) v(150) N(1478:L3)|(385,245)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1483" Joints="N(17:Output)|(370,285) h(5) v(-30) N(1478:L4)|(385,255)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1484" Joints="N(1478:R0)|(425,215) h(15) v(-150) N(501:16)|(786,65)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1486" Joints="N(1478:R2)|(425,235) h(10) B(1) v(-150) N(1058:16)|(786,85) B(1) v(50) N(431:Value)|(458,285)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1521" Joints="N(1478:R1)|(425,225) N(213:Value)|(448,225)" xmlns="http://www.ni.com/PlatformFramework" />
+				<RightShiftRegister Bounds="791 65 13 10" Docking="Right" Id="501" Terminals="15, 16=1484" />
+				<LeftShiftRegister Bounds="-4 65 13 10" Docking="Left" Id="503" RightRegister="501" Terminals="o0=492, i0=1479" />
+				<RightShiftRegister Bounds="791 85 13 10" Docking="Right" Id="1058" Terminals="15, 16=1486" />
+				<LeftShiftRegister Bounds="-4 85 13 10" Docking="Left" Id="1060" RightRegister="1058" Terminals="o0=1046, i0=1480" />
 			</WhileLoop>
-			<ArrayLiteral Bounds="349 250 12 9" DataType="Boolean[]" Facade="DockedConstantFacade" Id="490" xmlns="http://www.ni.com/MocCommon">
+			<ArrayLiteral Bounds="349 256 12 9" DataType="Boolean[]" Facade="DockedConstantFacade" Id="490" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>
 					<Array Lengths="8" IsBinary="True" Compression="GZip">
 						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMDhBmxIoYuQHAM6icMwAAAA==</BinaryElements>
@@ -155,8 +223,8 @@
 				</Literal>
 				<DockedConstantFacade UndockedSize="76 142" />
 			</ArrayLiteral>
-			<Wire Facade="WireInvisibleFacade" Id="492" Joints="N(490:Out)|(425,255) N(503:o0)|(361,255)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
-			<ArrayLiteral Bounds="349 270 12 9" DataType="@4c6c29bb940545299b4919276089cbb6" Facade="DockedConstantFacade" Id="764" Label="774" xmlns="http://www.ni.com/MocCommon">
+			<Wire Facade="WireInvisibleFacade" Id="492" Joints="N(490:Out)|(361,261) N(503:o0)|(361,260)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+			<ArrayLiteral Bounds="349 276 12 9" DataType="@4c6c29bb940545299b4919276089cbb6" Facade="DockedConstantFacade" Id="764" Label="774" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>null</p.Data>
 				<ArrayBehavior ElementType="@54adb7dfbbfe4d7cba13cdd4d650c5d8" IndexEditorWidth="42">
 					<p.DefaultElementValue>0x0_0x0_0x0_False_</p.DefaultElementValue>
@@ -195,79 +263,15 @@
 				</ClusterLiteral>
 				<DockedConstantFacade LabelPosition="Bottom" UndockedSize="122 94" />
 			</ArrayLiteral>
-			<NodeLabel AttachedTo="764" Bounds="349 282 30 15" Id="774" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="764" Bounds="349 288 30 15" Id="774" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Test Sequence Results</p.Text>
 			</NodeLabel>
-			<Wire Facade="WireInvisibleFacade" Id="1046" Joints="N(764:Out)|(361,275) N(1060:o0)|(361,275)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Facade="WireInvisibleFacade" Id="1046" Joints="N(764:Out)|(361,281) N(1060:o0)|(361,280)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
-		<HtmlFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" UpdatedRootPage="[string]&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xA;&#xA;    &lt;head&gt;&#xA;&#xA;        &lt;meta charset=&quot;utf-8&quot;&gt;&#xA;        &lt;!---Read only section. Source panel edits to these document properties will not be persisted--&gt;&#xA;        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xA;        &lt;title&gt;Main&lt;/title&gt;&#xA;        &lt;!---End read only section. Additional scripts or document properties can be added outside this section--&gt;&#xA;&#xA;        &lt;style&gt;&#xA;            /* Read only section. Source panel edits to the content of this style tag will not be persisted */&#xA;            &#xA;            [data-ni-base-style] {&#xA;                position: absolute;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='88'] {&#xA;                left: 4px;&#xA;                top: 116px;&#xA;                width: 170px;&#xA;                height: 16px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-graph-tools[ni-control-id='87'] {&#xA;                left: 6px;&#xA;                top: 138px;&#xA;                width: 120px;&#xA;                height: 30px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-cursor-legend[ni-control-id='86'] {&#xA;                left: 4px;&#xA;                top: 551px;&#xA;                width: 320px;&#xA;                height: 202px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-plot-legend[ni-control-id='85'] {&#xA;                left: 763px;&#xA;                top: 136px;&#xA;                width: 145px;&#xA;                height: 156px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-scale-legend[ni-control-id='84'] {&#xA;                left: 763px;&#xA;                top: 490px;&#xA;                width: 145px;&#xA;                height: 60px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-cartesian-graph[ni-control-id='77'] {&#xA;                left: 4px;&#xA;                top: 136px;&#xA;                width: 760px;&#xA;                height: 416px;&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-cartesian-axis[ni-control-id='78'] {&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-cartesian-axis[ni-control-id='79'] {&#xA;                font-size: 19px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-cartesian-plot[ni-control-id='80'] {&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-cartesian-plot[ni-control-id='139'] {&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-cartesian-plot[ni-control-id='141'] {&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-cartesian-plot[ni-control-id='143'] {&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='1534'] {&#xA;                left: 80px;&#xA;                top: 585px;&#xA;                width: 320px;&#xA;                height: 43px;&#xA;                font-size: 32px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                color: rgba(255, 255, 255, 1);&#xA;            }&#xA;            &#xA;            ni-url-image[ni-control-id='1541'] {&#xA;                left: 128px;&#xA;                top: -5px;&#xA;                width: 512px;&#xA;                height: 176px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='1542'] {&#xA;                left: 128px;&#xA;                top: -25px;&#xA;                width: 58px;&#xA;                height: 16px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            ni-data-grid[ni-control-id='432'] {&#xA;                left: 416px;&#xA;                top: 624px;&#xA;                width: 325px;&#xA;                height: 253px;&#xA;                font-size: 16px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='438'] {&#xA;                font-size: 16px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-numeric-text-box[ni-control-id='440'] {&#xA;                font-size: 16px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            jqx-led[ni-control-id='445'] {&#xA;                font-size: 16px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='435'] {&#xA;                left: 416px;&#xA;                top: 606px;&#xA;                width: 210px;&#xA;                height: 14px;&#xA;                font-size: 12px;&#xA;                font-family: Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            jqx-led[ni-control-id='214'] {&#xA;                left: 144px;&#xA;                top: 672px;&#xA;                width: 168px;&#xA;                height: 168px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            ni-label[ni-control-id='215'] {&#xA;                left: 144px;&#xA;                top: 625px;&#xA;                width: 485px;&#xA;                height: 43px;&#xA;                font-size: 32px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                color: rgba(43, 48, 51, 1);&#xA;            }&#xA;            &#xA;            jqx-led[ni-control-id='214'] .jqx-true-content-container {&#xA;                background: rgba(58, 184, 120, 1)&#xA;            }&#xA;            /* End read only section. To add additional styles, add a new style tag after this one. */&#xA;        &lt;/style&gt;&#xA;    &lt;/head&gt;&#xA;    &lt;link href=&quot;keynote-styles.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;&#xA;    &lt;body&gt;&#xA;        &lt;div id=&quot;ni-outdated-browser-message&quot; style=&quot;display:none&quot;&gt;This browser is reporting compatibility with older browser technologies that may perform poorly if it all.&lt;/div&gt;&#xA;        &lt;div id=&quot;ni-failed-to-load-vireo-source&quot; style=&quot;display:none&quot;&gt;Unable to load required dependencies. Please verify all WebVI files are available and served using an http server or use a browser that can load files directly from the filesystem.&lt;/div&gt;&#xA;        &lt;section id=&quot;FrontPanelCanvas&quot;&gt;&#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;            &#xA;&#xA;        &lt;/section&gt;&#xA;    &lt;/body&gt;&#xA;&#xA;&lt;/html&gt;" Width="[float]768" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
-			<HtmlLabel Height="[float]16" Id="88" LabelOwner="[UIModel]77" Left="[float]4" Text="[string]Observed Data and Fitted Curve" Top="[float]123" Visible="[bool]False" Width="[float]170" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlGraphTools Graph="[UIModel]77" Height="[float]30" Id="87" Left="[float]6" Top="[float]145" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlCursorLegend Graph="[UIModel]77" Height="[float]202" Id="86" Left="[float]4" MinWidth="[float]320" Top="[float]558" Visible="[bool]False" Width="[float]320" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlPlotLegend Graph="[UIModel]77" Height="[float]156" Id="85" Left="[float]763" MinWidth="[float]145" Top="[float]143" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlScaleLegend Graph="[UIModel]77" Height="[float]60" Id="84" Left="[float]763" MinWidth="[float]145" Top="[float]497" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlCartesianGraph DataSource="{DataItemBinding Id=75}" DataSourceType="[Type]@2c36ef005aaa4523b19b8b5217982500" Height="[float]416" Id="77" Label="[UIModel]88" Left="[float]4" TabIndex="[int]1" Top="[float]143" Width="[float]760" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<HtmlAxis Adjuster="[RangeAdjuster]ContinuousChart" ContentFont="1489" Id="78" Label="[string]Time" LabelFont="1490" MajorDivisions="[UIModel]81" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
-					<HtmlRangeLabeledDivisions Id="81" LabelPresenter="[string]LVRelativeSeconds:0.######" />
-					<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1489" xmlns="http://www.ni.com/PlatformFramework" />
-					<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1490" xmlns="http://www.ni.com/PlatformFramework" />
-				</HtmlAxis>
-				<HtmlAxis Adjuster="[RangeAdjuster]FitVisibleLoosely" ContentFont="1491" Id="79" Label="[string]Amplitude" LabelFont="1492" MajorDivisions="[UIModel]82" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
-					<HtmlRangeLabeledDivisions Id="82" LabelPresenter="[string]LVRelativeSeconds:G6&gt;&gt;0.000E+0" />
-					<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1491" xmlns="http://www.ni.com/PlatformFramework" />
-					<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1492" xmlns="http://www.ni.com/PlatformFramework" />
-				</HtmlAxis>
-				<HtmlPlot HorizontalScale="[UIModel]78" Id="80" Label="[string]Plot" VerticalScale="[UIModel]79">
-					<HtmlPlotRenderer Id="83" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ffffffff" PointShape="[PointShape]Cross" />
-				</HtmlPlot>
-				<HtmlPlot HorizontalScale="[UIModel]78" Id="139" Label="[string]Plot 2" VerticalScale="[UIModel]79">
-					<HtmlPlotRenderer Id="140" LineStroke="[SMSolidColorBrush]#ff00bff3" LineThickness="[double]2" />
-				</HtmlPlot>
-				<HtmlPlot HorizontalScale="[UIModel]78" Id="141" Label="[string]Plot 3" VerticalScale="[UIModel]79">
-					<HtmlPlotRenderer Id="142" LineStroke="[SMSolidColorBrush]#ff3ab878" LineThickness="[double]2" />
-				</HtmlPlot>
-				<HtmlPlot HorizontalScale="[UIModel]78" Id="143" Label="[string]Plot 4" VerticalScale="[UIModel]79">
-					<HtmlPlotRenderer Id="144" LineStroke="[SMSolidColorBrush]#ff3ab878" LineThickness="[double]2" />
-				</HtmlPlot>
-				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1488" xmlns="http://www.ni.com/PlatformFramework" />
-			</HtmlCartesianGraph>
-			<HtmlText BaseName="[string]Text" Foreground="[SMColor]#ffffffff" Height="[float]43" Id="1534" Left="[float]80" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Sequence Pass/Fail" TextWrapping="[TextWrapping]Wrap" Top="[float]585" Width="[float]320" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+		<HtmlFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" UpdatedRootPage="[string]&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xA;&#xA;    &lt;head&gt;&#xA;&#xA;        &lt;meta charset=&quot;utf-8&quot;&gt;&#xA;        &lt;!---Read only section. Source panel edits to these document properties will not be persisted--&gt;&#xA;        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xA;        &lt;title&gt;Main&lt;/title&gt;&#xA;        &lt;!---End read only section. Additional scripts or document properties can be added outside this section--&gt;&#xA;&#xA;        &lt;style&gt;&#xA;            /* Read only section. Source panel edits to the content of this style tag will not be persisted */&#xA;            &#xA;            [data-ni-base-style] {&#xA;                position: absolute;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='1534'] {&#xA;                left: 80px;&#xA;                top: 582px;&#xA;                width: 320px;&#xA;                height: 43px;&#xA;                font-size: 32px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                color: rgba(255, 255, 255, 1);&#xA;            }&#xA;            /* End read only section. To add additional styles, add a new style tag after this one. */&#xA;        &lt;/style&gt;&#xA;    &lt;/head&gt;&#xA;    &lt;!--&lt;link href=&quot;keynote-styles.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;--&gt;&#xA;    &lt;body&gt;&#xA;        &lt;div id=&quot;ni-outdated-browser-message&quot; style=&quot;display:none&quot;&gt;This browser is reporting compatibility with older browser technologies that may perform poorly if it all.&lt;/div&gt;&#xA;        &lt;div id=&quot;ni-failed-to-load-vireo-source&quot; style=&quot;display:none&quot;&gt;Unable to load required dependencies. Please verify all WebVI files are available and served using an http server or use a browser that can load files directly from the filesystem.&lt;/div&gt;&#xA;        &lt;section id=&quot;FrontPanelCanvas&quot;&gt;&#xA;&#xA;            &#xA;&#xA;        &lt;/section&gt;&#xA;    &lt;/body&gt;&#xA;&#xA;&lt;/html&gt;" Width="[float]768" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<HtmlText BaseName="[string]Text" Foreground="[SMColor]#ffffffff" Height="[float]43" Id="1534" Left="[float]80" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Sequence Pass/Fail" TextWrapping="[TextWrapping]Wrap" Top="[float]582" Width="[float]320" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<FontSetting FontFamily="Segoe UI" FontSize="24" Id="1535" xmlns="http://www.ni.com/PlatformFramework" />
 			</HtmlText>
-			<HtmlUrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]176" Id="1541" Label="[UIModel]1542" Left="[float]128" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=1539}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]-5" Width="[float]512" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="1542" LabelOwner="[UIModel]1541" Left="[float]128" Text="[string]URL Image" Top="[float]-25" Visible="[bool]False" Width="[float]58" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlDataGrid AlternatingRowColors="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchNoneColumns" Height="[float]253" Id="432" IsReadOnly="[bool]True" Label="[UIModel]435" Left="[float]400" MinHeight="[float]100" MinRowHeight="[float]29" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]25" ShowAddRowsToolBar="[bool]False" TabIndex="[int]2" Top="[float]592" Type="[Type]@4c6c29bb940545299b4919276089cbb6" Value="{DataItemBinding Id=430}" Width="[float]325" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<HtmlDataGridColumn ColumnElement="[UIModel]438" ContentFont="1495" Header="[string]BW (MHz)" Id="433" Index="[int]0" IsReadOnly="[bool]True" ValueType="[Type]Double" Width="[DataGridLength]75">
-					<HtmlNumericText Height="[float]24" Id="438" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]0" MinHeight="[float]24" Top="[float]0" ValueFormatter="[string]LV:G6">
-						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1496" xmlns="http://www.ni.com/PlatformFramework" />
-					</HtmlNumericText>
-					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1495" xmlns="http://www.ni.com/PlatformFramework" />
-				</HtmlDataGridColumn>
-				<HtmlDataGridColumn ColumnElement="[UIModel]440" ContentFont="1497" Header="[string]SNR" Id="439" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]Double" Width="[DataGridLength]75">
-					<HtmlNumericText Id="440" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]0" MinHeight="[float]24" Top="[float]0" ValueFormatter="[string]LV:G6">
-						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1498" xmlns="http://www.ni.com/PlatformFramework" />
-					</HtmlNumericText>
-					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1497" xmlns="http://www.ni.com/PlatformFramework" />
-				</HtmlDataGridColumn>
-				<HtmlDataGridColumn ColumnElement="[UIModel]446" ContentFont="1499" Header="[string]Power %" Id="441" Index="[int]2" IsReadOnly="[bool]True" ValueType="[Type]Double" Width="[DataGridLength]100">
-					<HtmlLVLinearProgressBar Id="446" Left="[float]0" Maximum="[double]100" MinHeight="[float]8" MinWidth="[float]40" Minimum="[double]0" Top="[float]0" Width="[float]40" />
-					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1499" xmlns="http://www.ni.com/PlatformFramework" />
-				</HtmlDataGridColumn>
-				<HtmlDataGridColumn ColumnElement="[UIModel]445" ContentFont="1500" Header="[string]Pass?" Id="443" Index="[int]3" IsReadOnly="[bool]True" ValueType="[Type]Boolean" Width="[DataGridLength]75">
-					<HtmlBooleanLED Height="[float]16" Id="445" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]16" MinWidth="[float]16" Top="[float]0" Width="[float]16">
-						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1501" xmlns="http://www.ni.com/PlatformFramework" />
-					</HtmlBooleanLED>
-					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1500" xmlns="http://www.ni.com/PlatformFramework" />
-				</HtmlDataGridColumn>
-				<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1494" xmlns="http://www.ni.com/PlatformFramework" />
-			</HtmlDataGrid>
-			<HtmlLabel Height="[float]14" Id="435" LabelOwner="[UIModel]432" Left="[float]400" Text="[string]Test Sequence Results                          " Top="[float]574" Visible="[bool]False" Width="[float]210" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<FontSetting FontFamily="Arial" FontSize="9" Id="1493" xmlns="http://www.ni.com/PlatformFramework" />
-			</HtmlLabel>
-			<HtmlBooleanLED BaseName="[string]LED" FalseContent="[string]Off" Height="[float]168" Highlight="[SMSolidColorBrush]#ff3ab878" Id="214" IsReadOnly="[bool]True" Label="[UIModel]215" Left="[float]128" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Round" TabIndex="[int]3" Top="[float]672" TrueContent="[string]On" Value="{DataItemBinding Id=212}" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]43" Id="215" LabelOwner="[UIModel]214" Left="[float]128" Text="[string]Sequence Pass/Fail                         " Top="[float]625" Visible="[bool]False" Width="[float]485" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<FontSetting FontFamily="Segoe UI" FontSize="24" Id="1533" xmlns="http://www.ni.com/PlatformFramework" />
-			</HtmlLabel>
 		</HtmlFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="@2c36ef005aaa4523b19b8b5217982500" Id="75" Name="Observed Data and Fitted Curve" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
@@ -283,11 +287,11 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="2c36ef005aaa4523b19b8b5217982500">
-			<VariableArray MultiDimensional="" DereferenceType="@8a06d7533601430cb896845f5498f6d9" />
-		</p.TypeReference>
 		<p.TypeReference TypeId="4c6c29bb940545299b4919276089cbb6">
 			<VariableArray DereferenceType="@54adb7dfbbfe4d7cba13cdd4d650c5d8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="2c36ef005aaa4523b19b8b5217982500">
+			<VariableArray MultiDimensional="" DereferenceType="@8a06d7533601430cb896845f5498f6d9" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="54adb7dfbbfe4d7cba13cdd4d650c5d8">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -317,13 +321,17 @@
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
 						<IconPanel Height="[float]40" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="Footer" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
 								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Get Tag" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
-									<FontSetting FontFamily="Verdana" FontSize="10.5" />
-								</FileNameText>
+								<Rectangle Fill="[SMSolidColorBrush]#ffebebeb" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,0 C 0,1.1 0.9,2 2,2 L 2,0 L 0,0 Z" Fill="[SMSolidColorBrush]#ff3ab878" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#ff3ab878" Height="[float]2" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]NaN" />
+								<Path Data="[PathGeometry]M 2,0 C 2,1.1 1.1,2 0,2 L 0,0 L 2,0 Z" Fill="[SMSolidColorBrush]#ff3ab878" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
 							</IconTemplate>
+							<Path Data="[PathGeometry]M 10.35294,3.2 L 10.35294,3.84 L 7.117648,3.84 L 7.117648,6.4 L 6.470588,6.4 L 6.470588,3.2 L 10.35294,3.2 Z M 9.058825,7.04704 C 10.131,7.04704 11,7.90592 11,8.967039 L 11,12.16704 C 11,13.22688 10.131,14.08 9.058825,14.08 L 6.470588,14.08 L 6.469941,15.40032 L 9.058825,15.40032 L 9.058825,16 L 1.941177,16 L 1.941177,15.40032 L 4.529412,15.36 L 4.529412,14.08 L 1.941177,14.08 C 0.8690001,14.08 0,13.22688 0,12.16704 L 0,8.967039 C 0,7.90592 0.8690001,7.04704 1.941177,7.04704 L 9.058825,7.04704 Z M 9.058825,8.32 L 1.941177,8.32 C 1.584,8.32 1.294118,8.61376 1.294118,8.967039 L 1.294118,12.16704 C 1.294118,12.52032 1.584,12.80704 1.941177,12.80704 L 9.058825,12.80704 C 9.416,12.80704 9.705883,12.52032 9.705883,12.16704 L 9.705883,8.967039 C 9.705883,8.61376 9.416,8.32704 9.058825,8.32704  M 20.05882,0 C 21.131,0 22,0.8595201 22,1.92 L 22,5.12 C 22,6.17984 21.131,7.04 20.05882,7.04 L 17.46994,7.04 L 17.46994,8.35328 L 20.05882,8.35328 L 20.05882,8.95296 L 12.94118,8.95296 L 12.94118,8.35328 L 15.52941,8.32 L 15.52941,7.04 L 12.94118,7.04 C 11.869,7.04 11,6.17984 11,5.12 L 11,1.92 C 11,0.8595201 11.869,0 12.94118,0 L 20.05882,0 Z M 20.05882,1.28 L 12.94118,1.28 C 12.584,1.28 12.29412,1.56672 12.29412,1.92 L 12.29412,5.12 C 12.29412,5.47328 12.584,5.76 12.94118,5.76 L 20.05882,5.76 C 20.416,5.76 20.70588,5.47328 20.70588,5.12 L 20.70588,1.92 C 20.70588,1.56672 20.416,1.28 20.05882,1.28 " EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]16" Left="[float]10" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]18" Width="[float]22" />
+							<Text Height="[float]15" Left="[float]7" Text="[string]GET" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]2" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]25">
+								<FontSetting FontFamily="Verdana" FontSize="9" />
+							</Text>
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]WebApp.gcomp" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -335,13 +343,19 @@
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 50">
 						<IconPanel Height="[float]50" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="Corner" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
 								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-								<FileNameText Attached="[bool]True" Height="[float]46" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Aggregate Test Data" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
-									<FontSetting FontFamily="Verdana" FontSize="6" />
-								</FileNameText>
+								<Rectangle Fill="[SMSolidColorBrush]#ffebebeb" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,0 C 0,1.1 0.9,2 2,2 L 2,0 L 0,0 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]NaN" />
+								<Path Data="[PathGeometry]M 2,0 C 2,1.1 1.1,2 0,2 L 0,0 L 2,0 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]NaN" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,4,2,4" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]2" />
+								<Path Data="[PathGeometry]M 2,2 C 2,1.1 1.1,0 0,0 L 0,2 L 2,2 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+								<Path Data="[PathGeometry]M 0,12 L 12,0 L 12,12 L 0,12 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]12" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,4,4,4" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]12" />
 							</IconTemplate>
+							<Path Data="[PathGeometry]M 7,0 L 7,5 L 12,5 L 12,6.998 L 7,7 L 7,12 L 5.002,12 L 5.002,6.998 L 0.002,6.998 L 0,5 L 5,5 L 5.002,0 L 7,0 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]12" Left="[float]14" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]19" Width="[float]12" />
+							<Path Data="[PathGeometry]M 20,0 L 1,0 C 0.45,0 0,0.45 0,1 L 0,8 C 0,8.55 0.45,9 1,9 L 20,9 C 20.55,9 21,8.55 21,8 L 21,1 C 21,0.45 20.55,0 20,0  M 3.5,6 C 2.672,6 2,5.328 2,4.5 C 2,3.672 2.672,3 3.5,3 C 4.328,3 5,3.672 5,4.5 C 5,5.328 4.328,6 3.5,6  M 8.5,7 C 7.119,7 6,5.881 6,4.5 C 6,3.119 7.119,2 8.5,2 C 9.881,2 11,3.119 11,4.5 C 11,5.881 9.881,7 8.5,7  M 15.5,8 C 13.567,8 12,6.433 12,4.5 C 12,2.567 13.567,1 15.5,1 C 17.433,1 19,2.567 19,4.5 C 19,6.433 17.433,8 15.5,8 " EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]9" Left="[float]9" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]5" Width="[float]21" />
+							<Path Data="[PathGeometry]M 0.4230769,0 L 0.4230769,1.6 L 0.7205,1.6 C 0.2847308,1.93 0,2.4312 0,3 C 0,3.994 0.8525001,4.8 1.903846,4.8 C 2.506731,4.8 3.037269,4.53 3.386308,4.1168 L 4.653846,6 L 4.653846,10 L 6.769231,8.400001 L 6.769231,6 L 9.730769,1.6 L 11,1.6 L 11,0 L 0.4230769,0 Z M 1.903846,4 C 1.320846,4 0.8461539,3.5512 0.8461539,3 C 0.8461539,2.4484 1.320846,2 1.903846,2 C 1.925,2 1.944885,2.0048 1.965615,2.006 L 2.884538,3.3708 C 2.728,3.7388 2.348077,4 1.903846,4 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Left="[float]14" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]35" Width="[float]11" />
 							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]WebApp.gcomp" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
