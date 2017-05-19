@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="CFDE79E3B94786140C718820AC9EBE0E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="FB79A994375A3650C764C17B52C6EF62" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="Html VI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.0.1.2897" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
-		<ApplicationVersionInfo Build="5.0.1.2897" Name="LabVIEW NXG" Version="2.0.0" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3237" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3237" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3237" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3237" FeatureSetName="Html VI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3237" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ApplicationVersionInfo Build="5.0.1.3237" Name="LabVIEW NXG" Version="2.0.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -79,7 +79,7 @@
 					<FontSetting FontFamily="Arial" FontSize="9" Id="1493" xmlns="http://www.ni.com/PlatformFramework" />
 				</HtmlLabel>
 			</HtmlDataGrid>
-			<HtmlCartesianGraph DataSource="{DataItemBinding Id=75}" DataSourceType="[Type]@2c36ef005aaa4523b19b8b5217982500" Height="[float]416" Id="77" Label="[UIModel]88" Left="[float]-32" TabIndex="[int]3" Top="[float]64" Width="[float]760" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<HtmlCartesianGraph DataSource="{DataItemBinding Id=75}" DataSourceType="[Type]@2c36ef005aaa4523b19b8b5217982500" Height="[float]416" Id="77" Label="[UIModel]88" Left="[float]0" TabIndex="[int]3" Top="[float]256" Width="[float]760" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<HtmlAxis Adjuster="[RangeAdjuster]ContinuousChart" ContentFont="1489" Id="78" Label="[string]Time" LabelFont="1490" MajorDivisions="[UIModel]81" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 					<HtmlRangeLabeledDivisions Id="81" LabelPresenter="[string]LVRelativeSeconds:0.######" />
 					<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1489" xmlns="http://www.ni.com/PlatformFramework" />
@@ -103,48 +103,48 @@
 					<HtmlPlotRenderer Id="144" LineStroke="[SMSolidColorBrush]#ff3ab878" LineThickness="[double]2" />
 				</HtmlPlot>
 				<FontSetting FontFamily="Segoe UI" FontSize="14" Id="1488" xmlns="http://www.ni.com/PlatformFramework" />
-				<HtmlLabel Height="[float]16" Id="88" IsVisualChild="[bool]False" LabelOwner="[UIModel]77" Left="[float]-32" Text="[string]Observed Data and Fitted Curve" Top="[float]44" Visible="[bool]False" Width="[float]170" />
+				<HtmlLabel Height="[float]16" Id="88" IsVisualChild="[bool]False" LabelOwner="[UIModel]77" Left="[float]0" Text="[string]Observed Data and Fitted Curve" Top="[float]236" Visible="[bool]False" Width="[float]170" />
 			</HtmlCartesianGraph>
-			<HtmlGraphTools Graph="[UIModel]77" Height="[float]30" Id="87" Left="[float]-30" Top="[float]66" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlCursorLegend Graph="[UIModel]77" Height="[float]202" Id="86" Left="[float]-32" MinWidth="[float]320" Top="[float]479" Visible="[bool]False" Width="[float]320" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlPlotLegend Graph="[UIModel]77" Height="[float]156" Id="85" Left="[float]727" MinWidth="[float]145" Top="[float]64" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlScaleLegend Graph="[UIModel]77" Height="[float]60" Id="84" Left="[float]727" MinWidth="[float]145" Top="[float]418" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlGraphTools Graph="[UIModel]77" Height="[float]30" Id="87" Left="[float]2" Top="[float]258" Visible="[bool]False" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlCursorLegend Graph="[UIModel]77" Height="[float]202" Id="86" Left="[float]0" MinWidth="[float]320" Top="[float]671" Visible="[bool]False" Width="[float]320" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlPlotLegend Graph="[UIModel]77" Height="[float]156" Id="85" Left="[float]759" MinWidth="[float]145" Top="[float]256" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlScaleLegend Graph="[UIModel]77" Height="[float]60" Id="84" Left="[float]759" MinWidth="[float]145" Top="[float]610" Visible="[bool]False" Width="[float]145" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
-			<WhileLoop Bounds="365 190 800 485" DiagramId="16" Id="15">
-				<LoopIteration Bounds="355 280 15 15" Id="17" />
-				<LoopCondition Bounds="755 450 15 15" Id="18" />
-				<Literal Bounds="710 450 25 15" DataType="Boolean" Facade="False Constant" Id="19" Label="20" xmlns="http://www.ni.com/MocCommon">
+			<WhileLoop Bounds="580 240 534 270" DiagramId="16" Id="15">
+				<LoopIteration Bounds="115 95 15 15" Id="17" />
+				<LoopCondition Bounds="420 215 15 15" Id="18" />
+				<Literal Bounds="375 215 25 15" DataType="Boolean" Facade="False Constant" Id="19" Label="20" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>False</p.Data>
 					<BooleanBehavior />
 				</Literal>
-				<NodeLabel AttachedTo="19" Bounds="675 450 30 15" Id="20" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="19" Bounds="375 233 30 15" Id="20" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>stop</p.Text>
 				</NodeLabel>
-				<Wire Id="21" Joints="N(19:Out)|(735,455) N(18:Input)|(755,455)" xmlns="http://www.ni.com/PlatformFramework" />
-				<DataAccessor Bounds="165 170 40 15" DataItem="75" Id="76" Label="89" xmlns="http://www.ni.com/MocCommon">
+				<Wire Id="21" Joints="N(19:Out)|(400,220) N(18:Input)|(420,220)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="255 170 40 15" DataItem="75" Id="76" Label="89" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="@2c36ef005aaa4523b19b8b5217982500" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="76" Bounds="210 170 178 14" Id="89" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="76" Bounds="300 170 178 14" Id="89" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Observed Data and Fitted Curve</p.Text>
 				</NodeLabel>
-				<Wire Id="208" Joints="N(508:R2)|(95,105) h(10) v(70) N(76:Value)|(168,175)" xmlns="http://www.ni.com/PlatformFramework" />
-				<DataAccessor Bounds="455 280 40 15" DataItem="430" Id="431" Label="436" xmlns="http://www.ni.com/MocCommon">
+				<Wire Id="208" Joints="N(508:R2)|(80,175) N(76:Value)|(258,175)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="255 150 40 15" DataItem="430" Id="431" Label="436" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="@4c6c29bb940545299b4919276089cbb6" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="431" Bounds="500 280 224 14" Id="436" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="431" Bounds="300 150 224 14" Id="436" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>"Test Sequence Results                          "</p.Text>
 				</NodeLabel>
-				<Wait Bounds="115 15 40 40" Id="22" />
-				<Literal Bounds="50 30 45 15" DataType="UInt32" Facade="Numeric" Id="23" Label="24" xmlns="http://www.ni.com/MocCommon">
+				<Wait Bounds="470 5 40 40" Id="22" />
+				<Literal Bounds="405 20 45 15" DataType="UInt32" Facade="Numeric" Id="23" Label="24" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>250</p.Data>
 					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 				</Literal>
-				<Wire Id="25" Joints="N(23:Out)|(95,35) N(22:time to wait)|(115,35)" xmlns="http://www.ni.com/PlatformFramework" />
-				<NodeLabel AttachedTo="23" Bounds="50 48 30 15" Id="24" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<Wire Id="25" Joints="N(23:Out)|(450,25) N(22:time to wait)|(470,25)" xmlns="http://www.ni.com/PlatformFramework" />
+				<NodeLabel AttachedTo="23" Bounds="405 38 30 15" Id="24" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>milliseconds to wait</p.Text>
 				</NodeLabel>
-				<MethodCall Bounds="55 80 40 40" DomainName="Application" Id="508" ResolveFailedHint="" Target="Application:Get\ Tag\.gviweb" xmlns="http://www.ni.com/MocCommon">
+				<MethodCall Bounds="40 150 40 40" DomainName="Application" Id="508" ResolveFailedHint="" Target="Application:Get\ Tag\.gviweb" xmlns="http://www.ni.com/MocCommon">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 							<Parameter Id="L0" Desc="Host" />
@@ -158,22 +158,22 @@
 					<Terminal DataType="Double[]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="@2c36ef005aaa4523b19b8b5217982500" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				</MethodCall>
-				<Literal Bounds="43 80 12 9" DataType="String" Facade="DockedConstantFacade" Id="509" Label="510" xmlns="http://www.ni.com/MocCommon">
+				<Literal Bounds="28 150 12 9" DataType="String" Facade="DockedConstantFacade" Id="509" Label="510" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>ec2-54-161-30-77.compute-1.amazonaws.com</p.Data>
 					<StringBehavior TextDisplayMode="Default" />
 					<DockedConstantFacade LabelPosition="Bottom" UndockedSize="285 15" />
 				</Literal>
-				<NodeLabel AttachedTo="509" Bounds="43 92 30 15" Id="510" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="509" Bounds="28 162 30 15" Id="510" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Host</p.Text>
 				</NodeLabel>
-				<Wire Facade="WireInvisibleFacade" Id="511" Joints="N(509:Out)|(328,85) v(-46) h(-603) N(508:L0)|(55,85)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
-				<DataAccessor Bounds="445 220 40 15" DataItem="212" Id="213" Label="216" xmlns="http://www.ni.com/MocCommon">
+				<Wire Facade="WireInvisibleFacade" Id="511" Joints="N(509:Out)|(40,155) N(508:L0)|(40,155)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="255 125 40 15" DataItem="212" Id="213" Label="216" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="213" Bounds="490 220 203 14" Id="216" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="213" Bounds="300 125 203 14" Id="216" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>"Sequence Pass/Fail                         "</p.Text>
 				</NodeLabel>
-				<MethodCall Bounds="385 210 40 50" DomainName="NI.MocCommon" Id="1478" ResolveFailedHint="" Target="Aggregate\ Test\ Data\.gviweb" xmlns="http://www.ni.com/MocCommon">
+				<MethodCall Bounds="120 60 40 50" DomainName="NI.MocCommon" Id="1478" ResolveFailedHint="" Target="Aggregate\ Test\ Data\.gviweb" xmlns="http://www.ni.com/MocCommon">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 							<Parameter Id="L0" Desc="Array" />
@@ -195,20 +195,20 @@
 					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="@4c6c29bb940545299b4919276089cbb6" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				</MethodCall>
-				<Wire Id="1479" Joints="N(503:i0)|(4,65) h(26) v(150) N(1478:L0)|(385,215)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1480" Joints="N(1060:i0)|(4,85) h(26) v(140) N(1478:L1)|(385,225)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1481" Joints="N(508:R0)|(95,85) h(170) v(150) N(1478:L2)|(385,235)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1482" Joints="N(508:R1)|(95,95) h(135) v(150) N(1478:L3)|(385,245)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1483" Joints="N(17:Output)|(370,285) h(5) v(-30) N(1478:L4)|(385,255)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1484" Joints="N(1478:R0)|(425,215) h(15) v(-150) N(501:16)|(786,65)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1486" Joints="N(1478:R2)|(425,235) h(10) B(1) v(-150) N(1058:16)|(786,85) B(1) v(50) N(431:Value)|(458,285)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1521" Joints="N(1478:R1)|(425,225) N(213:Value)|(448,225)" xmlns="http://www.ni.com/PlatformFramework" />
-				<RightShiftRegister Bounds="791 65 13 10" Docking="Right" Id="501" Terminals="15, 16=1484" />
+				<Wire Id="1479" Joints="N(503:i0)|(4,65) N(1478:L0)|(120,65)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1480" Joints="N(1060:i0)|(4,85) h(51) v(-10) N(1478:L1)|(120,75)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1481" Joints="N(508:R0)|(80,155) h(15) v(-70) N(1478:L2)|(120,85)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1482" Joints="N(508:R1)|(80,165) h(30) v(-70) N(1478:L3)|(120,95)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1483" Joints="N(17:Output)|(130,100) v(5) N(1478:L4)|(120,105)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1484" Joints="N(1478:R0)|(160,65) N(501:16)|(520,65)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1486" Joints="N(1478:R2)|(160,85) h(70) B(1) N(1058:16)|(520,85) B(1) v(70) N(431:Value)|(258,155)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1521" Joints="N(1478:R1)|(160,75) h(90) v(55) N(213:Value)|(258,130)" xmlns="http://www.ni.com/PlatformFramework" />
+				<RightShiftRegister Bounds="525 65 13 10" Docking="Right" Id="501" Terminals="15, 16=1484" />
 				<LeftShiftRegister Bounds="-4 65 13 10" Docking="Left" Id="503" RightRegister="501" Terminals="o0=492, i0=1479" />
-				<RightShiftRegister Bounds="791 85 13 10" Docking="Right" Id="1058" Terminals="15, 16=1486" />
+				<RightShiftRegister Bounds="525 85 13 10" Docking="Right" Id="1058" Terminals="15, 16=1486" />
 				<LeftShiftRegister Bounds="-4 85 13 10" Docking="Left" Id="1060" RightRegister="1058" Terminals="o0=1046, i0=1480" />
 			</WhileLoop>
-			<ArrayLiteral Bounds="349 256 12 9" DataType="Boolean[]" Facade="DockedConstantFacade" Id="490" xmlns="http://www.ni.com/MocCommon">
+			<ArrayLiteral Bounds="564 306 12 9" DataType="Boolean[]" Facade="DockedConstantFacade" Id="490" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>
 					<Array Lengths="8" IsBinary="True" Compression="GZip">
 						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMDhBmxIoYuQHAM6icMwAAAA==</BinaryElements>
@@ -223,8 +223,8 @@
 				</Literal>
 				<DockedConstantFacade UndockedSize="76 142" />
 			</ArrayLiteral>
-			<Wire Facade="WireInvisibleFacade" Id="492" Joints="N(490:Out)|(361,261) N(503:o0)|(361,260)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
-			<ArrayLiteral Bounds="349 276 12 9" DataType="@4c6c29bb940545299b4919276089cbb6" Facade="DockedConstantFacade" Id="764" Label="774" xmlns="http://www.ni.com/MocCommon">
+			<Wire Facade="WireInvisibleFacade" Id="492" Joints="N(490:Out)|(576,311) N(503:o0)|(576,310)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+			<ArrayLiteral Bounds="564 326 12 9" DataType="@4c6c29bb940545299b4919276089cbb6" Facade="DockedConstantFacade" Id="764" Label="774" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>null</p.Data>
 				<ArrayBehavior ElementType="@54adb7dfbbfe4d7cba13cdd4d650c5d8" IndexEditorWidth="42">
 					<p.DefaultElementValue>0x0_0x0_0x0_False_</p.DefaultElementValue>
@@ -263,10 +263,10 @@
 				</ClusterLiteral>
 				<DockedConstantFacade LabelPosition="Bottom" UndockedSize="122 94" />
 			</ArrayLiteral>
-			<NodeLabel AttachedTo="764" Bounds="349 288 30 15" Id="774" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="764" Bounds="564 338 30 15" Id="774" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Test Sequence Results</p.Text>
 			</NodeLabel>
-			<Wire Facade="WireInvisibleFacade" Id="1046" Joints="N(764:Out)|(361,281) N(1060:o0)|(361,280)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Facade="WireInvisibleFacade" Id="1046" Joints="N(764:Out)|(576,331) N(1060:o0)|(576,330)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" UpdatedRootPage="[string]&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xA;&#xA;    &lt;head&gt;&#xA;&#xA;        &lt;meta charset=&quot;utf-8&quot;&gt;&#xA;        &lt;!---Read only section. Source panel edits to these document properties will not be persisted--&gt;&#xA;        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xA;        &lt;title&gt;Main&lt;/title&gt;&#xA;        &lt;!---End read only section. Additional scripts or document properties can be added outside this section--&gt;&#xA;&#xA;        &lt;style&gt;&#xA;            /* Read only section. Source panel edits to the content of this style tag will not be persisted */&#xA;            &#xA;            [data-ni-base-style] {&#xA;                position: absolute;&#xA;            }&#xA;            &#xA;            ni-text[ni-control-id='1534'] {&#xA;                left: 80px;&#xA;                top: 582px;&#xA;                width: 320px;&#xA;                height: 43px;&#xA;                font-size: 32px;&#xA;                font-family: Segoe UI, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                color: rgba(255, 255, 255, 1);&#xA;            }&#xA;            /* End read only section. To add additional styles, add a new style tag after this one. */&#xA;        &lt;/style&gt;&#xA;    &lt;/head&gt;&#xA;    &lt;!--&lt;link href=&quot;keynote-styles.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;--&gt;&#xA;    &lt;body&gt;&#xA;        &lt;div id=&quot;ni-outdated-browser-message&quot; style=&quot;display:none&quot;&gt;This browser is reporting compatibility with older browser technologies that may perform poorly if it all.&lt;/div&gt;&#xA;        &lt;div id=&quot;ni-failed-to-load-vireo-source&quot; style=&quot;display:none&quot;&gt;Unable to load required dependencies. Please verify all WebVI files are available and served using an http server or use a browser that can load files directly from the filesystem.&lt;/div&gt;&#xA;        &lt;section id=&quot;FrontPanelCanvas&quot;&gt;&#xA;&#xA;            &#xA;&#xA;        &lt;/section&gt;&#xA;    &lt;/body&gt;&#xA;&#xA;&lt;/html&gt;" Width="[float]768" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
 			<HtmlText BaseName="[string]Text" Foreground="[SMColor]#ffffffff" Height="[float]43" Id="1534" Left="[float]80" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Sequence Pass/Fail" TextWrapping="[TextWrapping]Wrap" Top="[float]582" Width="[float]320" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
