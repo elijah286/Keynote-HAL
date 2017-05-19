@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="B22BC9B764378B5C46BD143F6D10A9D4" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3237" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3237" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3237" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.3237" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ApplicationVersionInfo Build="5.0.1.3237" Name="LabVIEW NXG" Version="2.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@9cc164955f724655a3027dfed6845409" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@e5dffcb1126d4b66baf6b664a3bce96f" Id="22" Name="Data Grid_2">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Bindings="Envoy,DefinitionReference,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy," Id="7" Name="AnalysisDataGrid\.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy,Envoy,DefinitionReference,NationalInstruments.PanelCommon.SourceModel.ControlDefinition,EmbeddedReference" Id="8" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Indicator" Id="9" xmlns="http://www.ni.com/MocCommon">
+					<LVDataGrid BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" ControlDesignInfo="[ControlDesignPair]Flat,Flat Dark Gray" Height="[float]183" Id="10" IsReadOnly="[bool]True" Label="[UIModel]21" Left="[float]195" MinRowHeight="[float]22" RowHeaderWidth="[double]NaN" RowHeights="[string]" TabIndex="[int]0" Top="[float]163" Type="[Type]@e5dffcb1126d4b66baf6b664a3bce96f" Value="{DataItemBinding Id=22}" Width="[float]1643" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<LVDataGridColumn ColumnElement="[UIModel]16" Header="[string]   Channel" Id="11" Index="[int]0" IsReadOnly="[bool]True" SortDirection="[null]" Width="[DataGridLength]*">
+							<StringControl Id="16" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]24" Top="[float]0" />
+						</LVDataGridColumn>
+						<LVDataGridColumn ColumnElement="[UIModel]17" Header="[string]   Designator" Id="12" Index="[int]1" IsReadOnly="[bool]True" SortDirection="[null]" Width="[DataGridLength]332">
+							<StringControl Id="17" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]24" Top="[float]0" />
+						</LVDataGridColumn>
+						<LVDataGridColumn ColumnElement="[UIModel]18" Header="[string]   Temp" Id="13" Index="[int]3" IsReadOnly="[bool]True" SortDirection="[null]" ValueType="[Type]Double" Width="[DataGridLength]338">
+							<NumericText Id="18" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]0" MinHeight="[float]24" Top="[float]0" />
+						</LVDataGridColumn>
+						<LVDataGridColumn ColumnElement="[UIModel]19" Header="[string]   Failure Pts" Id="14" Index="[int]4" IsReadOnly="[bool]True" SortDirection="[null]" ValueType="[Type]Boolean" Width="[DataGridLength]84">
+							<LED Height="[float]16" Id="19" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]16" MinWidth="[float]16" Top="[float]0" Width="[float]16" />
+						</LVDataGridColumn>
+						<LVDataGridColumn ColumnElement="[UIModel]20" Header="[string]   Max Temp" Id="15" Index="[int]2" IsReadOnly="[bool]True" SortDirection="[null]" ValueType="[Type]Double" Width="[DataGridLength]329">
+							<NumericText Id="20" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]0" MinHeight="[float]24" Top="[float]0" />
+						</LVDataGridColumn>
+					</LVDataGrid>
+					<Label ControlDesignInfo="[ControlDesignPair]Flat,Flat Dark Gray" Id="21" LabelOwner="[UIModel]10" Left="[float]195" Text="[string]Data Grid_2" Top="[float]143" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="9cc164955f724655a3027dfed6845409">
+			<VariableArray DereferenceType="@e72c67e1cbff470fadad50121fe3749c" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e5dffcb1126d4b66baf6b664a3bce96f">
+			<VariableArray DereferenceType="@2a229eb124264556a424268485b4ecbd" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e72c67e1cbff470fadad50121fe3749c">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Channel" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Ref Des" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Max Temp" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Extrapolated Temp" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Failure?" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2a229eb124264556a424268485b4ecbd">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="   Channel" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="   Designator" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="   Max Temp" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="   Temp" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="   Failure Pts" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

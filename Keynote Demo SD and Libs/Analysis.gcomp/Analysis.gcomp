@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F0C1194A6C6AE0D4A9F70A760F01F857" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8D85FFB4B5140FFE8364347F5E3EAC2C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
@@ -22,6 +22,11 @@
 		<ComponentConfiguration ComponentOutputType="G Library" Id="10" Name="Configuration1">
 			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
 			<ComponentItemProperties AssociatedEnvoyId="14" Exported="True" Id="15" />
+			<ComponentItemProperties AssociatedEnvoyId="23" Exported="True" Id="24" />
+			<ComponentItemProperties AssociatedEnvoyId="25" Exported="True" Id="26" />
+			<ComponentItemProperties AssociatedEnvoyId="27" Exported="True" Id="28" />
+			<ComponentItemProperties AssociatedEnvoyId="29" Exported="True" Id="30" />
+			<ComponentItemProperties AssociatedEnvoyId="31" Exported="True" Id="32" />
 			<GllConfiguration Id="22" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
@@ -31,6 +36,11 @@
 			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
 			<NameScopingEnvoy AutomaticallyResolveUp="True" Bindings="Envoy,DefinitionReference,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy," Id="13" Name="Analysis">
 				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="14" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Analysis\.gvi" StoragePath="Analysis.gvi" />
+				<SourceFileReference Bindings="EnvoyManager,Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="23" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="AnalysisDataGrid\.gtype" StoragePath="AnalysisDataGrid.gtype\AnalysisDataGrid.gtype" />
+				<SourceFileReference Bindings="EnvoyManager,Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="25" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="RunningDataGrid\.gtype" StoragePath="RunningDataGrid.gtype\RunningDataGrid.gtype" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="27" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="IsOverLimit\.gvi" StoragePath="IsOverLimit.gvi" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="29" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Annotate\ Graph\.gvi" StoragePath="Annotate Graph.gvi" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="31" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Process\ Data\.gvi" StoragePath="Process Data.gvi" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot,ComponentDefinitionContentReferenceRoot,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Analysis\.gcomp" NameTracksFileName="True">
