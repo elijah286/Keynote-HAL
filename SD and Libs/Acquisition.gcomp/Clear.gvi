@@ -1,0 +1,1594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="439AF2C3193409E1BF5BAF190C4C4166" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="17.3.0.28" FeatureSetName="DAQmx" Name="http://www.ni.com/DAQmx" OldestCompatibleVersion="1.0.0.0" Version="1.1.0.0" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.0.1.2921" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.0.0.49154" Version="5.0.0.49154" />
+		<ApplicationVersionInfo Build="5.0.1.2921" Name="LabVIEW NXG" Version="2.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Path Data="[PathGeometry]M 4.925706,20.494 C 4.304706,21.042 2.946706,20.519 1.485706,18.863 C 0.02270637,17.208 -0.327294,15.795 0.2927068,15.247 L 2.916707,12.929 L 7.548707,18.178 L 4.925706,20.494 Z M 18.97971,2.415998 L 13.32371,5.074999 L 16.13771,4.591 L 16.01471,7.368999 L 16.92971,6.893999 L 16.63171,8.822999 L 19.97171,3.539999 L 18.97971,2.415998 Z M 12.66071,4.324999 L 22.84871,0 L 17.29471,9.572 L 11.29771,14.868 L 6.664707,9.620999 L 12.66071,4.324999 Z M 4.486707,11.687 L 9.119706,16.934 C 9.457706,17.317 8.697706,17.967 8.370707,17.597 L 3.736707,12.349 C 3.402707,11.97 4.162706,11.32 4.486707,11.687  M 5.976707,10.353 L 10.60971,15.6 C 10.94771,15.983 10.18871,16.633 9.860706,16.261 L 5.227706,11.015 C 4.892707,10.636 5.653707,9.985999 5.976707,10.353 " EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]20.70327" Id="463" Left="[float]11" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]14" Width="[float]22.8487072" />
+				<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]2" Id="464" Left="[float]11" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff646464" StrokeThickness="[float]1" Top="[float]34" Width="[float]2" />
+				<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]2" Id="465" Left="[float]8" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff646464" StrokeThickness="[float]1" Top="[float]32" Width="[float]2" />
+				<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]2" Id="466" Left="[float]16" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff646464" StrokeThickness="[float]1" Top="[float]35" Width="[float]2" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="27" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="28" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="30" />
+			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 80" Parameter="29" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<IONameControl AllowUndefinedValues="[bool]True" DataType="[Type]@5141d07c6aa94e88a8c46f452b56a0e1" Height="[float]24" Id="31" Label="[UIModel]34" Left="[float]200" SelectedResource="{DataItemBinding Id=27}" ShowUserCreateResource="[bool]False" TabIndex="[int]0" Top="[float]100" UdrClass="[string]Task" UdrNamespace="[string]Types" Width="[float]200" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<InstanceDataEntry Id="32" Key="ShowInvalidNames" Value="[bool]True" xmlns="http://www.ni.com/MocCommon" />
+				<InstanceDataEntry Id="33" Key="DisplayCategory" Value="[int]2" xmlns="http://www.ni.com/MocCommon" />
+			</IONameControl>
+			<Label Id="34" LabelOwner="[UIModel]31" Left="[float]200" Text="[string]task out" Top="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="35" IsTabStop="[bool]True" Label="[UIModel]42" Left="[float]200" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]1" Top="[float]174" Value="{DataItemBinding Id=28}" Width="[float]176" p4:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="36" Label="[UIModel]37" Left="[float]3" MinHeight="[float]22" MinWidth="[float]22" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="37" LabelOwner="[UIModel]36" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="38" Label="[UIModel]39" Left="[float]54" MinHeight="[float]24" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="39" LabelOwner="[UIModel]38" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="40" Label="[UIModel]41" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="41" LabelOwner="[UIModel]40" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="42" LabelOwner="[UIModel]35" Left="[float]200" Text="[string]error in" Top="[float]154" Width="[float]26" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster BaseName="[string]Error" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="43" Left="[float]266" MinHeight="[float]128" MinWidth="[float]112" Name="[string]Error" TabIndex="[int]2" Top="[float]67" Value="{DataItemBinding Id=29}" Width="[float]176" p4:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="44" Label="[UIModel]45" Left="[float]3" MinHeight="[float]22" MinWidth="[float]22" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="45" LabelOwner="[UIModel]44" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="46" Label="[UIModel]47" Left="[float]54" MinHeight="[float]24" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="47" LabelOwner="[UIModel]46" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="48" Label="[UIModel]49" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="49" LabelOwner="[UIModel]48" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<IONameControl BaseName="[string]Name" DataType="[Type]@5141d07c6aa94e88a8c46f452b56a0e1" Height="[float]24" Id="50" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]24" Name="[string]Types.udr.Task" SelectedResource="{DataItemBinding Id=30}" TabIndex="[int]3" Top="[float]0" UdrClass="[string]Task" UdrNamespace="[string]Types.udr" Width="[float]136" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="12">
+			<Wire Id="15" Joints="N(452:52)|(1274,455) N(22:Value)|(1330,455)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="16" Joints="N(455:52)|(1274,465) N(21:Value)|(1330,465)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="17" Joints="N(19:Value)|(1074,455) N(458:52)|(1131,455)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="18" Joints="N(20:Value)|(1074,465) N(461:52)|(1131,465)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="1034 450 40 15" DataItem="27" Id="19" Label="23" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@5141d07c6aa94e88a8c46f452b56a0e1" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="1034 460 40 15" DataItem="28" Id="20" Label="24" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="1327 460 40 15" DataItem="29" Id="21" Label="25" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="1327 450 40 15" DataItem="30" Id="22" Label="26" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@5141d07c6aa94e88a8c46f452b56a0e1" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="19" Bounds="983 450 46 14" Id="23" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>task out</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="20" Bounds="987 460 42 14" Id="24" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error in</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="21" Bounds="1372 460 28 14" Id="25" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Error</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="22" Bounds="1372 450 81 14" Id="26" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Types.udr.Task</p.Text>
+			</NodeLabel>
+			<DisableStructure Bounds="1135 405 135 115" Id="52" Selected="54" UserSelectorBounds="14 0 107 17">
+				<DisableStructure.DisableDiagram Bounds="5 5 125 105" Id="53" Pattern="Enabled" />
+				<DisableStructure.DisableDiagram Bounds="5 5 125 105" Id="54" Pattern="Disabled">
+					<DAQmxNode Bounds="40 40 50 50" DomainName="NI:DAQmx:Internal" Id="14" ResolveFailedHint="" Target="NI:DAQmx:Internal:DAQmx\ Start\ Task\.gvi" xmlns="http://www.ni.com/DAQmx">
+						<p.MethodDeclaration>
+							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+								<Parameter Id="L0" Desc="task in" />
+								<Parameter Id="L1" Desc="error in" />
+								<Parameter Id="R0" Desc="task out" />
+								<Parameter Id="R1" Desc="error out" />
+							</MethodDeclaration>
+						</p.MethodDeclaration>
+						<Terminal DataType="@5141d07c6aa94e88a8c46f452b56a0e1" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="@5141d07c6aa94e88a8c46f452b56a0e1" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+					</DAQmxNode>
+					<Wire Id="451" Joints="N(14:R0)|(90,45) N(452:54)|(121,45)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="454" Joints="N(14:R1)|(90,55) N(455:54)|(121,55)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="457" Joints="N(458:54)|(4,45) N(14:L0)|(40,45)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="460" Joints="N(461:54)|(4,55) N(14:L1)|(40,55)" xmlns="http://www.ni.com/PlatformFramework" />
+				</DisableStructure.DisableDiagram>
+				<DisableStructure.Tunnel Bounds="126 45 13 10" Docking="Right" Id="452" Terminals="52=15, 53, 54=451" />
+				<DisableStructure.Tunnel Bounds="126 55 13 10" Docking="Right" Id="455" Terminals="52=16, 53, 54=454" />
+				<DisableStructure.Tunnel Bounds="-4 45 13 10" Docking="Left" Id="458" Terminals="52=17, 53, 54=457" />
+				<DisableStructure.Tunnel Bounds="-4 55 13 10" Docking="Left" Id="461" Terminals="52=18, 53, 54=460" />
+			</DisableStructure>
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" />
+		<DataItem CallDirection="Input" CallIndex="0" DataType="@5141d07c6aa94e88a8c46f452b56a0e1" Id="27" Name="task out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:DAQmx:Types\.udr:Task" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" DataType="Error" Id="28" Name="error in" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="3" DataType="Error" Id="29" Name="Error" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="2" DataType="@5141d07c6aa94e88a8c46f452b56a0e1" Id="30" Name="Types.udr.Task" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:DAQmx:Types\.udr:Task" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="5141d07c6aa94e88a8c46f452b56a0e1">
+			<Attributed AttributedType="@2ff5eea27f6e4b98b711cdd7c9b13f76">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:DAQmx:Types\.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2ff5eea27f6e4b98b711cdd7c9b13f76">
+			<Typedef TypedefName="Task" UnderlyingType="@08a7d5dff0e447b5bdbf1d88fcb80068" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="08a7d5dff0e447b5bdbf1d88fcb80068">
+			<Attributed AttributedType="@4b92dbba49e340c4b2b5a0458e6baf49">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Task" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]Types.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4b92dbba49e340c4b2b5a0458e6baf49">
+			<Composite Id="1" Name="Task" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="Name_1276" DataType="@5141d07c6aa94e88a8c46f452b56a0e1" />
+					<Field FieldAccessPolicy="Read" Name="Channels_1273" DataType="@56599108240749578ce8722cabbe1b9d" />
+					<Field FieldAccessPolicy="Read" Name="NumChans_2181" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="Devices_230E" DataType="@2baefa4349de4a83b8142173919fe999" />
+					<Field FieldAccessPolicy="Read" Name="NumDevices_29BA" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="Done_1274" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Max_17DD" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Min_17DE" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_CustomScaleName_17E0" DataType="@69ba4368c94e4de48ae2b153591037b9" />
+					<Field FieldAccessPolicy="Read" Name="AI_MeasType_695" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Voltage_Units_1094" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Voltage_dBRef_29B0" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Voltage_ACRMS_Units_17E2" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Temp_Units_1033" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Thrmcpl_Type_1050" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Thrmcpl_ScaleType_29D0" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="AI_Thrmcpl_CJCSrc_1035" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Thrmcpl_CJCVal_1036" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AI_Thrmcpl_CJCChan_1034" DataType="@ef75de112b334a438ea8ea0e28625755" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RTD_Type_1032" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RTD_R0_1030" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RTD_A_1010" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RTD_B_1011" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RTD_C_1013" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Thrmstr_A_18C9" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Thrmstr_B_18CB" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Thrmstr_C_18CA" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Thrmstr_R1_1061" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ForceReadFromChan_18F8" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Current_Units_701" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Current_ACRMS_Units_17E3" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Strain_Units_981" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Strain_ForceReadFromChan_2FFA" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_StrainGage_GageFactor_994" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_StrainGage_PoissonRatio_998" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_StrainGage_Cfg_982" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="AI_RosetteStrainGage_RosetteType_2FFE" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RosetteStrainGage_GageOrientation_2FFC" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AI_RosetteStrainGage_StrainChans_2FFB" DataType="String[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RosetteStrainGage_RosetteMeasType_2FFD" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Resistance_Units_955" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Freq_Units_806" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Freq_ThreshVoltage_815" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Freq_Hyst_814" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_LVDT_Units_910" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_LVDT_Sensitivity_939" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_LVDT_SensitivityUnits_219A" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RVDT_Units_877" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RVDT_Sensitivity_903" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RVDT_SensitivityUnits_219B" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_EddyCurrentProx_Units_2AC0" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_EddyCurrentProx_Sensitivity_2ABE" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_EddyCurrentProx_SensitivityUnits_2ABF" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_SoundPressure_MaxSoundPressureLvl_223A" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_SoundPressure_Units_1528" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_SoundPressure_dBRef_29B1" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Microphone_Sensitivity_1536" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Accel_Units_673" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Accel_dBRef_29B2" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Accel_4WireDCVoltage_Sensitivity_3115" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Accel_4WireDCVoltage_SensitivityUnits_3116" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Accel_Sensitivity_692" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Accel_SensitivityUnits_219C" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Accel_Charge_Sensitivity_3113" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Accel_Charge_SensitivityUnits_3114" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Velocity_Units_2FF4" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Velocity_IEPESensor_dBRef_2FF5" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Velocity_IEPESensor_Sensitivity_2FF6" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Velocity_IEPESensor_SensitivityUnits_2FF7" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Force_Units_2F75" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Force_IEPESensor_Sensitivity_2F81" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Force_IEPESensor_SensitivityUnits_2F82" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Pressure_Units_2F76" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Torque_Units_2F77" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_Units_2F92" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_ElectricalUnits_2F87" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_PhysicalUnits_2F88" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_ScaleType_2F89" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_TwoPointLin_First_ElectricalVal_2F8A" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_TwoPointLin_First_PhysicalVal_2F8B" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_TwoPointLin_Second_ElectricalVal_2F8C" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_TwoPointLin_Second_PhysicalVal_2F8D" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_Table_ElectricalVals_2F8E" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_Table_PhysicalVals_2F8F" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_Poly_ForwardCoeff_2F90" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_Poly_ReverseCoeff_2F91" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Charge_Units_3112" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="AI_TEDS_IsTEDS_2983" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AI_TEDS_Units_21E0" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Coupling_64" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Impedance_62" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_TermCfg_1097" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_InputSrc_2198" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ResistanceCfg_1881" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_LeadWireResistance_17EE" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_Cfg_87" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_NomResistance_17EC" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_InitialVoltage_17ED" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_InitialRatio_2F86" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_ShuntCal_Enable_94" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_ShuntCal_Select_21D5" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_ShuntCal_ShuntCalASrc_30CA" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_ShuntCal_GainAdjust_193F" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_ShuntCal_ShuntCalAResistance_2F78" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_ShuntCal_ShuntCalAActualResistance_2F79" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_ShuntCal_ShuntCalBResistance_2F7A" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_ShuntCal_ShuntCalBActualResistance_2F7B" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_Balance_CoarsePot_17F1" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Bridge_Balance_FinePot_18F4" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_CurrentShunt_Loc_17F2" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_CurrentShunt_Resistance_17F3" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Excit_Sense_30FD" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Excit_Src_17F4" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Excit_Val_17F5" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Excit_UseForScaling_17FC" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Excit_UseMultiplexed_2180" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Excit_ActualVal_1883" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Excit_DCorAC_17FB" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Excit_VoltageOrCurrent_17F6" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Excit_IdleOutputBehavior_30B8" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ACExcit_Freq_101" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ACExcit_SyncEnable_102" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ACExcit_WireMode_18CD" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_OpenThrmcplDetectEnable_2F72" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Thrmcpl_LeadOffsetVoltage_2FB8" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Atten_1801" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ProbeAtten_2A88" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Lowpass_Enable_1802" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Lowpass_CutoffFreq_1803" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Lowpass_SwitchCap_ClkSrc_1884" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Lowpass_SwitchCap_ExtClkFreq_1885" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Lowpass_SwitchCap_ExtClkDiv_1886" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Lowpass_SwitchCap_OutClkDiv_1887" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DigFltr_Enable_30BD" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DigFltr_Type_30BE" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DigFltr_Response_30BF" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DigFltr_Order_30C0" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DigFltr_Lowpass_CutoffFreq_30C1" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DigFltr_Highpass_CutoffFreq_30C2" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DigFltr_Bandpass_CenterFreq_30C3" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DigFltr_Bandpass_Width_30C4" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DigFltr_Notch_CenterFreq_30C5" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DigFltr_Notch_Width_30C6" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DigFltr_Coeff_30C7" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_FilterDelay_2FED" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_FilterDelayUnits_3071" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RemoveFilterDelay_2FBD" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_FilterDelayAdjustment_3074" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_AveragingWinSize_2FEE" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="AI_ResolutionUnits_1764" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="AI_Resolution_1765" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AI_RawSampSize_22DA" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="AI_RawSampJustification_50" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ADCTimingMode_29F9" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ADCCustomTimingMode_2F6B" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Dither_Enable_68" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AI_ChanCal_HasValidCalInfo_2297" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_EnableCal_2298" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_ApplyCalIfExp_2299" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_CalDate_229A" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_ExpDate_229B" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_ScaleType_229C" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_Table_PreScaledVals_229D" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_Table_ScaledVals_229E" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_Poly_ForwardCoeff_229F" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_Poly_ReverseCoeff_22A0" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_OperatorName_22A3" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_Desc_22A4" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_Verif_RefVals_22A1" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_ChanCal_Verif_AcqVals_22A2" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Rng_High_1815" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Rng_Low_1816" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DCOffset_2A89" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Gain_1818" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_SampAndHold_Enable_181A" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_AutoZeroMode_1760" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Chop_Enable_3143" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DataXferMaxRate_3117" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DataXferMech_1821" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DataXferReqCond_188B" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_DataXferCustomThreshold_230C" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_UsbXferReqSize_2A8E" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_UsbXferReqCount_3000" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_MemMapEnable_188C" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RawDataCompressionType_22D8" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_LossyLSBRemoval_CompressedSampSize_22D9" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="AI_DevScalingCoeff_1930" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_EnhancedAliasRejectionEnable_2294" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_OpenChanDetectEnable_30FF" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_Max_1186" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_Min_1187" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_CustomScaleName_1188" DataType="@69ba4368c94e4de48ae2b153591037b9" />
+					<Field FieldAccessPolicy="Read" Name="AO_OutputType_1108" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_Voltage_Units_1184" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_Voltage_CurrentLimit_2A1D" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_Current_Units_1109" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_FuncGen_Type_2A18" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_FuncGen_Freq_2A19" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_FuncGen_Amplitude_2A1A" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_FuncGen_Offset_2A1B" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_FuncGen_Square_DutyCycle_2A1C" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_FuncGen_ModulationType_2A22" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_FuncGen_FMDeviation_2A23" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_OutputImpedance_1490" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_LoadImpedance_121" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_IdleOutputBehavior_2240" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_TermCfg_188E" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_ResolutionUnits_182B" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="AO_Resolution_182C" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DAC_Rng_High_182E" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DAC_Rng_Low_182D" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DAC_Ref_ConnToGnd_130" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DAC_Ref_AllowConnToGnd_1830" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DAC_Ref_Src_132" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DAC_Ref_ExtSrc_2252" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DAC_Ref_Val_1832" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DAC_Offset_Src_2253" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DAC_Offset_ExtSrc_2254" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DAC_Offset_Val_2255" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_ReglitchEnable_133" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_FilterDelay_3075" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_FilterDelayUnits_3076" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_FilterDelayAdjustment_3072" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_Gain_118" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_UseOnlyOnBrdMem_183A" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DataXferMech_134" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_DataXferReqCond_183C" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_UsbXferReqSize_2A8F" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_UsbXferReqCount_3001" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_MemMapEnable_188F" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AO_DevScalingCoeff_1931" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_EnhancedImageRejectionEnable_2241" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_InvertLines_793" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DI_NumLines_2178" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigFltr_Enable_21D6" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigFltr_MinPulseWidth_21D7" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigFltr_EnableBusMode_2EFE" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigFltr_TimebaseSrc_2ED4" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigFltr_TimebaseRate_2ED5" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigSync_Enable_2ED6" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_Tristate_1890" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_LogicFamily_296D" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DataXferMech_2263" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DataXferReqCond_2264" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_UsbXferReqSize_2A90" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_UsbXferReqCount_3002" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_MemMapEnable_296A" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_AcquireOn_2966" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_OutputDriveType_1137" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_InvertLines_1133" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DO_NumLines_2179" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_Tristate_18F3" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_LineStates_StartState_2972" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_LineStates_PausedState_2967" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_LineStates_DoneState_2968" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_LogicFamily_296E" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_Overcurrent_Limit_2A85" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_Overcurrent_AutoReenable_2A86" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_Overcurrent_ReenablePeriod_2A87" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_UseOnlyOnBrdMem_2265" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_DataXferMech_2266" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_DataXferReqCond_2267" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_UsbXferReqSize_2A91" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_UsbXferReqCount_3003" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_MemMapEnable_296B" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_GenerateOn_2969" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Max_189C" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Min_189D" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CustomScaleName_189E" DataType="@69ba4368c94e4de48ae2b153591037b9" />
+					<Field FieldAccessPolicy="Read" Name="CI_MeasType_18A0" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_Units_18A1" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_Term_18A2" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_TermCfg_3097" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_LogicLvlBehavior_3098" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_DigFltr_Enable_21E7" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_DigFltr_MinPulseWidth_21E8" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_DigFltr_TimebaseSrc_21E9" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_DigFltr_TimebaseRate_21EA" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_DigSync_Enable_21EB" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_StartingEdge_799" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_MeasMeth_144" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_EnableAveraging_2ED0" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_MeasTime_145" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_Div_147" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_Units_18A3" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_Term_18A4" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_TermCfg_3099" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_LogicLvlBehavior_309A" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_DigFltr_Enable_21EC" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_DigFltr_MinPulseWidth_21ED" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_DigFltr_TimebaseSrc_21EE" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_DigFltr_TimebaseRate_21EF" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_DigSync_Enable_21F0" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_StartingEdge_852" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_MeasMeth_192C" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_EnableAveraging_2ED1" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_MeasTime_192D" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_Div_192E" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Term_18C7" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_TermCfg_309B" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_LogicLvlBehavior_309C" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DigFltr_Enable_21F6" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DigFltr_MinPulseWidth_21F7" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DigFltr_TimebaseSrc_21F8" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DigFltr_TimebaseRate_21F9" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DigSync_Enable_21FA" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Dir_696" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DirTerm_21E1" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_TermCfg_309D" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_LogicLvlBehavior_309E" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_DigFltr_Enable_21F1" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_DigFltr_MinPulseWidth_21F2" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_DigFltr_TimebaseSrc_21F3" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_DigFltr_TimebaseRate_21F4" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_DigSync_Enable_21F5" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_InitialCnt_698" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_ActiveEdge_697" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_Enable_2FAF" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_ResetCnt_2FB0" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_Term_2FB1" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_TermCfg_309F" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_LogicLvlBehavior_30A0" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_DigFltr_Enable_2FB3" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_DigFltr_MinPulseWidth_2FB4" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_DigFltr_TimebaseSrc_2FB5" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_DigFltr_TimebaseRate_2FB6" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_DigSync_Enable_2FB7" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_ActiveEdge_2FB2" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_Enable_30ED" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_Term_30EE" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_TermCfg_30EF" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_LogicLvlBehavior_30F0" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_DigFltr_Enable_30F1" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_DigFltr_MinPulseWidth_30F2" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_DigFltr_TimebaseSrc_30F3" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate__DigFltr_TimebaseRate_30F4" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_When_30F5" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_Term_308D" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_TermCfg_30A1" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_LogicLvlBehavior_30A2" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_DigFltr_Enable_308E" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_DigFltr_MinPulseWidth_308F" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_DigFltr_TimebaseSrc_3090" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_DigFltr_TimebaseRate_3091" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_StartingEdge_3092" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_AngEncoder_Units_18A6" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_AngEncoder_PulsesPerRev_875" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_AngEncoder_InitialAngle_881" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_LinEncoder_Units_18A9" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_LinEncoder_DistPerPulse_911" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_LinEncoder_InitialPos_915" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_DecodingType_21E6" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInputTerm_219D" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_TermCfg_30A3" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_LogicLvlBehavior_30A4" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_DigFltr_Enable_21FB" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_DigFltr_MinPulseWidth_21FC" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_DigFltr_TimebaseSrc_21FD" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_DigFltr_TimebaseRate_21FE" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_DigSync_Enable_21FF" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInputTerm_219E" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_TermCfg_30A5" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_LogicLvlBehavior_30A6" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_DigFltr_Enable_2200" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_DigFltr_MinPulseWidth_2201" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_DigFltr_TimebaseSrc_2202" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_DigFltr_TimebaseRate_2203" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_DigSync_Enable_2204" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInputTerm_219F" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_TermCfg_30A7" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_LogicLvlBehavior_30A8" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_DigFltr_Enable_2205" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_DigFltr_MinPulseWidth_2206" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_DigFltr_TimebaseSrc_2207" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_DigFltr_TimebaseRate_2208" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_DigSync_Enable_2209" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZIndexEnable_890" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZIndexVal_888" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZIndexPhase_889" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_Units_823" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_Term_18AA" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_TermCfg_30A9" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_LogicLvlBehavior_30AA" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_DigFltr_Enable_220A" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_DigFltr_MinPulseWidth_220B" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_DigFltr_TimebaseSrc_220C" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_DigFltr_TimebaseRate_220D" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_DigSync_Enable_220E" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_StartingEdge_825" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Timestamp_Units_22B3" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Timestamp_InitialSeconds_22B4" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_GPS_SyncMethod_1092" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_GPS_SyncSrc_1093" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AngEncoder_Units_30D8" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AngEncoder_PulsesPerRev_30D9" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_LinEncoder_Units_30DA" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_LinEncoder_DistPerPulse_30DB" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_Encoder_DecodingType_30DC" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_Term_30DD" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_TermCfg_30DE" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_LogicLvlBehavior_30DF" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_DigFltr_Enable_30E0" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_DigFltr_MinPulseWidth_30E1" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_DigFltr_TimebaseSrc_30E2" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_DigFltr_TimebaseRate_30E3" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_Term_30E4" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_TermCfg_30E5" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_LogicLvlBehavior_30E6" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_DigFltr_Enable_30E7" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_DigFltr_MinPulseWidth_30E8" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_DigFltr_TimebaseSrc_30E9" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_DigFltr_TimebaseRate_30EA" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_MeasTime_30EB" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_Div_30EC" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Units_18AC" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_Term_18AD" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_TermCfg_30AB" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_LogicLvlBehavior_30AC" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_DigFltr_Enable_220F" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_DigFltr_MinPulseWidth_2210" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_DigFltr_TimebaseSrc_2211" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_DigFltr_TimebaseRate_2212" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_DigSync_Enable_2213" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_Edge_833" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_Term_18AE" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_TermCfg_30AD" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_LogicLvlBehavior_30AE" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_DigFltr_Enable_2214" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_DigFltr_MinPulseWidth_2215" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_DigFltr_TimebaseSrc_2216" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_DigFltr_TimebaseRate_2217" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_DigSync_Enable_2218" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_Edge_834" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_Units_18AF" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_Term_18B0" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_TermCfg_30AF" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_LogicLvlBehavior_30B0" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_DigFltr_Enable_2219" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_DigFltr_MinPulseWidth_221A" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_DigFltr_TimebaseSrc_221B" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_DigFltr_TimebaseRate_221C" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_DigSync_Enable_221D" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_StartingEdge_22FE" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_Units_2F0B" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_Term_2F04" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_TermCfg_30B1" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_LogicLvlBehavior_30B2" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_DigFltr_Enable_2F06" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_DigFltr_MinPulseWidth_2F07" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_DigFltr_TimebaseSrc_2F08" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_DigFltr_TimebaseRate_2F09" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_DigSync_Enable_2F0A" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_StartingEdge_2F05" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_Units_2F13" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_Term_2F0C" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_TermCfg_30B3" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_LogicLvlBehavior_30B4" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_DigFltr_Enable_2F0E" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_DigFltr_MinPulseWidth_2F0F" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_DigFltr_TimebaseSrc_2F10" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_DigFltr_TimebaseRate_2F11" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_DigSync_Enable_2F12" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_StartingEdge_2F0D" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_Term_2F14" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_TermCfg_30B5" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_LogicLvlBehavior_30B6" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_DigFltr_Enable_2F16" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_DigFltr_MinPulseWidth_2F17" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_DigFltr_TimebaseSrc_2F18" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_DigFltr_TimebaseRate_2F19" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_DigSync_Enable_2F1A" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_StartingEdge_2F15" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebaseSrc_143" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebaseRate_18B2" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebaseActiveEdge_142" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebase_DigFltr_Enable_2271" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebase_DigFltr_MinPulseWidth_2272" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebase_DigFltr_TimebaseSrc_2273" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebase_DigFltr_TimebaseRate_2274" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebase_DigSync_Enable_2275" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_ThreshVoltage_30B7" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="CI_Count_148" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="CI_OutputState_149" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="CI_TCReached_150" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebaseMasterTimebaseDiv_18B3" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SampClkOverrunBehavior_3093" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SampClkOverrunSentinelVal_3094" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DataXferMech_200" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DataXferReqCond_2EFB" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_UsbXferReqSize_2A92" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_UsbXferReqCount_3004" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_MemMapEnable_2ED2" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="CI_NumPossiblyInvalidSamps_193C" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DupCountPrevention_21AC" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Prescaler_2239" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_MaxMeasPeriod_3095" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="CO_OutputType_18B5" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_IdleState_1170" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_Term_18E1" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_Time_Units_18D6" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_HighTime_18BA" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_LowTime_18BB" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_Time_InitialDelay_18BC" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_DutyCyc_1176" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_Freq_Units_18D5" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_Freq_1178" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_Freq_InitialDelay_299" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_HighTicks_1169" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_LowTicks_1171" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_Ticks_InitialDelay_298" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebaseSrc_339" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebaseRate_18C2" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebaseActiveEdge_341" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebase_DigFltr_Enable_2276" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebase_DigFltr_MinPulseWidth_2277" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebase_DigFltr_TimebaseSrc_2278" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebase_DigFltr_TimebaseRate_2279" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebase_DigSync_Enable_227A" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="CO_Count_293" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="CO_OutputState_294" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_AutoIncrCnt_295" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebaseMasterTimebaseDiv_18C3" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="CO_PulseDone_190E" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_EnableInitialDelayOnRetrigger_2EC9" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_ConstrainedGenMode_29F2" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_UseOnlyOnBrdMem_2ECB" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_DataXferMech_2ECC" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_DataXferReqCond_2ECD" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_UsbXferReqSize_2A93" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_UsbXferReqCount_3005" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_MemMapEnable_2ED3" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Prescaler_226D" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="CO_RdyForNewVal_22FF" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="ChanType_187F" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="PhysicalChanName_18F5" DataType="@5355c7f2a9a14b04af20832ed4d01109" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Descr_1926" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="IsGlobal_2304" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncUnlockBehavior_313C" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampQuant_SampMode_1300" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampQuant_SampPerChan_1310" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampTimingType_1347" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Rate_1344" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="SampClk_MaxRate_22C8" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Src_1852" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_ActiveEdge_1301" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_OverrunBehavior_2EFC" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_UnderflowBehavior_2961" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_TimebaseDiv_18EB" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="SampClk_Term_2F1B" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Timebase_Rate_1303" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Timebase_Src_1308" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Timebase_ActiveEdge_18EC" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Timebase_MasterTimebaseDiv_1305" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="SampClk_Timebase_Term_2F1C" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DigFltr_Enable_221E" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DigFltr_MinPulseWidth_221F" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DigFltr_TimebaseSrc_2220" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DigFltr_TimebaseRate_2221" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DigSync_Enable_2222" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_WriteWfm_UseInitialWfmDT_30FC" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_DelayAfterXfer_22C2" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_StartCond_22C3" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_SampleInputDataWhen_22C4" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetect_DI_RisingEdgePhysicalChans_2195" DataType="@5355c7f2a9a14b04af20832ed4d01109" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetect_DI_FallingEdgePhysicalChans_2196" DataType="@5355c7f2a9a14b04af20832ed4d01109" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetect_DI_Tristate_2EFA" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SimultaneousAOEnable_21A0" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Implicit_UnderflowBehavior_2EFD" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_Rate_1848" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AIConv_MaxRate_22C9" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_Src_1502" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_ActiveEdge_1853" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_TimebaseDiv_1335" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_Timebase_Src_1339" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DelayFromSampClk_DelayUnits_1304" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DelayFromSampClk_Delay_1317" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_DigFltr_Enable_2EDC" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_DigFltr_MinPulseWidth_2EDD" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_DigFltr_TimebaseSrc_2EDE" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_DigFltr_TimebaseRate_2EDF" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_DigSync_Enable_2EE0" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="MasterTimebase_Rate_1495" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="MasterTimebase_Src_1343" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RefClk_Rate_1315" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RefClk_Src_1316" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncPulse_Src_223D" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="Read" Name="SyncPulse_SyncTime_223E" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncPulse_MinDelayToStart_223F" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="SyncPulse_ResetTime_2F7C" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncPulse_ResetDelay_2F7D" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="SyncPulse_Term_2F85" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncClk_Interval_2F7E" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampTimingEngine_2A26" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_TrigType_1393" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="Start_Term_2F1E" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_Src_1407" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_Edge_1404" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_DigFltr_Enable_2223" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_DigFltr_MinPulseWidth_2224" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_DigFltr_TimebaseSrc_2225" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_DigFltr_TimebaseRate_2226" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_DigSync_Enable_2227" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigPattern_Src_1410" DataType="@5355c7f2a9a14b04af20832ed4d01109" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigPattern_Pattern_2186" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigPattern_TrigWhen_1411" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_Src_1398" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_Slope_1397" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_Lvl_1396" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_Hyst_1395" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_Coupling_2233" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_DigFltr_Enable_2EE1" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_DigFltr_MinPulseWidth_2EE2" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_DigFltr_TimebaseSrc_2EE3" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_DigFltr_TimebaseRate_2EE4" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_DigSync_Enable_2EE5" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgMultiEdge_Srcs_3121" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgMultiEdge_Slopes_3122" DataType="Int32[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgMultiEdge_Lvls_3123" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgMultiEdge_Hysts_3124" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgMultiEdge_Couplings_3125" DataType="Int32[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_Src_1400" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_TrigWhen_1401" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_Top_1403" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_Btm_1402" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_Coupling_2234" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_DigFltr_Enable_2EFF" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_DigFltr_MinPulseWidth_2F00" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_DigFltr_TimebaseSrc_2F01" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_DigFltr_TimebaseRate_2F02" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_DigSync_Enable_2F03" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_Time_When_304D" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_Time_Timescale_3036" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_Timestamp_Enable_314A" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_Timestamp_Timescale_312D" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="Start_Timestamp_Val_314B" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_Delay_1856" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DelayUnits_18C8" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_Retriggerable_190F" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_TrigWin_311A" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_RetriggerWin_311B" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_MaxNumTrigsToDetect_311C" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_TrigType_1419" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_PretrigSamples_1445" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="Ref_Term_2F1F" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_Src_1434" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_Edge_1430" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_DigFltr_Enable_2ED7" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_DigFltr_MinPulseWidth_2ED8" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_DigFltr_TimebaseSrc_2ED9" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_DigFltr_TimebaseRate_2EDA" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_DigSync_Enable_2EDB" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigPattern_Src_1437" DataType="@5355c7f2a9a14b04af20832ed4d01109" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigPattern_Pattern_2187" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigPattern_TrigWhen_1438" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_Src_1424" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_Slope_1423" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_Lvl_1422" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_Hyst_1421" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_Coupling_2235" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_DigFltr_Enable_2EE6" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_DigFltr_MinPulseWidth_2EE7" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_DigFltr_TimebaseSrc_2EE8" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_DigFltr_TimebaseRate_2EE9" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_DigSync_Enable_2EEA" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgMultiEdge_Srcs_3126" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgMultiEdge_Slopes_3127" DataType="Int32[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgMultiEdge_Lvls_3128" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgMultiEdge_Hysts_3129" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgMultiEdge_Couplings_312A" DataType="Int32[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_Src_1426" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_TrigWhen_1427" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_Top_1429" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_Btm_1428" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_Coupling_1857" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_DigFltr_Enable_2EEB" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_DigFltr_MinPulseWidth_2EEC" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_DigFltr_TimebaseSrc_2EED" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_DigFltr_TimebaseRate_2EEE" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_DigSync_Enable_2EEF" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AutoTrig_Enable_2EC1" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="Ref_AutoTriggered_2EC2" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_Timestamp_Enable_312E" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_Timestamp_Timescale_3130" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="Ref_Timestamp_Val_312F" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_Delay_1483" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_Retriggerable_311D" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_TrigWin_311E" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_RetriggerWin_311F" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_MaxNumTrigsToDetect_3120" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Adv_TrigType_1365" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Adv_DigEdge_Src_1362" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Adv_DigEdge_Edge_1360" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Adv_DigEdge_DigFltr_Enable_2238" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_TrigType_22B7" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_Interlocked_Src_22B8" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_Interlocked_AssertedLvl_22B9" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_TrigType_1366" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="Pause_Term_2F20" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_Src_1370" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_When_1371" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_Lvl_1369" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_Hyst_1368" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_Coupling_2236" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_DigFltr_Enable_2EF0" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_DigFltr_MinPulseWidth_2EF1" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_DigFltr_TimebaseSrc_2EF2" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_DigFltr_TimebaseRate_2EF3" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_DigSync_Enable_2EF4" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_Src_1373" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_When_1374" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_Top_1376" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_Btm_1375" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_Coupling_2237" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_DigFltr_Enable_2EF5" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_DigFltr_MinPulseWidth_2EF6" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_DigFltr_TimebaseSrc_2EF7" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_DigFltr_TimebaseRate_2EF8" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_DigSync_Enable_2EF9" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_Src_1379" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_When_1380" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_DigFltr_Enable_2228" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_DigFltr_MinPulseWidth_2229" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_DigFltr_TimebaseSrc_222A" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_DigFltr_TimebaseRate_222B" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_DigSync_Enable_222C" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigPattern_Src_216F" DataType="@5355c7f2a9a14b04af20832ed4d01109" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigPattern_Pattern_2188" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigPattern_When_2170" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_TrigType_1414" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="ArmStart_Term_2F7F" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_Src_1417" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_Edge_1415" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_DigFltr_Enable_222D" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_DigFltr_MinPulseWidth_222E" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_DigFltr_TimebaseSrc_222F" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_DigFltr_TimebaseRate_2230" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_DigSync_Enable_2231" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_Time_When_3131" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_Time_Timescale_3132" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_Timestamp_Enable_3133" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_Timestamp_Timescale_3135" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="ArmStart_Timestamp_Val_3134" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncType_2F80" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RelativeTo_190A" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Offset_190B" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ChannelsToRead_1823" DataType="@ef75de112b334a438ea8ea0e28625755" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="WfmAttr_1225" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ReadAllAvailSamp_1215" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AutoStart_1826" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="OverWrite_1211" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Logging_FilePath_2EC4" DataType="Path" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Logging_Mode_2EC5" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Logging_TDMS_GroupName_2EC6" DataType="String" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Logging_TDMS_Operation_2EC7" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Logging_Pause_2FE3" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Logging_SampsPerFile_2FE4" DataType="Int64" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Logging_FileWriteSize_2FC3" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Logging_FilePreallocationSize_2FC6" DataType="Int64" />
+					<Field FieldAccessPolicy="Read" Name="CurrReadPos_1221" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AvailSampPerChan_1223" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="TotalSampPerChanAcquired_192A" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="CommonModeRangeErrorChansExist_2A98" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="CommonModeRangeErrorChans_2A99" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="ExcitFaultChansExist_3088" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="ExcitFaultChans_3089" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="OvercurrentChansExist_29E6" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="OvercurrentChans_29E7" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="OvertemperatureChansExist_3081" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="OvertemperatureChans_3082" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="OpenChansExist_3100" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="OpenChans_3101" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="OpenChansDetails_3102" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="OpenCurrentLoopChansExist_2A09" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="OpenCurrentLoopChans_2A0A" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="OpenThrmcplChansExist_2A96" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="OpenThrmcplChans_2A97" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="OverloadedChansExist_2174" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="OverloadedChans_2175" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="PLL_UnlockedChansExist_3118" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="PLL_UnlockedChans_3119" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="Sync_UnlockedChansExist_313D" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="Sync_UnlockedChans_313E" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="AccessoryInsertionOrRemovalDetected_2F70" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DevsWithInsertedOrRemovedAccessories_2F71" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="ChangeDetect_Overflowed_2194" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="RawDataWidth_217A" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="NumChans_217B" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="DI_NumBooleansPerChan_217C" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="WaitMode_2232" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SleepTime_22B0" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RelativeTo_190C" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Offset_190D" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RegenMode_1453" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="CurrWritePos_1458" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="OvercurrentChansExist_29E8" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="OvercurrentChans_29E9" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="OvertemperatureChansExist_2A84" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="OvertemperatureChans_3083" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="ExternalOvervoltageChansExist_30BB" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="ExternalOvervoltageChans_30BC" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="OverloadedChansExist_3084" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="OverloadedChans_3085" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="OpenCurrentLoopChansExist_29EA" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="OpenCurrentLoopChans_29EB" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="PowerSupplyFaultChansExist_29EC" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="PowerSupplyFaultChans_29ED" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="Sync_UnlockedChansExist_313F" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="Sync_UnlockedChans_3140" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="SpaceAvail_1460" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="TotalSampPerChanGenerated_192B" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AccessoryInsertionOrRemovalDetected_3053" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DevsWithInsertedOrRemovedAccessories_3054" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="RawDataWidth_217D" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="NumChans_217E" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="WaitMode_22B1" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SleepTime_22B2" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="DO_NumBooleansPerChan_217F" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Input_BufSize_186C" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="Input_OnbrdBufSize_230A" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Output_BufSize_186D" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Output_OnbrdBufSize_230B" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ConvLateErrorsToWarnings_22EE" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="NumOfWarmupIters_22ED" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="WaitForNextSampClkWaitMode_22EF" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ReportMissedSamp_2319" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="WriteRecoveryMode_231A" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConvClk_OutputTerm_1687" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="Read" Name="AIConvClk_Pulse_Polarity_1688" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="10MHzRefClk_OutputTerm_226E" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="20MHzTimebase_OutputTerm_1657" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_OutputBehavior_186B" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_OutputTerm_1663" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DelayOffset_21C4" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Pulse_Polarity_1664" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClkTimebase_OutputTerm_18F9" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DividedSampClkTimebase_OutputTerm_21A1" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvTrig_OutputTerm_1645" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="Read" Name="AdvTrig_Pulse_Polarity_1646" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvTrig_Pulse_WidthUnits_1647" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvTrig_Pulse_Width_1648" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="PauseTrig_OutputTerm_1615" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="PauseTrig_Lvl_ActiveLvl_1616" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RefTrig_OutputTerm_590" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RefTrig_Pulse_Polarity_591" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="StartTrig_OutputTerm_584" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="StartTrig_Pulse_Polarity_585" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvCmpltEvent_OutputTerm_1651" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvCmpltEvent_Delay_1757" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvCmpltEvent_Pulse_Polarity_1652" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvCmpltEvent_Pulse_Width_1654" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIHoldCmpltEvent_OutputTerm_18ED" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIHoldCmpltEvent_Pulse_Polarity_18EE" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetectEvent_OutputTerm_2197" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetectEvent_Pulse_Polarity_2303" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CtrOutEvent_OutputTerm_1717" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CtrOutEvent_OutputBehavior_174F" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CtrOutEvent_Pulse_Polarity_1718" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CtrOutEvent_Toggle_IdleState_186A" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_OutputTerm_22BA" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_OutputBehavior_22BB" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_Delay_22BC" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_Interlocked_AssertedLvl_22BD" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_Interlocked_AssertOnStart_22BE" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_Interlocked_DeassertDelay_22BF" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_Pulse_Polarity_22C0" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_Pulse_Width_22C1" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForXferEvent_OutputTerm_22B5" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForXferEvent_Lvl_ActiveLvl_22B6" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForXferEvent_DeassertCond_2963" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForXferEvent_DeassertCondCustomThreshold_2964" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DataActiveEvent_OutputTerm_1633" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DataActiveEvent_Lvl_ActiveLvl_1634" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForStartEvent_OutputTerm_1609" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForStartEvent_Lvl_ActiveLvl_1751" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncPulseEvent_OutputTerm_223C" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="WatchdogExpiredEvent_OutputTerm_21AA" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Timeout_21A9" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirTrig_TrigType_21A3" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirTrig_TrigOnNetworkConnLoss_305D" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirTrig_DigEdge_Src_21A4" DataType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirTrig_DigEdge_Edge_21A5" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirStates_DO_State_21A7" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirStates_AO_Type_305E" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirStates_AO_State_305F" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirStates_CO_State_3060" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="Expired_21A8" DataType="Boolean" />
+					<Attributed AttributedType="@3233d30f52c647bfa6a126fe2774c459">
+						<AttributeValues>
+							<AttributeValue Name="NI_EventCode" Value="[uint]12580" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@9306dde854fc406da425ae4f49f46211">
+						<AttributeValues>
+							<AttributeValue Name="NI_EventCode" Value="[uint]12581" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@bb89724bfae64c839be13b954734a703">
+						<AttributeValues>
+							<AttributeValue Name="NI_EventCode" Value="[uint]12575" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@8d5afd9a51a245088e86aa50d183e0b1">
+						<AttributeValues>
+							<AttributeValue Name="NI_EventCode" Value="[uint]12576" />
+						</AttributeValues>
+					</Attributed>
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="56599108240749578ce8722cabbe1b9d">
+			<VariableArray DereferenceType="@ef75de112b334a438ea8ea0e28625755" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="2baefa4349de4a83b8142173919fe999">
+			<VariableArray DereferenceType="@1f5cbffe16924e31a9fbf9b11f4492eb" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="69ba4368c94e4de48ae2b153591037b9">
+			<Attributed AttributedType="@087e89f1b7cf4e96a89245cfefee0082">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:DAQmx:Types\.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ef75de112b334a438ea8ea0e28625755">
+			<Attributed AttributedType="@84358ea1376b4be9ab778dd33f2a5b04">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:DAQmx:Types\.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9a4e87a6f200402ca7f7e22233bc4bfe">
+			<Attributed AttributedType="@eadddd0f7e614ce5a5e77614efa15ca5">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:DAQmx:Types\.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5355c7f2a9a14b04af20832ed4d01109">
+			<Attributed AttributedType="@6d749ffba2f94c36bea5335c74668ebb">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:DAQmx:Types\.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3233d30f52c647bfa6a126fe2774c459">
+			<Event Id="1" Name="EveryNSamplesAcqIntoBuffer" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@3f1479dad0f94afeb7b1d1515d7efe4f">
+						<AttributeValues>
+							<AttributeValue Name="NI_IncludeInEventRegisterNode" Value="[bool]True" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Event>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9306dde854fc406da425ae4f49f46211">
+			<Event Id="1" Name="EveryNSamplesTransferredFromBuffer" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@3f1479dad0f94afeb7b1d1515d7efe4f">
+						<AttributeValues>
+							<AttributeValue Name="NI_IncludeInEventRegisterNode" Value="[bool]True" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Event>
+		</p.TypeReference>
+		<p.TypeReference TypeId="bb89724bfae64c839be13b954734a703">
+			<Event Id="1" Name="Signal" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@d91e37a514654e878dfd4ed10571dcf1">
+						<AttributeValues>
+							<AttributeValue Name="NI_IncludeInEventRegisterNode" Value="[bool]True" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Event>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8d5afd9a51a245088e86aa50d183e0b1">
+			<Event Id="1" Name="Done" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@0a15c3be99b04681898d07d2697d4bed">
+						<AttributeValues>
+							<AttributeValue Name="NI_IncludeInEventRegisterNode" Value="[bool]False" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Event>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1f5cbffe16924e31a9fbf9b11f4492eb">
+			<Attributed AttributedType="@f5a564ebae1746f2b15199304a1eabf1">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:DAQmx:Types\.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="087e89f1b7cf4e96a89245cfefee0082">
+			<Typedef TypedefName="Scale" UnderlyingType="@83c2819cbfbd4982992c6ed568b07374" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="84358ea1376b4be9ab778dd33f2a5b04">
+			<Typedef TypedefName="Channel" UnderlyingType="@cd40d90b31d14f1b90a5cd77a20576c8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="eadddd0f7e614ce5a5e77614efa15ca5">
+			<Typedef TypedefName="Terminal" UnderlyingType="@0b0902a3be404b389f76c5845236fefd" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="6d749ffba2f94c36bea5335c74668ebb">
+			<Typedef TypedefName="Physical Channel" UnderlyingType="@f3fe34f102b744acb7f9e7d5dd061938" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="3f1479dad0f94afeb7b1d1515d7efe4f">
+			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="sampleInterval" DataType="UInt32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="d91e37a514654e878dfd4ed10571dcf1">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="NotAllowed" Name="signalType" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="0a15c3be99b04681898d07d2697d4bed">
+			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="status" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f5a564ebae1746f2b15199304a1eabf1">
+			<Typedef TypedefName="Device" UnderlyingType="@ad6d879f8a4f4cd6912da5d61b36fa64" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="83c2819cbfbd4982992c6ed568b07374">
+			<Attributed AttributedType="@7ee549d191454b09940b14d4a3ee67d6">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Tag" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Scale" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]Types.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="cd40d90b31d14f1b90a5cd77a20576c8">
+			<Attributed AttributedType="@4b0ce699d51c413ea90f29a066c18256">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Tag" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Channel" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]Types.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="0b0902a3be404b389f76c5845236fefd">
+			<Attributed AttributedType="@68dacbfd9fa444fa9adde8c870fac5ef">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Tag" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Terminal" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]Types.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f3fe34f102b744acb7f9e7d5dd061938">
+			<Attributed AttributedType="@a603f092b06142a4829085705afc0076">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Tag" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Physical Channel" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]Types.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ad6d879f8a4f4cd6912da5d61b36fa64">
+			<Attributed AttributedType="@d4ed38e3d94c4a57ae9dd6f1abcd6459">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Tag" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Device" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]Types.udr" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="7ee549d191454b09940b14d4a3ee67d6">
+			<Composite Id="1" Name="Scale" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Descr_1226" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ScaledUnits_191B" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="PreScaledUnitsPrefix_18F6" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="PreScaledUnits_18F7" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="ScaleType_1929" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Lin_Slope_1227" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Lin_YIntercept_1228" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Map_ScaledMax_1229" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Map_PreScaledMax_1231" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Map_ScaledMin_1230" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Map_PreScaledMin_1232" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Name_2312" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Poly_ForwardCoeff_1234" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Poly_ReverseCoeff_1235" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Table_ScaledVals_1236" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Table_PreScaledVals_1237" DataType="Double[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4b0ce699d51c413ea90f29a066c18256">
+			<Composite Id="1" Name="Channel" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="68dacbfd9fa444fa9adde8c870fac5ef">
+			<Composite Id="1" Name="Terminal" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a603f092b06142a4829085705afc0076">
+			<Composite Id="1" Name="Physical Channel" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="AI_MeasTypes_2FD7" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="PhysChan_AI_SampModes_30F9" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_TermCfgs_2342" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_InputSrcs_2FD8" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_PossibleHighRngs_233E" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_PossibleLowRngs_233F" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_MaxSingleChanRate_233D" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AI_SWTimedMinRate_234E" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AI_MaxResolution_2341" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="AI_PossibleQuarterBridgeVals_30D4" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_OutputTypes_2FD9" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_PowerUpOutputTypes_304E" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_TermCfgs_29A3" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_NomMax_2355" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AO_NomMin_2356" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AO_MaxSingleChanRate_2345" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AO_SWTimedMinRate_234F" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AO_PossibleTimingTypes_2344" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_MaxResolution_2346" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="AO_DAC_Offset_PossibleVals_2347" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_DAC_Ref_PossibleVals_2348" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_ManualControl_Enable_2A1E" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AO_ManualControl_ShortDetected_2EC3" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AO_ManualControl_Amplitude_2A1F" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AO_ManualControl_Freq_2A20" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_PowerAmp_ChannelEnable_3062" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AO_PowerAmp_ScalingCoeff_3063" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_PowerAmp_Overcurrent_3064" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AO_PowerAmp_Gain_3065" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AO_PowerAmp_Offset_3066" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="DI_PortWidth_29A4" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="DI_SampClkSupported_29A5" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DI_SampModes_2FE0" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="DI_WaitForNextSampClkSupported_304A" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DI_ChangeDetectSupported_29A6" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DI_ChangeDetectMinPulseWidth_2A4F" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="DI_HardwarePropDelay_2A50" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="DI_SWTimedMinRate_2350" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="DI_TristateAllowed_2349" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DI_DigFilterRngs_2A51" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="DO_PortWidth_29A7" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="DO_SampClkSupported_29A8" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DO_SampModes_2FE1" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="DO_WaitForNextSampClkSupported_304B" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DO_HardwarePropDelay_2A52" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="DO_SWTimedMinRate_2351" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="DO_TristateAllowed_234A" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DO_TristateFloatingVal_235A" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DO_WatchdogSupported_2A53" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="CI_MeasTypes_2FDA" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="CI_SWTimedMinRate_2352" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="CI_PossibleTimingTypes_30CB" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="CI_PossibleTimebases_234B" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="CI_CtrSizeInBits_234C" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="CO_OutputTypes_2FDB" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="CO_Family_2522" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="Nav_MeasTypes_3037" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="TEDS_MfgID_21DA" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="TEDS_ModelNum_21DB" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="TEDS_SerialNum_21DC" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="TEDS_VersionNum_21DD" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="TEDS_VersionLetter_21DE" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="TEDS_BitStream_21DF" DataType="UInt8[]" />
+					<Field FieldAccessPolicy="Read" Name="TEDS_TemplateIDs_228F" DataType="UInt32[]" />
+					<Field FieldAccessPolicy="Read" Name="TEDS_IsVirtual_2A77" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="PhysicalChanName_29CE" DataType="@5355c7f2a9a14b04af20832ed4d01109" />
+					<Field FieldAccessPolicy="Read" Name="EMTC_ActiveContext_234D" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d4ed38e3d94c4a57ae9dd6f1abcd6459">
+			<Composite Id="1" Name="Device" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="Name_2551" DataType="@1f5cbffe16924e31a9fbf9b11f4492eb" />
+					<Field FieldAccessPolicy="Read" Name="DevIsSimulated_22CA" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DevIsIVISimulated_2F94" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DevNotPresent_29BD" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="ProductCategory_29A9" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="ProductType_631" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="ProductNum_231D" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="Dev_HWRevision_30CF" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="DevSerialNum_632" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="Accessory_ProductTypes_2F6D" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="Accessory_ProductNums_2F6E" DataType="UInt32[]" />
+					<Field FieldAccessPolicy="Read" Name="Accessory_SerialNums_2F6F" DataType="UInt32[]" />
+					<Field FieldAccessPolicy="Read" Name="CarrierSerialNum_2A8A" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="Chassis_ModuleDevNames_29B6" DataType="@2baefa4349de4a83b8142173919fe999" />
+					<Field FieldAccessPolicy="Read" Name="Firmware_Version_2FC0" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="Firmware_AvailVersions_308B" DataType="String[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Firmware_EnableAutomaticManagement_2FC1" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AnlgTrigSupported_2984" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DigTrigSupported_2985" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="TimeTrigSupported_301F" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="SupportsMasterTimebase_29F3" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DefaultMasterTimebaseRate_29F4" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="SupportsReferenceClock_29F5" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DefaultReferenceClockRate_29F6" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="SupportsSampleClockTimebase_29F7" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AI_PhysicalChans_231E" DataType="@fe58eb0b0c1341c5ac07d0a88db09f25" />
+					<Field FieldAccessPolicy="Read" Name="AI_MeasTypes_2FD2" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_MaxSingleChanRate_298C" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AI_MaxMultiChanRate_298D" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AI_MinRate_298E" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AI_SimultaneousSamplingSupported_298F" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AI_PossibleSampTimingEngines_2F69" DataType="UInt32[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_SampModes_2FDC" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_TrigUsage_2986" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Trig_DigStartSupported_233A" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AI_Trig_DigStartSrcs_233B" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Voltage_Rngs_2990" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Voltage_IntExcit_DiscreteVals_29C9" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Voltage_IntExcit_RangeVals_29CA" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Charge_Rngs_3111" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Current_Rngs_2991" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Current_IntExcit_DiscreteVals_29CB" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Bridge_Rngs_2FD0" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Resistance_Rngs_2A15" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Freq_Rngs_2992" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_CustomVoltageWithExcitation_Rngs_2A16" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Gains_2993" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Couplings_2994" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Lowpass_CutoffFreq_DiscreteVals_2995" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_Lowpass_CutoffFreq_RangeVals_29CF" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_DigFltr_Types_3107" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_DigFltr_Lowpass_CutoffFreq_DiscreteVals_30C8" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_DigFltr_Lowpass_CutoffFreq_RangeVals_30C9" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_IntPhysicalChans_2337" DataType="@fe58eb0b0c1341c5ac07d0a88db09f25" />
+					<Field FieldAccessPolicy="Read" Name="AI_NomRates_2338" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_MaxScanlistLength_2357" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="AI_PossibleDataXferMechs_2353" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AI_FIFOSize_2339" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AO_PhysicalChans_231F" DataType="@fe58eb0b0c1341c5ac07d0a88db09f25" />
+					<Field FieldAccessPolicy="Read" Name="AO_OutputTypes_2FD3" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_SampClkSupported_2996" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="AO_SampModes_2FDD" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_PossibleSampTimingEngines_3073" DataType="UInt32[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_MaxRate_2997" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AO_MinRate_2998" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AO_TrigUsage_2987" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_Voltage_Rngs_299B" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_Current_Rngs_299C" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_Gains_299D" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="AO_FIFOSize_2343" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="AO_PossibleDataXferMechs_2354" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="DI_Lines_2320" DataType="@fe58eb0b0c1341c5ac07d0a88db09f25" />
+					<Field FieldAccessPolicy="Read" Name="DI_Ports_2321" DataType="@fe58eb0b0c1341c5ac07d0a88db09f25" />
+					<Field FieldAccessPolicy="Read" Name="DI_MaxRate_2999" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="DI_TrigUsage_2988" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="DO_Lines_2322" DataType="@fe58eb0b0c1341c5ac07d0a88db09f25" />
+					<Field FieldAccessPolicy="Read" Name="DO_Ports_2323" DataType="@fe58eb0b0c1341c5ac07d0a88db09f25" />
+					<Field FieldAccessPolicy="Read" Name="DO_MaxRate_299A" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="DO_TrigUsage_2989" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="CI_PhysicalChans_2324" DataType="@fe58eb0b0c1341c5ac07d0a88db09f25" />
+					<Field FieldAccessPolicy="Read" Name="CI_MeasTypes_2FD4" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="CI_TrigUsage_298A" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="CI_SampClkSupported_299E" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="CI_SampModes_2FDE" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="CI_MaxSize_299F" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="CI_MaxTimebase_29A0" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="CI_Timestamp_CurrentUTCOffset_3020" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="CI_Timestamp_UTCOffsetReady_3021" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="CO_PhysicalChans_2325" DataType="@fe58eb0b0c1341c5ac07d0a88db09f25" />
+					<Field FieldAccessPolicy="Read" Name="CO_OutputTypes_2FD5" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="CO_SampClkSupported_2F5B" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="CO_SampModes_2FDF" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="CO_TrigUsage_298B" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="CO_MaxSize_29A1" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="CO_MaxTimebase_29A2" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="CO_BufferingSupported_2F6A" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="Nav_PhysicalChans_3022" DataType="@fe58eb0b0c1341c5ac07d0a88db09f25" />
+					<Field FieldAccessPolicy="Read" Name="Nav_MeasTypes_3023" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="Nav_TrigUsage_3024" DataType="Int32[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Nav_Mode_3025" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Nav_PresetLat_3026" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Nav_PresetLong_3027" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Nav_PresetAlt_3028" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Nav_AltRef_3029" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Nav_PPSCompen_302A" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Nav_NumSurveyFixes_302B" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="Nav_RemainingSurveyFixes_302C" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="Nav_HasFix_302D" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="Nav_AntStatus_302E" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="Nav_UTCOffsetReady_302F" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="Nav_CurrentUTCOffset_3030" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="Nav_NumSats_3031" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="Nav_PDOP_3032" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="Nav_HDOP_3033" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="Nav_VDOP_3034" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="TEDS_HWTEDSSupported_2FD6" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="NumDMAChans_233C" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="BusType_2326" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="PCI_BusNum_2327" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="PCI_DevNum_2328" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="PCI_FunctionNum_2F54" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="PCIe_LinkWidthActual_30D6" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="PCIe_LinkWidthMax_30D7" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="PCI_BAR0_2520" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="PCI_BAR1_2521" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="PXI_ChassisNum_2329" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="PXI_SlotNum_232A" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="USB_InterfaceNum_2F55" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="CompactDAQ_ChassisDevName_29B7" DataType="@1f5cbffe16924e31a9fbf9b11f4492eb" />
+					<Field FieldAccessPolicy="Read" Name="CompactDAQ_SlotNum_29B8" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="TCPIP_Hostname_2A8B" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="TCPIP_EthernetIP_2A8C" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="TCPIP_WirelessIP_2A8D" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="TCPIP_EthernetMAC_2FA8" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="TCPIP_WirelessMac_2FE2" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="TCPIP_EthernetMDNSServiceInstance_2FA9" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="TCPIP_DevIsReserved_2FC4" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="TCPIP_NextReservationStateToAttempt_2FC5" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="DAQ_IPAddress_623" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="HSD_BinSampWidth_1466" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="HSD_MaxSampRate_1467" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="HSD_MaxRISRate_1468" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="HSD_NumChans_1469" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="HSD_MaxInVolt_1470" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="HSD_OnBrdMemSize_1471" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrStr_232B" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrStrVec_232D" DataType="String[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrI32_232E" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrI32Vec_2330" DataType="Int32[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrU32_2331" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrU32Vec_2333" DataType="UInt32[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrF64_2334" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrF64Vec_2336" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrBool_232F" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrBoolVec_232C" DataType="Boolean[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrEnum_2332" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EMTC_DevAttrEnumVec_2335" DataType="Int32[]" />
+					<Field FieldAccessPolicy="Read" Name="Accessories_2523" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="AssociatedResourceIDs_29F8" DataType="String[]" />
+					<Field FieldAccessPolicy="Read" Name="SCXIModule_Chassis_2524" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="SCXIModule_Slot_2525" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXIModule_CabledDev_2526" DataType="@1f5cbffe16924e31a9fbf9b11f4492eb" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXIModule_DigitizingDev_2527" DataType="@1f5cbffe16924e31a9fbf9b11f4492eb" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXIModule_DigitizationMode_2528" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXIModule_DigitizingDevChans_2529" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="SCXIModule_DaisyChainIndex_2ABB" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXI1100_FltrFreqJumper_252A" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXI1100_FltrEnableJumper_252B" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXI1121_GainJumper_252C" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXI1121_ExcitTypeJumper_252D" DataType="Int32[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXI1121_ExcitValJumper_254E" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXI1121_FltrFreqJumper_252E" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXI1120_GainJumper_252F" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXI1120_FltrFreqJumper_2530" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXI1120D_GainJumper_2531" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXI1120D_FltrFreqJumper_2532" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SCXI1140_GainJumper_2533" DataType="Double[]" />
+					<Field FieldAccessPolicy="Read" Name="SCCModule_ConnBlk_2534" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="SCCModule_Slot_2535" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="Terminals_2A40" DataType="@e17946e393c3475f8c49c8fd71d2c4a0" />
+					<Field FieldAccessPolicy="Read" Name="NumTimeTrigs_3141" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="NumTimestampEngines_3142" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Advanced_MSeriesLegacyCompatibility_2ECF" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="IsDevInitComplete_3048" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="DevInitStatus_3049" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="SwitchBlockCarrier_ExpansionBridgeInfo_2F57" DataType="String[]" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="cDAQSyncPortConnections_3008" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="SelfCal_Supported_1860" DataType="Boolean" />
+					<Field FieldAccessPolicy="Read" Name="SelfCal_LastDate/Time_1862" DataType="Timestamp" />
+					<Field FieldAccessPolicy="Read" Name="SelfCal_LastTemp_1864" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="ExtCal_RecommendedInterval_1868" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="ExtCal_LastDate/Time_1865" DataType="Timestamp" />
+					<Field FieldAccessPolicy="Read" Name="ExtCal_LastTemp_1867" DataType="Double" />
+					<Field FieldAccessPolicy="Read" Name="ExtCal_Checksum_312B" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Cal_UserDefinedInfo_1861" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="Cal_UserDefinedInfo_MaxSize_191C" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="DevTemp_223B" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="AccConnectionCount_2FEB" DataType="UInt32" />
+					<Field FieldAccessPolicy="Read" Name="RecommendedAccConnectionCountLimit_2FEC" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ExtCal_UserDefinedCalInterval_3055" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ExtCal_UserDefinedCalExpiryDate_3056" DataType="Timestamp" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="fe58eb0b0c1341c5ac07d0a88db09f25">
+			<VariableArray DereferenceType="@5355c7f2a9a14b04af20832ed4d01109" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e17946e393c3475f8c49c8fd71d2c4a0">
+			<VariableArray DereferenceType="@9a4e87a6f200402ca7f7e22233bc4bfe" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="NI:DAQmx:Internal:DAQmx\ Start\ Task\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 50 50">
+						<IconPanel Height="[float]50" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]50">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]46" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]DAQmx Start Task" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]46">
+									<FontSetting FontFamily="Verdana" FontSize="9" />
+								</FileNameText>
+							</IconTemplate>
+							<Canvas Left="[float]0" Top="[float]0">
+								<Path Data="[PathGeometry]M 46,1 C 47.654,1 49,2.293 49,3.947 L 49,46 C 49,47.654 47.654,49 46,49 L 4.083,49 C 2.429,49 1,47.654 1,46 L 1,3.947 C 1,2.293 2.429,1 4.083,1 L 46,1 " Fill="[SMSolidColorBrush]#ffffffff" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
+								<Path Data="[PathGeometry]M 46,1 C 47.654,1 49,2.293 49,3.947 L 49,46 C 49,47.654 47.654,49 46,49 L 4.083,49 C 2.429,49 1,47.654 1,46 L 1,3.947 C 1,2.293 2.429,1 4.083,1 L 46,1  M 46,0 L 4.083,0 C 1.883,0 0,1.747 0,3.947 L 0,46 C 0,48.2 1.883,50 4.083,50 L 46,50 C 48.2,50 50,48.2 50,46 L 50,3.947 C 50,1.747 48.2,0 46,0 L 46,0 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
+								<Path Data="[PathGeometry]M 48,46.053 C 48,47.153 47.1,48 46,48 L 4,48 C 2.9,48 2,47.153 2,46.053 L 2,4 C 2,2.9 2.9,2 4,2 L 46,2 C 47.1,2 48,2.9 48,4 L 48,46.053 Z" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
+								<Path Data="[PathGeometry]M 2,12 L 2,4 C 2,2.9 2.9,2 4,2 L 46,2 C 47.1,2 48,2.9 48,4 L 48,12 L 2,12 Z M 14.15,5.631 C 13.92,5.215 13.604,4.885 13.203,4.641 C 12.969,4.495 12.68,4.383 12.336,4.303 C 11.992,4.223 11.584,4.184 11.109,4.184 L 9,4.184 L 9,10 L 11.051,10 C 11.514,10 11.916,9.966 12.254,9.898 C 12.592,9.83 12.904,9.71 13.188,9.539 C 13.565,9.31 13.878,8.981 14.126,8.553 C 14.374,8.125 14.497,7.639 14.497,7.098 C 14.496,6.535 14.381,6.046 14.15,5.631 Z M 12.754,8.057 C 12.627,8.319 12.426,8.528 12.152,8.684 C 11.993,8.77 11.83,8.829 11.664,8.862 C 11.498,8.895 11.236,8.91 10.879,8.91 L 10.5,8.91 L 10.5,5.27 L 10.879,5.27 C 11.202,5.27 11.443,5.284 11.604,5.311 C 11.765,5.338 11.921,5.39 12.075,5.465 C 12.377,5.619 12.598,5.832 12.737,6.104 C 12.876,6.376 12.946,6.704 12.946,7.086 C 12.945,7.471 12.881,7.795 12.754,8.057 Z M 18.596,4.184 L 16.87,4.184 L 14.721,10 L 16.233,10 L 16.638,8.824 L 18.79,8.824 L 19.196,10 L 20.745,10 L 18.596,4.184 Z M 16.999,7.758 L 17.715,5.674 L 18.43,7.758 L 16.999,7.758 Z M 26.522,8.881 C 26.835,8.38 26.991,7.784 26.991,7.094 C 26.991,6.159 26.724,5.42 26.19,4.877 C 25.656,4.334 24.923,4.063 23.991,4.063 C 23.056,4.063 22.323,4.334 21.792,4.877 C 21.261,5.42 20.995,6.159 20.995,7.094 C 20.995,7.987 21.238,8.7 21.724,9.233 C 22.21,9.766 22.888,10.057 23.757,10.106 C 23.77,10.335 23.814,10.544 23.89,10.731 C 23.966,10.918 24.079,11.081 24.23,11.219 C 24.384,11.36 24.576,11.469 24.806,11.545 C 25.036,11.621 25.306,11.66 25.617,11.66 C 25.969,11.66 26.23,11.647 26.4,11.621 C 26.57,11.595 26.729,11.565 26.875,11.532 L 26.875,10.504 L 26.727,10.504 C 26.67,10.533 26.568,10.565 26.422,10.602 C 26.276,10.639 26.15,10.657 26.043,10.657 C 25.728,10.657 25.505,10.601 25.375,10.488 C 25.245,10.376 25.174,10.19 25.164,9.93 C 25.757,9.732 26.21,9.382 26.522,8.881 Z M 24.546,8.912 C 24.372,8.986 24.188,9.023 23.995,9.023 C 23.802,9.023 23.619,8.986 23.444,8.914 C 23.269,8.842 23.117,8.728 22.987,8.574 C 22.857,8.42 22.752,8.222 22.673,7.978 C 22.594,7.734 22.554,7.439 22.554,7.093 C 22.554,6.755 22.595,6.457 22.677,6.2 C 22.759,5.943 22.865,5.742 22.995,5.596 C 23.136,5.44 23.29,5.328 23.458,5.26 C 23.626,5.192 23.805,5.158 23.995,5.158 C 24.183,5.158 24.363,5.193 24.536,5.263 C 24.709,5.333 24.862,5.447 24.995,5.603 C 25.125,5.754 25.231,5.952 25.311,6.197 C 25.391,6.442 25.432,6.739 25.432,7.088 C 25.432,7.414 25.397,7.697 25.327,7.938 C 25.257,8.179 25.149,8.388 25.003,8.565 C 24.873,8.723 24.72,8.838 24.546,8.912 Z M 32.707,6.689 C 32.819,6.648 32.934,6.628 33.051,6.628 C 33.225,6.628 33.361,6.649 33.457,6.692 C 33.553,6.735 33.624,6.803 33.668,6.897 C 33.715,6.991 33.743,7.112 33.752,7.26 C 33.761,7.408 33.766,7.591 33.766,7.807 L 33.766,10 L 35.176,10 L 35.176,7.145 C 35.176,6.611 35.053,6.202 34.807,5.918 C 34.561,5.634 34.202,5.492 33.728,5.492 C 33.473,5.492 33.213,5.56 32.948,5.695 C 32.683,5.83 32.41,6.017 32.129,6.254 C 32.004,6.004 31.831,5.815 31.61,5.686 C 31.389,5.557 31.134,5.493 30.845,5.493 C 30.577,5.493 30.333,5.546 30.112,5.653 C 29.891,5.76 29.659,5.908 29.418,6.098 L 29.418,5.613 L 28.008,5.613 L 28.008,10 L 29.418,10 L 29.418,6.891 C 29.522,6.828 29.639,6.769 29.77,6.713 C 29.901,6.657 30.034,6.629 30.172,6.629 C 30.344,6.629 30.477,6.65 30.572,6.693 C 30.667,6.736 30.738,6.804 30.785,6.898 C 30.832,6.992 30.861,7.113 30.871,7.263 C 30.881,7.413 30.887,7.595 30.887,7.808 L 30.887,10 L 32.297,10 L 32.297,6.891 C 32.458,6.797 32.595,6.73 32.707,6.689 Z M 39.261,7.774 L 40.968,5.613 L 39.355,5.613 L 38.429,6.9 L 37.507,5.613 L 35.866,5.613 L 37.569,7.803 L 35.839,10 L 37.447,10 L 38.409,8.687 L 39.347,10 L 40.988,10 L 39.261,7.774 Z" Fill="[SMSolidColorBrush]#ffb03c41" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
+								<Path Data="[PathGeometry]M 35,29 L 16,39 L 16,20 L 35,29 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
+							</Canvas>
+							<IconTemplate Height="[float]50" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]DAQmx.gcomp" Top="[float]0" Width="[float]50" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>

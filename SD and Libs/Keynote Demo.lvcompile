@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JobList>
+  <Job OutputType="Application">
+    <CurrentBuildId>
+      <DistributionTypeIdentifier>Application</DistributionTypeIdentifier>
+      <BuildId>C:\Users\NXG-2\Documents\LabVIEW Projects\Keynote Demo\Builds\PC\Configuration1\Thermal Tester\Thermal Tester.exe</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <DistributionTypeIdentifier>Application</DistributionTypeIdentifier>
+      <BuildId>C:\Users\NXG-2\Documents\LabVIEW Projects\Keynote Demo\Builds\PC\Configuration1\Thermal Tester\Thermal Tester.exe</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\PC\Configuration1\Thermal Tester\Thermal Tester.exe</OutputPath>
+    <Name>Thermal Tester.exe</Name>
+    <BuildName>Thermal Tester(Configuration1)</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:04</LastTotalTime>
+    <HasChild>True</HasChild>
+  </Job>
+  <Job OutputType="G Library">
+    <CurrentBuildId>
+      <DistributionTypeIdentifier>G Library</DistributionTypeIdentifier>
+      <BuildId>C:\Users\NXG-2\Documents\LabVIEW Projects\Keynote Demo\Builds\PC\Configuration1\Acquisition\Acquisition.gll</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <DistributionTypeIdentifier>Application</DistributionTypeIdentifier>
+      <BuildId>C:\Users\NXG-2\Documents\LabVIEW Projects\Keynote Demo\Builds\PC\Configuration1\Thermal Tester\Thermal Tester.exe</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\PC\Configuration1\Acquisition\Acquisition.gll</OutputPath>
+    <Name>Acquisition.gll</Name>
+    <BuildName>Acquisition(Configuration1)</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <HasChild>False</HasChild>
+  </Job>
+  <Job OutputType="G Library">
+    <CurrentBuildId>
+      <DistributionTypeIdentifier>G Library</DistributionTypeIdentifier>
+      <BuildId>C:\Users\NXG-2\Documents\LabVIEW Projects\Keynote Demo\Builds\PC\Configuration1\Analysis\Analysis.gll</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <DistributionTypeIdentifier>Application</DistributionTypeIdentifier>
+      <BuildId>C:\Users\NXG-2\Documents\LabVIEW Projects\Keynote Demo\Builds\PC\Configuration1\Thermal Tester\Thermal Tester.exe</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\PC\Configuration1\Analysis\Analysis.gll</OutputPath>
+    <Name>Analysis.gll</Name>
+    <BuildName>Analysis(Configuration1)</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <HasChild>False</HasChild>
+  </Job>
+  <Job OutputType="G Library">
+    <CurrentBuildId>
+      <DistributionTypeIdentifier>G Library</DistributionTypeIdentifier>
+      <BuildId>C:\Users\NXG-2\Documents\LabVIEW Projects\Keynote Demo\Builds\PC\Configuration1\Configuration\Configuration.gll</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <DistributionTypeIdentifier>Application</DistributionTypeIdentifier>
+      <BuildId>C:\Users\NXG-2\Documents\LabVIEW Projects\Keynote Demo\Builds\PC\Configuration1\Thermal Tester\Thermal Tester.exe</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\PC\Configuration1\Configuration\Configuration.gll</OutputPath>
+    <Name>Configuration.gll</Name>
+    <BuildName>Configuration(Configuration1)</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <HasChild>False</HasChild>
+  </Job>
+  <Job OutputType="G Library">
+    <CurrentBuildId>
+      <DistributionTypeIdentifier>G Library</DistributionTypeIdentifier>
+      <BuildId>C:\Users\NXG-2\Documents\LabVIEW Projects\Keynote Demo\Builds\PC\Configuration1\Logging\Logging.gll</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <DistributionTypeIdentifier>Application</DistributionTypeIdentifier>
+      <BuildId>C:\Users\NXG-2\Documents\LabVIEW Projects\Keynote Demo\Builds\PC\Configuration1\Thermal Tester\Thermal Tester.exe</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\PC\Configuration1\Logging\Logging.gll</OutputPath>
+    <Name>Logging.gll</Name>
+    <BuildName>Logging(Configuration1)</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <HasChild>False</HasChild>
+  </Job>
+</JobList>
